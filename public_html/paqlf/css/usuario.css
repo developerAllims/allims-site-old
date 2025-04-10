@@ -1,0 +1,27 @@
+.mais{ width: 28px; height: 28px; display: inline-block; background: url('/images/adicionar.png') center no-repeat; float: right; }
+.mais:hover{ opacity: 0.6; }
+table tr{ background: #FFF; }
+table tr td{ border: 1px solid #dcdcdc; }
+table tr td span{ display: block; text-align: left; padding: 0 10px; }
+table tr td input[type=text]{ width: calc(100% - 20px); height: 35px; border: none; line-height: 35px; display: block; text-align: left; padding: 0 10px;}
+table tr td input[type=password]{ width: calc(100% - 20px); height: 35px; border: none; line-height: 35px; display: block; text-align: left; padding: 0 10px;}
+
+table input[type=checkbox]{ display: none; }
+table .check{ width: 18px; height: 20px; cursor: pointer; display: inline-block; background: url('/images/ico_check_off.png') center center no-repeat; vertical-align: middle; }
+table .checked{ width: 18px; height: 20px; cursor: pointer; display: inline-block; background: url('/images/ico_check_on.png') center center no-repeat; vertical-align: middle; }
+table .readonly{ cursor: default; }
+
+table .edit{ width: 16px; height: 16px; display: block; background: #FFF url('/images/input_editable.jpg') center right no-repeat; }
+
+table .icons{ width: 38px; }
+table .amostra{ background: url('/images/ico_novo_resultado_on.png') center center no-repeat;  }
+table .laboratorio{ background: url('/images/ico_laboratorio_on.png') center center no-repeat;  }
+table .usuario{ background: url('/images/ico_usuario_on.png') center center no-repeat;  }
+table .selos{ background: url('/images/ico_selos_on.png') center center no-repeat;  }
+
+table button{ width: 106px; height: 32px; border: none; float: right; text-align: center; background: #495a87; color: #FFF; font-family: 'Myriad Pro'; font-size: 17px; cursor: pointer; }
+
+.novo_usuario table{ width: 100%; }
+.novo_usuario input[type=text]{ color: #828282; }
+.novo_usuario label{ width: auto; height: 40px; line-height: 40px; color: #828282; background-position: left center !important; background-repeat: no-repeat !important; padding-left: 25px; margin-left: 10px; }
+.novo_usuario button{ margin-top: 10px; }

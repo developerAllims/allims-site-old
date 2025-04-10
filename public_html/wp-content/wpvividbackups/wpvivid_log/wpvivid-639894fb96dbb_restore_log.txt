@@ -1,0 +1,319 @@
+[2022-12-13 12:06:38][notice]Start restoring themes.
+[2022-12-13 12:06:38][notice]Extracting file:www.allims.com.br_backupagk-639796aee5f5a_2022-12-12-18-01_backup_all.zip
+[2022-12-13 12:06:38][notice]Extracting file:www.allims.com.br_backupagk-639796aee5f5a_2022-12-12-18-01_backup_all.zip succeeded.
+[2022-12-13 12:06:38][notice]Extracting file:www.allims.com.br_backupagk-639796aee5f5a_2022-12-12-18-01_backup_themes.zip index:0
+[2022-12-13 12:06:42][notice]Extracting file:www.allims.com.br_backupagk-639796aee5f5a_2022-12-12-18-01_backup_themes.zip index:0 finished.
+[2022-12-13 12:06:42][notice]End restore themes.
+[2022-12-13 12:06:47][notice]Start restoring themes.
+[2022-12-13 12:06:47][notice]Extracting file:www.allims.com.br_backupagk-639796aee5f5a_2022-12-12-18-01_backup_themes.zip index:1000
+[2022-12-13 12:06:51][notice]Extracting file:www.allims.com.br_backupagk-639796aee5f5a_2022-12-12-18-01_backup_themes.zip index:1000 finished.
+[2022-12-13 12:06:51][notice]End restore themes.
+[2022-12-13 12:06:57][notice]Start restoring plugin.
+[2022-12-13 12:06:57][notice]Extracting file:www.allims.com.br_backupagk-639796aee5f5a_2022-12-12-18-01_backup_all.zip
+[2022-12-13 12:06:58][notice]Extracting file:www.allims.com.br_backupagk-639796aee5f5a_2022-12-12-18-01_backup_all.zip succeeded.
+[2022-12-13 12:06:58][notice]Extracting file:www.allims.com.br_backupagk-639796aee5f5a_2022-12-12-18-01_backup_plugin.zip index:0
+[2022-12-13 12:06:59][notice]Extracting file:www.allims.com.br_backupagk-639796aee5f5a_2022-12-12-18-01_backup_plugin.zip index:0 finished.
+[2022-12-13 12:06:59][notice]End restore plugin.
+[2022-12-13 12:07:05][notice]Start restoring plugin.
+[2022-12-13 12:07:05][notice]Extracting file:www.allims.com.br_backupagk-639796aee5f5a_2022-12-12-18-01_backup_plugin.zip index:1000
+[2022-12-13 12:07:10][notice]Extracting file:www.allims.com.br_backupagk-639796aee5f5a_2022-12-12-18-01_backup_plugin.zip index:1000 finished.
+[2022-12-13 12:07:10][notice]End restore plugin.
+[2022-12-13 12:07:15][notice]Start restoring plugin.
+[2022-12-13 12:07:15][notice]Extracting file:www.allims.com.br_backupagk-639796aee5f5a_2022-12-12-18-01_backup_plugin.zip index:2000
+[2022-12-13 12:07:20][notice]Extracting file:www.allims.com.br_backupagk-639796aee5f5a_2022-12-12-18-01_backup_plugin.zip index:2000 finished.
+[2022-12-13 12:07:20][notice]End restore plugin.
+[2022-12-13 12:07:25][notice]Start restoring plugin.
+[2022-12-13 12:07:26][notice]Extracting file:www.allims.com.br_backupagk-639796aee5f5a_2022-12-12-18-01_backup_plugin.zip index:3000
+[2022-12-13 12:07:30][notice]Extracting file:www.allims.com.br_backupagk-639796aee5f5a_2022-12-12-18-01_backup_plugin.zip index:3000 finished.
+[2022-12-13 12:07:30][notice]End restore plugin.
+[2022-12-13 12:07:36][notice]Start restoring plugin.
+[2022-12-13 12:07:36][notice]Extracting file:www.allims.com.br_backupagk-639796aee5f5a_2022-12-12-18-01_backup_plugin.zip index:4000
+[2022-12-13 12:07:40][notice]Extracting file:www.allims.com.br_backupagk-639796aee5f5a_2022-12-12-18-01_backup_plugin.zip index:4000 finished.
+[2022-12-13 12:07:40][notice]End restore plugin.
+[2022-12-13 12:07:45][notice]Start restoring plugin.
+[2022-12-13 12:07:45][notice]Extracting file:www.allims.com.br_backupagk-639796aee5f5a_2022-12-12-18-01_backup_plugin.zip index:5000
+[2022-12-13 12:07:49][notice]Extracting file:www.allims.com.br_backupagk-639796aee5f5a_2022-12-12-18-01_backup_plugin.zip index:5000 finished.
+[2022-12-13 12:07:49][notice]End restore plugin.
+[2022-12-13 12:07:54][notice]Start restoring plugin.
+[2022-12-13 12:07:54][notice]Extracting file:www.allims.com.br_backupagk-639796aee5f5a_2022-12-12-18-01_backup_plugin.zip index:6000
+[2022-12-13 12:07:58][notice]Extracting file:www.allims.com.br_backupagk-639796aee5f5a_2022-12-12-18-01_backup_plugin.zip index:6000 finished.
+[2022-12-13 12:07:58][notice]End restore plugin.
+[2022-12-13 12:08:03][notice]Start restoring plugin.
+[2022-12-13 12:08:03][notice]Extracting file:www.allims.com.br_backupagk-639796aee5f5a_2022-12-12-18-01_backup_plugin.zip index:7000
+[2022-12-13 12:08:06][notice]Extracting file:www.allims.com.br_backupagk-639796aee5f5a_2022-12-12-18-01_backup_plugin.zip index:7000 finished.
+[2022-12-13 12:08:06][notice]End restore plugin.
+[2022-12-13 12:08:11][notice]Start restoring wp-content.
+[2022-12-13 12:08:11][notice]Extracting file:www.allims.com.br_backupagk-639796aee5f5a_2022-12-12-18-01_backup_all.zip
+[2022-12-13 12:08:13][notice]Extracting file:www.allims.com.br_backupagk-639796aee5f5a_2022-12-12-18-01_backup_all.zip succeeded.
+[2022-12-13 12:08:13][notice]Extracting file:www.allims.com.br_backupagk-639796aee5f5a_2022-12-12-18-01_backup_content.zip index:0
+[2022-12-13 12:08:20][notice]Extracting file:www.allims.com.br_backupagk-639796aee5f5a_2022-12-12-18-01_backup_content.zip index:0 finished.
+[2022-12-13 12:08:20][notice]End restore wp-content.
+[2022-12-13 12:08:27][notice]Start restoring upload.
+[2022-12-13 12:08:27][notice]Extracting file:www.allims.com.br_backupagk-639796aee5f5a_2022-12-12-18-01_backup_all.zip
+[2022-12-13 12:08:27][notice]Extracting file:www.allims.com.br_backupagk-639796aee5f5a_2022-12-12-18-01_backup_all.zip succeeded.
+[2022-12-13 12:08:27][notice]Extracting file:www.allims.com.br_backupagk-639796aee5f5a_2022-12-12-18-01_backup_uploads.zip index:0
+[2022-12-13 12:08:30][notice]Extracting file:www.allims.com.br_backupagk-639796aee5f5a_2022-12-12-18-01_backup_uploads.zip index:0 finished.
+[2022-12-13 12:08:30][notice]End restore upload.
+[2022-12-13 12:08:34][notice]Start restoring wp-core.
+[2022-12-13 12:08:34][notice]Extracting file:www.allims.com.br_backupagk-639796aee5f5a_2022-12-12-18-01_backup_all.zip
+[2022-12-13 12:08:35][notice]Extracting file:www.allims.com.br_backupagk-639796aee5f5a_2022-12-12-18-01_backup_all.zip succeeded.
+[2022-12-13 12:08:35][notice]Extracting file:www.allims.com.br_backupagk-639796aee5f5a_2022-12-12-18-01_backup_core.zip
+[2022-12-13 12:08:45][notice]Extracting file:www.allims.com.br_backupagk-639796aee5f5a_2022-12-12-18-01_backup_core.zip succeeded.
+[2022-12-13 12:08:45][notice]End restore wp-core.
+[2022-12-13 12:08:51][notice]Start restoring databases.
+[2022-12-13 12:08:51][notice]Extracting file:www.allims.com.br_backupagk-639796aee5f5a_2022-12-12-18-01_backup_all.zip
+[2022-12-13 12:08:51][notice]Extracting file:www.allims.com.br_backupagk-639796aee5f5a_2022-12-12-18-01_backup_all.zip finished.
+[2022-12-13 12:08:51][notice]Extracting file:/home/storage/8/7f/89/allims/public_html/wp-content/wpvividbackups/www.allims.com.br_backupagk-639796aee5f5a_2022-12-12-18-01_backup_db.zip
+[2022-12-13 12:08:51][notice]Extracting file:/home/storage/8/7f/89/allims/public_html/wp-content/wpvividbackups/www.allims.com.br_backupagk-639796aee5f5a_2022-12-12-18-01_backup_db.zip finished.
+[2022-12-13 12:08:51][notice]End restore databases.
+[2022-12-13 12:08:56][notice]Start restoring databases.
+[2022-12-13 12:08:56][notice]Start restoring sql file offset:0
+[2022-12-13 12:08:56][notice]The test to drop table succeeds.
+[2022-12-13 12:08:56][notice]Drop table if exist tmp05857d_wfblockediplog
+[2022-12-13 12:08:56][notice]Creating table tmp05857d_wfblockediplog
+[2022-12-13 12:08:56][notice]Drop table if exist tmp05857d_wfls_settings
+[2022-12-13 12:08:56][notice]Creating table tmp05857d_wfls_settings
+[2022-12-13 12:08:56][notice]Drop table if exist tmp05857d_wffilechanges
+[2022-12-13 12:08:56][notice]Creating table tmp05857d_wffilechanges
+[2022-12-13 12:08:56][notice]Drop table if exist tmp05857d_wftrafficrates
+[2022-12-13 12:08:56][notice]Creating table tmp05857d_wftrafficrates
+[2022-12-13 12:08:56][notice]Drop table if exist tmp05857d_wpmailsmtp_tasks_meta
+[2022-12-13 12:08:56][notice]Creating table tmp05857d_wpmailsmtp_tasks_meta
+[2022-12-13 12:08:56][notice]Drop table if exist tmp05857d_wfcrawlers
+[2022-12-13 12:08:56][notice]Creating table tmp05857d_wfcrawlers
+[2022-12-13 12:08:56][notice]Drop table if exist tmp05857d_wpmailsmtp_debug_events
+[2022-12-13 12:08:57][notice]Creating table tmp05857d_wpmailsmtp_debug_events
+[2022-12-13 12:08:57][notice]Drop table if exist tmp05857d_wflocs
+[2022-12-13 12:08:57][notice]Creating table tmp05857d_wflocs
+[2022-12-13 12:08:57][notice]Drop table if exist tmp05857d_cli_scripts
+[2022-12-13 12:08:57][notice]Creating table tmp05857d_cli_scripts
+[2022-12-13 12:08:57][notice]Drop table if exist tmp05857d_cli_cookie_scan_url
+[2022-12-13 12:08:57][notice]Creating table tmp05857d_cli_cookie_scan_url
+[2022-12-13 12:08:57][notice]Drop table if exist tmp05857d_wfnotifications
+[2022-12-13 12:08:57][notice]Creating table tmp05857d_wfnotifications
+[2022-12-13 12:08:57][notice]Drop table if exist tmp05857d_cli_cookie_scan
+[2022-12-13 12:08:57][notice]Creating table tmp05857d_cli_cookie_scan
+[2022-12-13 12:08:57][notice]Drop table if exist tmp05857d_wfreversecache
+[2022-12-13 12:08:57][notice]Creating table tmp05857d_wfreversecache
+[2022-12-13 12:08:57][notice]Drop table if exist tmp05857d_wfls_2fa_secrets
+[2022-12-13 12:08:57][notice]Creating table tmp05857d_wfls_2fa_secrets
+[2022-12-13 12:08:57][notice]Drop table if exist tmp05857d_cli_cookie_scan_categories
+[2022-12-13 12:08:57][notice]Creating table tmp05857d_cli_cookie_scan_categories
+[2022-12-13 12:08:57][notice]Drop table if exist tmp05857d_links
+[2022-12-13 12:08:57][notice]Creating table tmp05857d_links
+[2022-12-13 12:08:57][notice]Drop table if exist tmp05857d_yoast_migrations
+[2022-12-13 12:08:57][notice]Creating table tmp05857d_yoast_migrations
+[2022-12-13 12:08:57][notice]Drop table if exist tmp05857d_wflivetraffichuman
+[2022-12-13 12:08:57][notice]Creating table tmp05857d_wflivetraffichuman
+[2022-12-13 12:08:57][notice]Drop table if exist tmp05857d_wpvivid_options
+[2022-12-13 12:08:57][notice]Creating table tmp05857d_wpvivid_options
+[2022-12-13 12:08:57][notice]Drop table if exist tmp05857d_term_relationships
+[2022-12-13 12:08:57][notice]Creating table tmp05857d_term_relationships
+[2022-12-13 12:08:57][notice]Drop table if exist tmp05857d_wfhoover
+[2022-12-13 12:08:57][notice]Creating table tmp05857d_wfhoover
+[2022-12-13 12:08:57][notice]Drop table if exist tmp05857d_actionscheduler_claims
+[2022-12-13 12:08:57][notice]Creating table tmp05857d_actionscheduler_claims
+[2022-12-13 12:08:57][notice]Drop table if exist tmp05857d_actionscheduler_groups
+[2022-12-13 12:08:57][notice]Creating table tmp05857d_actionscheduler_groups
+[2022-12-13 12:08:57][notice]Drop table if exist tmp05857d_yoast_seo_links
+[2022-12-13 12:08:57][notice]Creating table tmp05857d_yoast_seo_links
+[2022-12-13 12:08:57][notice]Drop table if exist tmp05857d_usermeta
+[2022-12-13 12:08:58][notice]Creating table tmp05857d_usermeta
+[2022-12-13 12:08:58][notice]Drop table if exist tmp05857d_imagify_folders
+[2022-12-13 12:08:58][notice]Creating table tmp05857d_imagify_folders
+[2022-12-13 12:08:58][notice]Drop table if exist tmp05857d_actionscheduler_logs
+[2022-12-13 12:08:58][notice]Creating table tmp05857d_actionscheduler_logs
+[2022-12-13 12:08:58][notice]Drop table if exist tmp05857d_terms
+[2022-12-13 12:08:58][notice]Creating table tmp05857d_terms
+[2022-12-13 12:08:58][notice]Drop table if exist tmp05857d_cli_cookie_scan_cookies
+[2022-12-13 12:08:58][notice]Creating table tmp05857d_cli_cookie_scan_cookies
+[2022-12-13 12:08:58][notice]Drop table if exist tmp05857d_termmeta
+[2022-12-13 12:08:58][notice]Creating table tmp05857d_termmeta
+[2022-12-13 12:08:58][notice]Drop table if exist tmp05857d_commentmeta
+[2022-12-13 12:08:58][notice]Creating table tmp05857d_commentmeta
+[2022-12-13 12:08:58][notice]Drop table if exist tmp05857d_term_taxonomy
+[2022-12-13 12:08:58][notice]Creating table tmp05857d_term_taxonomy
+[2022-12-13 12:08:58][notice]Drop table if exist tmp05857d_yoast_primary_term
+[2022-12-13 12:08:58][notice]Creating table tmp05857d_yoast_primary_term
+[2022-12-13 12:08:58][notice]Drop table if exist tmp05857d_wfsnipcache
+[2022-12-13 12:08:58][notice]Creating table tmp05857d_wfsnipcache
+[2022-12-13 12:08:58][notice]Drop table if exist tmp05857d_yoast_indexable_hierarchy
+[2022-12-13 12:08:58][notice]Creating table tmp05857d_yoast_indexable_hierarchy
+[2022-12-13 12:08:58][notice]Drop table if exist tmp05857d_wfblocks7
+[2022-12-13 12:08:58][notice]Creating table tmp05857d_wfblocks7
+[2022-12-13 12:08:58][notice]Drop table if exist tmp05857d_wpr_rocket_cache
+[2022-12-13 12:08:58][notice]Creating table tmp05857d_wpr_rocket_cache
+[2022-12-13 12:08:58][notice]Drop table if exist tmp05857d_users
+[2022-12-13 12:08:58][notice]Creating table tmp05857d_users
+[2022-12-13 12:08:59][notice]Drop table if exist tmp05857d_wfissues
+[2022-12-13 12:08:59][notice]Creating table tmp05857d_wfissues
+[2022-12-13 12:08:59][notice]Drop table if exist tmp05857d_wfpendingissues
+[2022-12-13 12:08:59][notice]Creating table tmp05857d_wfpendingissues
+[2022-12-13 12:08:59][notice]Drop table if exist tmp05857d_comments
+[2022-12-13 12:08:59][notice]Creating table tmp05857d_comments
+[2022-12-13 12:08:59][notice]Drop table if exist tmp05857d_wpr_rucss_used_css
+[2022-12-13 12:08:59][notice]Creating table tmp05857d_wpr_rucss_used_css
+[2022-12-13 12:08:59][notice]Drop table if exist tmp05857d_actionscheduler_actions
+[2022-12-13 12:08:59][notice]Creating table tmp05857d_actionscheduler_actions
+[2022-12-13 12:08:59][notice]Drop table if exist tmp05857d_imagify_files
+[2022-12-13 12:08:59][notice]Creating table tmp05857d_imagify_files
+[2022-12-13 12:08:59][notice]Drop table if exist tmp05857d_yoast_indexable
+[2022-12-13 12:08:59][notice]Creating table tmp05857d_yoast_indexable
+[2022-12-13 12:08:59][notice]Drop table if exist tmp05857d_wfstatus
+[2022-12-13 12:08:59][notice]Creating table tmp05857d_wfstatus
+[2022-12-13 12:09:01][notice]Drop table if exist tmp05857d_wsal_occurrences
+[2022-12-13 12:09:01][notice]Creating table tmp05857d_wsal_occurrences
+[2022-12-13 12:09:24][notice]Drop table if exist tmp05857d_wflogins
+[2022-12-13 12:09:24][notice]Creating table tmp05857d_wflogins
+[2022-12-13 12:09:27][notice]Drop table if exist tmp05857d_postmeta
+[2022-12-13 12:09:27][notice]Creating table tmp05857d_postmeta
+[2022-12-13 12:09:28][notice]Drop table if exist tmp05857d_posts
+[2022-12-13 12:09:28][notice]Creating table tmp05857d_posts
+[2022-12-13 12:09:29][notice]Drop table if exist tmp05857d_wfhits
+[2022-12-13 12:09:29][notice]Creating table tmp05857d_wfhits
+[2022-12-13 12:09:30][notice]Reading sql file completed offset:5243144
+[2022-12-13 12:09:30][notice]End restore databases.
+[2022-12-13 12:09:37][notice]Start restoring databases.
+[2022-12-13 12:09:37][notice]Start restoring sql file offset:5243144
+[2022-12-13 12:09:37][notice]The test to drop table succeeds.
+[2022-12-13 12:09:38][notice]Drop table if exist tmp05857d_wfconfig
+[2022-12-13 12:09:38][notice]Creating table tmp05857d_wfconfig
+[2022-12-13 12:09:39][notice]Drop table if exist tmp05857d_wfknownfilelist
+[2022-12-13 12:09:39][notice]Creating table tmp05857d_wfknownfilelist
+[2022-12-13 12:09:56][notice]Drop table if exist tmp05857d_options
+[2022-12-13 12:09:56][notice]Creating table tmp05857d_options
+[2022-12-13 12:10:00][notice]Drop table if exist tmp05857d_wsal_metadata
+[2022-12-13 12:10:00][notice]Creating table tmp05857d_wsal_metadata
+[2022-12-13 12:10:18][notice]Reading sql file completed offset:10486037
+[2022-12-13 12:10:18][notice]End restore databases.
+[2022-12-13 12:10:23][notice]Start restoring databases.
+[2022-12-13 12:10:23][notice]Start restoring sql file offset:10486037
+[2022-12-13 12:10:23][notice]The test to drop table succeeds.
+[2022-12-13 12:10:32][notice]Drop table if exist tmp05857d_wffilemods
+[2022-12-13 12:10:32][notice]Creating table tmp05857d_wffilemods
+[2022-12-13 12:10:47][notice]Reading sql file completed offset:15729251
+[2022-12-13 12:10:47][notice]End restore databases.
+[2022-12-13 12:10:52][notice]Start restoring databases.
+[2022-12-13 12:10:52][notice]Start restoring sql file offset:15729251
+[2022-12-13 12:10:52][notice]The test to drop table succeeds.
+[2022-12-13 12:10:53][notice]UPDATE tmp05857d_options SET option_value="https://www.allims.com.br" WHERE option_name="siteurl";
+[2022-12-13 12:10:53][notice]update query len:98
+[2022-12-13 12:10:53][notice]UPDATE tmp05857d_options SET option_value="https://www.allims.com.br" WHERE option_name="home";
+[2022-12-13 12:10:53][notice]update query len:95
+[2022-12-13 12:10:53][notice]Restore db success
+[2022-12-13 12:10:53][notice]End restore databases.
+[2022-12-13 12:10:58][notice]Restore db success,now start rename temp table name prefix to new site prefix.
+[2022-12-13 12:10:58][notice]DROP TABLE IF EXISTS wp_actionscheduler_actions
+[2022-12-13 12:10:58][notice]DROP TABLE IF EXISTS wp_actionscheduler_claims
+[2022-12-13 12:10:58][notice]DROP TABLE IF EXISTS wp_actionscheduler_groups
+[2022-12-13 12:10:58][notice]DROP TABLE IF EXISTS wp_actionscheduler_logs
+[2022-12-13 12:10:58][notice]DROP TABLE IF EXISTS wp_cli_cookie_scan
+[2022-12-13 12:10:58][notice]DROP TABLE IF EXISTS wp_cli_cookie_scan_categories
+[2022-12-13 12:10:58][notice]DROP TABLE IF EXISTS wp_cli_cookie_scan_cookies
+[2022-12-13 12:10:58][notice]DROP TABLE IF EXISTS wp_cli_cookie_scan_url
+[2022-12-13 12:10:58][notice]DROP TABLE IF EXISTS wp_cli_scripts
+[2022-12-13 12:10:58][notice]DROP TABLE IF EXISTS wp_commentmeta
+[2022-12-13 12:10:58][notice]DROP TABLE IF EXISTS wp_comments
+[2022-12-13 12:10:58][notice]DROP TABLE IF EXISTS wp_imagify_files
+[2022-12-13 12:10:59][notice]DROP TABLE IF EXISTS wp_imagify_folders
+[2022-12-13 12:10:59][notice]DROP TABLE IF EXISTS wp_links
+[2022-12-13 12:10:59][notice]DROP TABLE IF EXISTS wp_options
+[2022-12-13 12:10:59][notice]DROP TABLE IF EXISTS wp_postmeta
+[2022-12-13 12:10:59][notice]DROP TABLE IF EXISTS wp_posts
+[2022-12-13 12:10:59][notice]DROP TABLE IF EXISTS wp_term_relationships
+[2022-12-13 12:10:59][notice]DROP TABLE IF EXISTS wp_term_taxonomy
+[2022-12-13 12:10:59][notice]DROP TABLE IF EXISTS wp_termmeta
+[2022-12-13 12:10:59][notice]DROP TABLE IF EXISTS wp_terms
+[2022-12-13 12:10:59][notice]DROP TABLE IF EXISTS wp_usermeta
+[2022-12-13 12:10:59][notice]DROP TABLE IF EXISTS wp_users
+[2022-12-13 12:10:59][notice]DROP TABLE IF EXISTS wp_wfblockediplog
+[2022-12-13 12:10:59][notice]DROP TABLE IF EXISTS wp_wfblocks7
+[2022-12-13 12:10:59][notice]DROP TABLE IF EXISTS wp_wfconfig
+[2022-12-13 12:10:59][notice]DROP TABLE IF EXISTS wp_wfcrawlers
+[2022-12-13 12:10:59][notice]DROP TABLE IF EXISTS wp_wffilechanges
+[2022-12-13 12:10:59][notice]DROP TABLE IF EXISTS wp_wffilemods
+[2022-12-13 12:10:59][notice]DROP TABLE IF EXISTS wp_wfhits
+[2022-12-13 12:10:59][notice]DROP TABLE IF EXISTS wp_wfhoover
+[2022-12-13 12:10:59][notice]DROP TABLE IF EXISTS wp_wfissues
+[2022-12-13 12:10:59][notice]DROP TABLE IF EXISTS wp_wfknownfilelist
+[2022-12-13 12:10:59][notice]DROP TABLE IF EXISTS wp_wflivetraffichuman
+[2022-12-13 12:10:59][notice]DROP TABLE IF EXISTS wp_wflocs
+[2022-12-13 12:10:59][notice]DROP TABLE IF EXISTS wp_wflogins
+[2022-12-13 12:10:59][notice]DROP TABLE IF EXISTS wp_wfls_2fa_secrets
+[2022-12-13 12:10:59][notice]DROP TABLE IF EXISTS wp_wfls_settings
+[2022-12-13 12:10:59][notice]DROP TABLE IF EXISTS wp_wfnotifications
+[2022-12-13 12:10:59][notice]DROP TABLE IF EXISTS wp_wfpendingissues
+[2022-12-13 12:10:59][notice]DROP TABLE IF EXISTS wp_wfreversecache
+[2022-12-13 12:10:59][notice]DROP TABLE IF EXISTS wp_wfsnipcache
+[2022-12-13 12:10:59][notice]DROP TABLE IF EXISTS wp_wfstatus
+[2022-12-13 12:10:59][notice]DROP TABLE IF EXISTS wp_wftrafficrates
+[2022-12-13 12:10:59][notice]DROP TABLE IF EXISTS wp_wpmailsmtp_debug_events
+[2022-12-13 12:10:59][notice]DROP TABLE IF EXISTS wp_wpmailsmtp_tasks_meta
+[2022-12-13 12:10:59][notice]DROP TABLE IF EXISTS wp_wpr_rocket_cache
+[2022-12-13 12:10:59][notice]DROP TABLE IF EXISTS wp_wpr_rucss_used_css
+[2022-12-13 12:10:59][notice]DROP TABLE IF EXISTS wp_wpvivid_options
+[2022-12-13 12:10:59][notice]DROP TABLE IF EXISTS wp_wsal_metadata
+[2022-12-13 12:10:59][notice]DROP TABLE IF EXISTS wp_wsal_occurrences
+[2022-12-13 12:10:59][notice]DROP TABLE IF EXISTS wp_yoast_indexable
+[2022-12-13 12:10:59][notice]DROP TABLE IF EXISTS wp_yoast_indexable_hierarchy
+[2022-12-13 12:10:59][notice]DROP TABLE IF EXISTS wp_yoast_migrations
+[2022-12-13 12:10:59][notice]DROP TABLE IF EXISTS wp_yoast_primary_term
+[2022-12-13 12:10:59][notice]DROP TABLE IF EXISTS wp_yoast_seo_links
+[2022-12-13 12:10:59][notice]RENAME TABLE tmp05857d_actionscheduler_actions TO wp_actionscheduler_actions
+[2022-12-13 12:10:59][notice]RENAME TABLE tmp05857d_actionscheduler_claims TO wp_actionscheduler_claims
+[2022-12-13 12:10:59][notice]RENAME TABLE tmp05857d_actionscheduler_groups TO wp_actionscheduler_groups
+[2022-12-13 12:10:59][notice]RENAME TABLE tmp05857d_actionscheduler_logs TO wp_actionscheduler_logs
+[2022-12-13 12:10:59][notice]RENAME TABLE tmp05857d_cli_cookie_scan TO wp_cli_cookie_scan
+[2022-12-13 12:10:59][notice]RENAME TABLE tmp05857d_cli_cookie_scan_categories TO wp_cli_cookie_scan_categories
+[2022-12-13 12:10:59][notice]RENAME TABLE tmp05857d_cli_cookie_scan_cookies TO wp_cli_cookie_scan_cookies
+[2022-12-13 12:10:59][notice]RENAME TABLE tmp05857d_cli_cookie_scan_url TO wp_cli_cookie_scan_url
+[2022-12-13 12:10:59][notice]RENAME TABLE tmp05857d_cli_scripts TO wp_cli_scripts
+[2022-12-13 12:10:59][notice]RENAME TABLE tmp05857d_commentmeta TO wp_commentmeta
+[2022-12-13 12:10:59][notice]RENAME TABLE tmp05857d_comments TO wp_comments
+[2022-12-13 12:10:59][notice]RENAME TABLE tmp05857d_imagify_files TO wp_imagify_files
+[2022-12-13 12:10:59][notice]RENAME TABLE tmp05857d_imagify_folders TO wp_imagify_folders
+[2022-12-13 12:10:59][notice]RENAME TABLE tmp05857d_links TO wp_links
+[2022-12-13 12:10:59][notice]RENAME TABLE tmp05857d_options TO wp_options
+[2022-12-13 12:10:59][notice]RENAME TABLE tmp05857d_postmeta TO wp_postmeta
+[2022-12-13 12:10:59][notice]RENAME TABLE tmp05857d_posts TO wp_posts
+[2022-12-13 12:10:59][notice]RENAME TABLE tmp05857d_term_relationships TO wp_term_relationships
+[2022-12-13 12:10:59][notice]RENAME TABLE tmp05857d_term_taxonomy TO wp_term_taxonomy
+[2022-12-13 12:10:59][notice]RENAME TABLE tmp05857d_termmeta TO wp_termmeta
+[2022-12-13 12:10:59][notice]RENAME TABLE tmp05857d_terms TO wp_terms
+[2022-12-13 12:10:59][notice]RENAME TABLE tmp05857d_usermeta TO wp_usermeta
+[2022-12-13 12:10:59][notice]RENAME TABLE tmp05857d_users TO wp_users
+[2022-12-13 12:10:59][notice]RENAME TABLE tmp05857d_wfblockediplog TO wp_wfblockediplog
+[2022-12-13 12:11:00][notice]RENAME TABLE tmp05857d_wfblocks7 TO wp_wfblocks7
+[2022-12-13 12:11:00][notice]RENAME TABLE tmp05857d_wfconfig TO wp_wfconfig
+[2022-12-13 12:11:00][notice]RENAME TABLE tmp05857d_wfcrawlers TO wp_wfcrawlers
+[2022-12-13 12:11:00][notice]RENAME TABLE tmp05857d_wffilechanges TO wp_wffilechanges
+[2022-12-13 12:11:00][notice]RENAME TABLE tmp05857d_wffilemods TO wp_wffilemods
+[2022-12-13 12:11:00][notice]RENAME TABLE tmp05857d_wfhits TO wp_wfhits
+[2022-12-13 12:11:00][notice]RENAME TABLE tmp05857d_wfhoover TO wp_wfhoover
+[2022-12-13 12:11:00][notice]RENAME TABLE tmp05857d_wfissues TO wp_wfissues
+[2022-12-13 12:11:00][notice]RENAME TABLE tmp05857d_wfknownfilelist TO wp_wfknownfilelist
+[2022-12-13 12:11:00][notice]RENAME TABLE tmp05857d_wflivetraffichuman TO wp_wflivetraffichuman
+[2022-12-13 12:11:00][notice]RENAME TABLE tmp05857d_wflocs TO wp_wflocs
+[2022-12-13 12:11:00][notice]RENAME TABLE tmp05857d_wflogins TO wp_wflogins
+[2022-12-13 12:11:00][notice]RENAME TABLE tmp05857d_wfls_2fa_secrets TO wp_wfls_2fa_secrets
+[2022-12-13 12:11:00][notice]RENAME TABLE tmp05857d_wfls_settings TO wp_wfls_settings
+[2022-12-13 12:11:00][notice]RENAME TABLE tmp05857d_wfnotifications TO wp_wfnotifications
+[2022-12-13 12:11:00][notice]RENAME TABLE tmp05857d_wfpendingissues TO wp_wfpendingissues
+[2022-12-13 12:11:00][notice]RENAME TABLE tmp05857d_wfreversecache TO wp_wfreversecache
+[2022-12-13 12:11:00][notice]RENAME TABLE tmp05857d_wfsnipcache TO wp_wfsnipcache
+[2022-12-13 12:11:00][notice]RENAME TABLE tmp05857d_wfstatus TO wp_wfstatus
+[2022-12-13 12:11:00][notice]RENAME TABLE tmp05857d_wftrafficrates TO wp_wftrafficrates
+[2022-12-13 12:11:00][notice]RENAME TABLE tmp05857d_wpmailsmtp_debug_events TO wp_wpmailsmtp_debug_events
+[2022-12-13 12:11:00][notice]RENAME TABLE tmp05857d_wpmailsmtp_tasks_meta TO wp_wpmailsmtp_tasks_meta
+[2022-12-13 12:11:00][notice]RENAME TABLE tmp05857d_wpr_rocket_cache TO wp_wpr_rocket_cache
+[2022-12-13 12:11:00][notice]RENAME TABLE tmp05857d_wpr_rucss_used_css TO wp_wpr_rucss_used_css
+[2022-12-13 12:11:00][notice]RENAME TABLE tmp05857d_wpvivid_options TO wp_wpvivid_options
+[2022-12-13 12:11:00][notice]RENAME TABLE tmp05857d_wsal_metadata TO wp_wsal_metadata
+[2022-12-13 12:11:00][notice]RENAME TABLE tmp05857d_wsal_occurrences TO wp_wsal_occurrences
+[2022-12-13 12:11:00][notice]RENAME TABLE tmp05857d_yoast_indexable TO wp_yoast_indexable
+[2022-12-13 12:11:00][notice]RENAME TABLE tmp05857d_yoast_indexable_hierarchy TO wp_yoast_indexable_hierarchy
+[2022-12-13 12:11:00][notice]RENAME TABLE tmp05857d_yoast_migrations TO wp_yoast_migrations
+[2022-12-13 12:11:00][notice]RENAME TABLE tmp05857d_yoast_primary_term TO wp_yoast_primary_term
+[2022-12-13 12:11:00][notice]RENAME TABLE tmp05857d_yoast_seo_links TO wp_yoast_seo_links
+[2022-12-13 12:11:00][notice]Replacing table prefix succeeded.
+[2022-12-13 12:11:00][notice]Deleting temp files.

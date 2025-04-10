@@ -1,0 +1,23 @@
+# AddHandler php5-script .php
+
+<IfModule mod_rewrite.c>
+
+	RewriteEngine On
+	RewriteBase /
+	RewriteCond %{REQUEST_FILENAME} !-f
+	RewriteCond %{REQUEST_FILENAME} !-d
+	#RewriteRule ^(localhost:8888)/?$ 																	/index.php [NC,L]
+	RewriteRule ^ipocket/.*$ - [PT]
+	#RewriteRule ^api/.*$ - [PT]
+	RewriteRule ^404/?$ 																				/404.php [NC,L]
+
+	RewriteRule ^(/?)$																					/views/index.php [NC,L]
+	RewriteRule ^api/?$ 																			    /api/api.php [NC,L]
+	RewriteRule ^api/([A-Za-z0-9-_]+)/?$ 																/api/api.php?action=$1 [NC,L]
+	RewriteRule ^api/([A-Za-z0-9-_]+)/([A-Za-z0-9-_]+)/?$ 												/api/api.php?action=$1&parameter=$2 [NC,L]
+
+	# RewriteRule ^([A-Za-z0-9-_]+)/?$ 																	/controllers/pagina_controller.php?url=$1 [NC,L]
+	# RewriteRule ^([A-Za-z0-9-_]+(/?)([A-Za-z0-9-_]+)?)(.htm?)?$ 										/controllers/pagina_controller.php?url=$1 [NC,L]
+	# RewriteRule ^/?variavel_id=([0-9-]+)(/?)$				 											#!/qualquercoisa/$1/ [R,NC,NE,L]
+
+</IfModule>

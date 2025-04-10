@@ -1,0 +1,69 @@
+<IfModule mod_rewrite.c>
+
+	RewriteEngine on 
+
+
+
+	RewriteCond %{REQUEST_FILENAME} !-f
+
+
+
+	#RewriteCond %{HTTP_HOST} ^domain\.off.br$
+
+	#RewriteRule ^en(/(.*))? http://www.embrapa.off.br/$2 [QSA,L,R=301]
+
+
+
+
+
+	RewriteRule ^/?$ /view/index.php [NC,L]
+
+	#RewriteRule ^([a-z,0-9,A-Z,_-]+)/?$ /view/manutencao.php [NC,L]
+	
+
+	RewriteRule ^amostras/?$ /view/amostras.php [NC,L]
+
+
+	RewriteRule ^primeiroacesso/?$ /primeiro_acesso.html [NC,L]
+
+
+
+	RewriteRule ^laboratorio/?$ /view/laboratorio.php [NC,L]	
+
+	
+
+	RewriteRule ^avaliacao/?$ /view/avaliacao.php [NC,L]
+	RewriteRule ^avaliacao/([0-9]+)/?$ /view/avaliacao_full.php?ano=$1 [NC,L]
+	
+
+	RewriteRule ^resultado/?$ /view/resultado.php [NC,L]
+
+	RewriteRule ^resultado/alterar?$ /view/resultado_alterar.php [NC,L]
+
+	RewriteRule ^resultado/alterar/([0-9]+)/?$ /view/resultado_alterar.php?samp=$1 [NC,L]
+
+
+
+	
+
+	RewriteRule ^usuario/?$ /view/usuario.php [NC,L]
+
+	RewriteRule ^usuario/novo?$ /view/usuario_novo.php [NC,L]
+
+	RewriteRule ^usuario/alterar?$ /view/usuario_alterar.php [NC,L]
+
+	RewriteRule ^usuario/alterar/([0-9]+)/?$ /view/usuario_alterar_cadastrado.php?usuario=$1 [NC,L]
+
+	
+
+	RewriteRule ^selo/?$ /view/selos.php [NC,L]
+
+	RewriteRule ^selo/novo/?$ /view/selos_novo.php [NC,L]
+
+	RewriteRule ^selo/alterar/([0-9]+)/?$ /view/selos_alterar.php?selo=$1 [NC,L]
+
+
+
+	#RewriteRule ^([a-z,0-9,A-Z,_-]+)/?$ 	 /view/index.php [L]
+
+</IfModule>

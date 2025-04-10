@@ -1,0 +1,4 @@
+Log created: 2022-06-07 18:34:57
+Type: backup
+[2022-06-07 18:34:57][notice]server info fcgi:On max execution time: 900 wp version:6.0 php version:7.3.28 db version:5.7.32 php ini:safe_mode: memory_limit:512M memory_get_usage:122,69 MB memory_get_peak_usage:122,79 MB extensions:PDO enabled curl enabled zlib enabled   is_multisite:0
+[2022-06-07 18:34:57][notice]Upload finished.

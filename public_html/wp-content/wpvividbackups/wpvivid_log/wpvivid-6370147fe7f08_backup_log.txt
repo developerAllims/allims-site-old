@@ -1,0 +1,36 @@
+[2022-11-12 18:51:45][notice]Start backing up.
+[2022-11-12 18:51:45][notice]server info fcgi:On max execution time: 180 wp version:6.1 php version:7.3.28 db version:5.7.32 php ini:safe_mode: memory_limit:256M memory_get_usage:127,97 MB memory_get_peak_usage:200,62 MB extensions:PDO enabled curl enabled zlib enabled   is_multisite:0
+[2022-11-12 18:51:46][notice]Prepare to backup backup_content files.
+[2022-11-12 18:51:47][notice]Compressing zip file:www.allims.com.br_backupagk-6370147fe7f08_2022-11-12-18-47_backup_content.part001.zip index:500
+[2022-11-12 18:52:27][notice]Compressing zip file:www.allims.com.br_backupagk-6370147fe7f08_2022-11-12-18-47_backup_content.part001.zip success. index:500 file size:63,79 MB
+[2022-11-12 18:52:30][notice]Backing up backup_content completed.
+[2022-11-12 18:52:32][notice]Prepare to backup backup_core files.
+[2022-11-12 18:52:34][notice]Compressing zip file:www.allims.com.br_backupagk-6370147fe7f08_2022-11-12-18-47_backup_core.part001.zip index:500
+[2022-11-12 18:52:35][notice]Compressing zip file:www.allims.com.br_backupagk-6370147fe7f08_2022-11-12-18-47_backup_core.part001.zip success. index:500 file size:1,04 MB
+[2022-11-12 18:52:36][notice]Compressing zip file:www.allims.com.br_backupagk-6370147fe7f08_2022-11-12-18-47_backup_core.part001.zip index:1000
+[2022-11-12 18:52:37][notice]Compressing zip file:www.allims.com.br_backupagk-6370147fe7f08_2022-11-12-18-47_backup_core.part001.zip success. index:1000 file size:2,22 MB
+[2022-11-12 18:52:38][notice]Compressing zip file:www.allims.com.br_backupagk-6370147fe7f08_2022-11-12-18-47_backup_core.part001.zip index:1500
+[2022-11-12 18:52:40][notice]Compressing zip file:www.allims.com.br_backupagk-6370147fe7f08_2022-11-12-18-47_backup_core.part001.zip success. index:1500 file size:4,62 MB
+[2022-11-12 18:52:40][notice]Compressing zip file:www.allims.com.br_backupagk-6370147fe7f08_2022-11-12-18-47_backup_core.part001.zip index:2000
+[2022-11-12 18:52:44][notice]Compressing zip file:www.allims.com.br_backupagk-6370147fe7f08_2022-11-12-18-47_backup_core.part001.zip success. index:2000 file size:10,30 MB
+[2022-11-12 18:52:45][notice]Compressing zip file:www.allims.com.br_backupagk-6370147fe7f08_2022-11-12-18-47_backup_core.part001.zip index:2500
+[2022-11-12 18:52:46][notice]Compressing zip file:www.allims.com.br_backupagk-6370147fe7f08_2022-11-12-18-47_backup_core.part001.zip success. index:2500 file size:10,30 MB
+[2022-11-12 18:52:47][notice]Compressing zip file:www.allims.com.br_backupagk-6370147fe7f08_2022-11-12-18-47_backup_core.part001.zip index:3000
+[2022-11-12 18:52:47][notice]Compressing zip file:www.allims.com.br_backupagk-6370147fe7f08_2022-11-12-18-47_backup_core.part001.zip success. index:3000 file size:2,28 MB
+[2022-11-12 18:52:49][notice]Backing up backup_core completed.
+[2022-11-12 18:52:51][notice]Prepare to backup backup_merge files.
+[2022-11-12 18:52:53][notice]Prepare to zip file. file: www.allims.com.br_backupagk-6370147fe7f08_2022-11-12-18-47_backup_db.zip
+[2022-11-12 18:52:54][notice]Prepare to zip file. file: www.allims.com.br_backupagk-6370147fe7f08_2022-11-12-18-47_backup_themes.zip
+[2022-11-12 18:52:54][notice]Prepare to zip file. file: www.allims.com.br_backupagk-6370147fe7f08_2022-11-12-18-47_backup_plugin.zip
+[2022-11-12 18:52:55][notice]Prepare to zip file. file: www.allims.com.br_backupagk-6370147fe7f08_2022-11-12-18-47_backup_uploads.zip
+[2022-11-12 18:52:56][notice]Prepare to zip file. file: www.allims.com.br_backupagk-6370147fe7f08_2022-11-12-18-47_backup_content.zip
+[2022-11-12 18:52:57][notice]Prepare to zip file. file: www.allims.com.br_backupagk-6370147fe7f08_2022-11-12-18-47_backup_core.zip
+[2022-11-12 18:52:57][notice]Adding zip files completed.www.allims.com.br_backupagk-6370147fe7f08_2022-11-12-18-47_backup_all.part001.zip, filesize: 2,22 MB
+[2022-11-12 18:52:59][notice]Backing up backup_merge completed.
+[2022-11-12 18:53:01][notice]Check upload folder www_allims_com_br
+[2022-11-12 18:53:03][notice]Start uploading www.allims.com.br_backupagk-6370147fe7f08_2022-11-12-18-47_backup_all.zip
+[2022-11-12 18:53:03][notice]Check if the server already has the same name file.
+[2022-11-12 18:53:04][notice]Initiate a resumable upload session.
+[2022-11-12 18:53:08][notice]Uploading www.allims.com.br_backupagk-6370147fe7f08_2022-11-12-18-47_backup_all.zip Total size: 2,22 MB Uploaded: 2,22 MB speed:466.33kb/s
+[2022-11-12 18:53:10][notice]Finished uploading www.allims.com.br_backupagk-6370147fe7f08_2022-11-12-18-47_backup_all.zip
+[2022-11-12 18:53:11][notice]Finish upload to googledrive

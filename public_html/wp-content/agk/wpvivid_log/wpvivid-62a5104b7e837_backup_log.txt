@@ -1,0 +1,163 @@
+Log created: 2022-06-11 18:59:39
+Type: backup
+[2022-06-11 18:59:39][notice]Start backing up.
+[2022-06-11 18:59:39][notice]server info fcgi:On max execution time: 900 wp version:6.0 php version:7.3.28 db version:5.7.32 php ini:safe_mode: memory_limit:256M memory_get_usage:122,12 MB memory_get_peak_usage:124,09 MB extensions:PDO enabled curl enabled zlib enabled   is_multisite:0
+[2022-06-11 18:59:39][notice]Prepare to backup backup_db files.
+[2022-06-11 18:59:39][notice]Start exporting database.
+[2022-06-11 18:59:39][notice]Preparing to dump table wp_wffilechanges
+[2022-06-11 18:59:39][notice]Preparing to dump table wp_wpmailsmtp_tasks_meta
+[2022-06-11 18:59:39][notice]Preparing to dump table wp_wflocs
+[2022-06-11 18:59:39][notice]Preparing to dump table wp_wfls_settings
+[2022-06-11 18:59:39][notice]Preparing to dump table wp_wfnotifications
+[2022-06-11 18:59:40][notice]Preparing to dump table wp_wfreversecache
+[2022-06-11 18:59:40][notice]Preparing to dump table wp_wfblockediplog
+[2022-06-11 18:59:40][notice]Preparing to dump table wp_wpmailsmtp_debug_events
+[2022-06-11 18:59:40][notice]Preparing to dump table wp_wftrafficrates
+[2022-06-11 18:59:40][notice]Preparing to dump table wp_cli_scripts
+[2022-06-11 18:59:40][notice]Preparing to dump table wp_cli_cookie_scan_url
+[2022-06-11 18:59:40][notice]Preparing to dump table wp_cli_cookie_scan
+[2022-06-11 18:59:40][notice]Preparing to dump table wp_wfcrawlers
+[2022-06-11 18:59:40][notice]Preparing to dump table wp_yoast_migrations
+[2022-06-11 18:59:40][notice]Preparing to dump table wp_cli_cookie_scan_categories
+[2022-06-11 18:59:40][notice]Preparing to dump table wp_links
+[2022-06-11 18:59:40][notice]Preparing to dump table wp_wfls_2fa_secrets
+[2022-06-11 18:59:40][notice]Preparing to dump table wp_term_relationships
+[2022-06-11 18:59:40][notice]Preparing to dump table wp_actionscheduler_groups
+[2022-06-11 18:59:40][notice]Preparing to dump table wp_wflivetraffichuman
+[2022-06-11 18:59:40][notice]Preparing to dump table wp_wfhoover
+[2022-06-11 18:59:40][notice]Preparing to dump table wp_actionscheduler_claims
+[2022-06-11 18:59:40][notice]Preparing to dump table wp_yoast_primary_term
+[2022-06-11 18:59:40][notice]Preparing to dump table wp_yoast_seo_links
+[2022-06-11 18:59:40][notice]Preparing to dump table wp_imagify_folders
+[2022-06-11 18:59:41][notice]Preparing to dump table wp_usermeta
+[2022-06-11 18:59:41][notice]Preparing to dump table wp_actionscheduler_logs
+[2022-06-11 18:59:41][notice]Preparing to dump table wp_cli_cookie_scan_cookies
+[2022-06-11 18:59:41][notice]Preparing to dump table wp_terms
+[2022-06-11 18:59:41][notice]Preparing to dump table wp_termmeta
+[2022-06-11 18:59:41][notice]Preparing to dump table wp_term_taxonomy
+[2022-06-11 18:59:41][notice]Preparing to dump table wp_commentmeta
+[2022-06-11 18:59:41][notice]Preparing to dump table wp_wfblocks7
+[2022-06-11 18:59:41][notice]Preparing to dump table wp_users
+[2022-06-11 18:59:41][notice]Preparing to dump table wp_yoast_indexable_hierarchy
+[2022-06-11 18:59:41][notice]Preparing to dump table wp_wfsnipcache
+[2022-06-11 18:59:41][notice]Preparing to dump table wp_wpr_rucss_used_css
+[2022-06-11 18:59:41][notice]Preparing to dump table wp_wpr_rucss_resources
+[2022-06-11 18:59:41][notice]Preparing to dump table wp_wfpendingissues
+[2022-06-11 18:59:41][notice]Preparing to dump table wp_wfissues
+[2022-06-11 18:59:41][notice]Preparing to dump table wp_comments
+[2022-06-11 18:59:41][notice]Preparing to dump table wp_imagify_files
+[2022-06-11 18:59:41][notice]Preparing to dump table wp_actionscheduler_actions
+[2022-06-11 18:59:41][notice]Preparing to dump table wp_yoast_indexable
+[2022-06-11 18:59:41][notice]Preparing to dump table wp_postmeta
+[2022-06-11 18:59:42][notice]Preparing to dump table wp_wfstatus
+[2022-06-11 18:59:42][notice]Preparing to dump table wp_wsal_occurrences
+[2022-06-11 18:59:42][notice]Preparing to dump table wp_wflogins
+[2022-06-11 18:59:42][notice]Preparing to dump table wp_posts
+[2022-06-11 18:59:42][notice]Preparing to dump table wp_wfhits
+[2022-06-11 18:59:42][notice]Preparing to dump table wp_wsal_metadata
+[2022-06-11 18:59:43][notice]Preparing to dump table wp_wfconfig
+[2022-06-11 18:59:43][notice]Preparing to dump table wp_options
+[2022-06-11 18:59:43][notice]Preparing to dump table wp_wfknownfilelist
+[2022-06-11 18:59:43][notice]Preparing to dump table wp_wffilemods
+[2022-06-11 18:59:44][notice]Exporting database finished.
+[2022-06-11 18:59:44][notice]Start compressing database
+[2022-06-11 18:59:44][notice]Prepare to zip file. file: backupagk-62a5104b7e837_2022-06-11-18-59_backup_db.sql
+[2022-06-11 18:59:45][notice]Adding zip files completed.backupagk-62a5104b7e837_2022-06-11-18-59_backup_db.part001.zip, filesize: 2,20 MB
+[2022-06-11 18:59:45][notice]Compressing database completed
+[2022-06-11 18:59:45][notice]Backing up backup_db completed.
+[2022-06-11 18:59:45][notice]Prepare to backup backup_themes files.
+[2022-06-11 18:59:46][notice]Compressing zip file:backupagk-62a5104b7e837_2022-06-11-18-59_backup_themes.part001.zip index:0
+[2022-06-11 18:59:49][notice]Compressing zip file:backupagk-62a5104b7e837_2022-06-11-18-59_backup_themes.part001.zip success. index:500 file size:4,42 MB
+[2022-06-11 18:59:49][notice]Compressing zip file:backupagk-62a5104b7e837_2022-06-11-18-59_backup_themes.part001.zip index:500
+[2022-06-11 18:59:53][notice]Compressing zip file:backupagk-62a5104b7e837_2022-06-11-18-59_backup_themes.part001.zip success. index:1000 file size:10,14 MB
+[2022-06-11 18:59:53][notice]Compressing zip file:backupagk-62a5104b7e837_2022-06-11-18-59_backup_themes.part001.zip index:1000
+[2022-06-11 18:59:56][notice]Compressing zip file:backupagk-62a5104b7e837_2022-06-11-18-59_backup_themes.part001.zip success. index:1500 file size:18,76 MB
+[2022-06-11 18:59:56][notice]Compressing zip file:backupagk-62a5104b7e837_2022-06-11-18-59_backup_themes.part001.zip index:1500
+[2022-06-11 18:59:56][notice]Compressing zip file:backupagk-62a5104b7e837_2022-06-11-18-59_backup_themes.part001.zip success. index:2000 file size:18,79 MB
+[2022-06-11 18:59:57][notice]Backing up backup_themes completed.
+[2022-06-11 18:59:57][notice]Prepare to backup backup_plugin files.
+[2022-06-11 19:00:04][notice]Compressing zip file:backupagk-62a5104b7e837_2022-06-11-18-59_backup_plugin.part001.zip index:0
+[2022-06-11 19:00:05][notice]Compressing zip file:backupagk-62a5104b7e837_2022-06-11-18-59_backup_plugin.part001.zip success. index:500 file size:1,19 MB
+[2022-06-11 19:00:05][notice]Compressing zip file:backupagk-62a5104b7e837_2022-06-11-18-59_backup_plugin.part001.zip index:500
+[2022-06-11 19:00:06][notice]Compressing zip file:backupagk-62a5104b7e837_2022-06-11-18-59_backup_plugin.part001.zip success. index:1000 file size:2,98 MB
+[2022-06-11 19:00:06][notice]Compressing zip file:backupagk-62a5104b7e837_2022-06-11-18-59_backup_plugin.part001.zip index:1000
+[2022-06-11 19:00:08][notice]Compressing zip file:backupagk-62a5104b7e837_2022-06-11-18-59_backup_plugin.part001.zip success. index:1500 file size:5,19 MB
+[2022-06-11 19:00:08][notice]Compressing zip file:backupagk-62a5104b7e837_2022-06-11-18-59_backup_plugin.part001.zip index:1500
+[2022-06-11 19:00:09][notice]Compressing zip file:backupagk-62a5104b7e837_2022-06-11-18-59_backup_plugin.part001.zip success. index:2000 file size:10,70 MB
+[2022-06-11 19:00:09][notice]Compressing zip file:backupagk-62a5104b7e837_2022-06-11-18-59_backup_plugin.part001.zip index:2000
+[2022-06-11 19:00:11][notice]Compressing zip file:backupagk-62a5104b7e837_2022-06-11-18-59_backup_plugin.part001.zip success. index:2500 file size:14,29 MB
+[2022-06-11 19:00:11][notice]Compressing zip file:backupagk-62a5104b7e837_2022-06-11-18-59_backup_plugin.part001.zip index:2500
+[2022-06-11 19:00:13][notice]Compressing zip file:backupagk-62a5104b7e837_2022-06-11-18-59_backup_plugin.part001.zip success. index:3000 file size:16,58 MB
+[2022-06-11 19:00:13][notice]Compressing zip file:backupagk-62a5104b7e837_2022-06-11-18-59_backup_plugin.part001.zip index:3000
+[2022-06-11 19:00:15][notice]Compressing zip file:backupagk-62a5104b7e837_2022-06-11-18-59_backup_plugin.part001.zip success. index:3500 file size:19,70 MB
+[2022-06-11 19:00:15][notice]Compressing zip file:backupagk-62a5104b7e837_2022-06-11-18-59_backup_plugin.part001.zip index:3500
+[2022-06-11 19:00:17][notice]Compressing zip file:backupagk-62a5104b7e837_2022-06-11-18-59_backup_plugin.part001.zip success. index:4000 file size:21,19 MB
+[2022-06-11 19:00:17][notice]Compressing zip file:backupagk-62a5104b7e837_2022-06-11-18-59_backup_plugin.part001.zip index:4000
+[2022-06-11 19:00:26][notice]Compressing zip file:backupagk-62a5104b7e837_2022-06-11-18-59_backup_plugin.part001.zip success. index:4500 file size:25,79 MB
+[2022-06-11 19:00:26][notice]Compressing zip file:backupagk-62a5104b7e837_2022-06-11-18-59_backup_plugin.part001.zip index:4500
+[2022-06-11 19:00:27][notice]Compressing zip file:backupagk-62a5104b7e837_2022-06-11-18-59_backup_plugin.part001.zip success. index:5000 file size:27,15 MB
+[2022-06-11 19:00:28][notice]Compressing zip file:backupagk-62a5104b7e837_2022-06-11-18-59_backup_plugin.part001.zip index:5000
+[2022-06-11 19:00:29][notice]Compressing zip file:backupagk-62a5104b7e837_2022-06-11-18-59_backup_plugin.part001.zip success. index:5500 file size:27,75 MB
+[2022-06-11 19:00:29][notice]Compressing zip file:backupagk-62a5104b7e837_2022-06-11-18-59_backup_plugin.part001.zip index:5500
+[2022-06-11 19:00:32][notice]Compressing zip file:backupagk-62a5104b7e837_2022-06-11-18-59_backup_plugin.part001.zip success. index:6000 file size:29,95 MB
+[2022-06-11 19:00:32][notice]Compressing zip file:backupagk-62a5104b7e837_2022-06-11-18-59_backup_plugin.part001.zip index:6000
+[2022-06-11 19:00:33][notice]Compressing zip file:backupagk-62a5104b7e837_2022-06-11-18-59_backup_plugin.part001.zip success. index:6500 file size:30,39 MB
+[2022-06-11 19:00:33][notice]Backing up backup_plugin completed.
+[2022-06-11 19:00:33][notice]Prepare to backup backup_uploads files.
+[2022-06-11 19:00:34][notice]Compressing zip file:backupagk-62a5104b7e837_2022-06-11-18-59_backup_uploads.part001.zip index:0
+[2022-06-11 19:00:39][notice]Compressing zip file:backupagk-62a5104b7e837_2022-06-11-18-59_backup_uploads.part001.zip success. index:500 file size:13,89 MB
+[2022-06-11 19:00:40][notice]Backing up backup_uploads completed.
+[2022-06-11 19:00:40][notice]Prepare to backup backup_content files.
+[2022-06-11 19:00:40][notice]Compressing zip file:backupagk-62a5104b7e837_2022-06-11-18-59_backup_content.part001.zip index:0
+[2022-06-11 19:01:25][notice]Compressing zip file:backupagk-62a5104b7e837_2022-06-11-18-59_backup_content.part001.zip success. index:500 file size:62,52 MB
+[2022-06-11 19:01:26][notice]Backing up backup_content completed.
+[2022-06-11 19:01:27][notice]Prepare to backup backup_core files.
+[2022-06-11 19:01:27][notice]Compressing zip file:backupagk-62a5104b7e837_2022-06-11-18-59_backup_core.part001.zip index:0
+[2022-06-11 19:01:28][notice]Compressing zip file:backupagk-62a5104b7e837_2022-06-11-18-59_backup_core.part001.zip success. index:500 file size:1,02 MB
+[2022-06-11 19:01:28][notice]Compressing zip file:backupagk-62a5104b7e837_2022-06-11-18-59_backup_core.part001.zip index:500
+[2022-06-11 19:01:29][notice]Compressing zip file:backupagk-62a5104b7e837_2022-06-11-18-59_backup_core.part001.zip success. index:1000 file size:2,26 MB
+[2022-06-11 19:01:29][notice]Compressing zip file:backupagk-62a5104b7e837_2022-06-11-18-59_backup_core.part001.zip index:1000
+[2022-06-11 19:01:31][notice]Compressing zip file:backupagk-62a5104b7e837_2022-06-11-18-59_backup_core.part001.zip success. index:1500 file size:4,85 MB
+[2022-06-11 19:01:31][notice]Compressing zip file:backupagk-62a5104b7e837_2022-06-11-18-59_backup_core.part001.zip index:1500
+[2022-06-11 19:01:35][notice]Compressing zip file:backupagk-62a5104b7e837_2022-06-11-18-59_backup_core.part001.zip success. index:2000 file size:10,20 MB
+[2022-06-11 19:01:35][notice]Compressing zip file:backupagk-62a5104b7e837_2022-06-11-18-59_backup_core.part001.zip index:2000
+[2022-06-11 19:01:36][notice]Compressing zip file:backupagk-62a5104b7e837_2022-06-11-18-59_backup_core.part001.zip success. index:2500 file size:12,31 MB
+[2022-06-11 19:01:37][notice]Backing up backup_core completed.
+[2022-06-11 19:01:37][notice]Prepare to backup backup_merge files.
+[2022-06-11 19:01:37][notice]Prepare to zip file. file: backupagk-62a5104b7e837_2022-06-11-18-59_backup_db.zip
+[2022-06-11 19:01:37][notice]Adding zip files completed.backupagk-62a5104b7e837_2022-06-11-18-59_backup_all.part001.zip, filesize: 2,16 MB
+[2022-06-11 19:01:37][notice]Prepare to zip file. file: backupagk-62a5104b7e837_2022-06-11-18-59_backup_themes.zip
+[2022-06-11 19:01:38][notice]Adding zip files completed.backupagk-62a5104b7e837_2022-06-11-18-59_backup_all.part001.zip, filesize: 20,68 MB
+[2022-06-11 19:01:38][notice]Prepare to zip file. file: backupagk-62a5104b7e837_2022-06-11-18-59_backup_plugin.zip
+[2022-06-11 19:01:41][notice]Adding zip files completed.backupagk-62a5104b7e837_2022-06-11-18-59_backup_all.part001.zip, filesize: 49,68 MB
+[2022-06-11 19:01:41][notice]Prepare to zip file. file: backupagk-62a5104b7e837_2022-06-11-18-59_backup_uploads.zip
+[2022-06-11 19:01:43][notice]Adding zip files completed.backupagk-62a5104b7e837_2022-06-11-18-59_backup_all.part001.zip, filesize: 63,50 MB
+[2022-06-11 19:01:43][notice]Prepare to zip file. file: backupagk-62a5104b7e837_2022-06-11-18-59_backup_content.zip
+[2022-06-11 19:01:48][notice]Adding zip files completed.backupagk-62a5104b7e837_2022-06-11-18-59_backup_all.part001.zip, filesize: 125,17 MB
+[2022-06-11 19:01:48][notice]Prepare to zip file. file: backupagk-62a5104b7e837_2022-06-11-18-59_backup_core.zip
+[2022-06-11 19:01:53][notice]Adding zip files completed.backupagk-62a5104b7e837_2022-06-11-18-59_backup_all.part001.zip, filesize: 137,09 MB
+[2022-06-11 19:01:59][notice]Backing up backup_merge completed.
+[2022-06-11 19:02:00][notice]Check upload folder www_allims_com_br
+[2022-06-11 19:02:00][notice]Start uploading backupagk-62a5104b7e837_2022-06-11-18-59_backup_all.zip
+[2022-06-11 19:02:02][notice]Check if the server already has the same name file.
+[2022-06-11 19:02:02][notice]Initiate a resumable upload session.
+[2022-06-11 19:02:04][notice]Uploading backupagk-62a5104b7e837_2022-06-11-18-59_backup_all.zip Total size: 137,10 MB Uploaded: 2,00 MB speed:524.29kb/s
+[2022-06-11 19:02:12][notice]Uploading backupagk-62a5104b7e837_2022-06-11-18-59_backup_all.zip Total size: 137,10 MB Uploaded: 8,00 MB speed:1572.86kb/s
+[2022-06-11 19:02:19][notice]Uploading backupagk-62a5104b7e837_2022-06-11-18-59_backup_all.zip Total size: 137,10 MB Uploaded: 15,00 MB speed:1835.01kb/s
+[2022-06-11 19:02:25][notice]Uploading backupagk-62a5104b7e837_2022-06-11-18-59_backup_all.zip Total size: 137,10 MB Uploaded: 21,00 MB speed:1572.86kb/s
+[2022-06-11 19:02:29][notice]Uploading backupagk-62a5104b7e837_2022-06-11-18-59_backup_all.zip Total size: 137,10 MB Uploaded: 28,00 MB speed:1835.01kb/s
+[2022-06-11 19:02:33][notice]Uploading backupagk-62a5104b7e837_2022-06-11-18-59_backup_all.zip Total size: 137,10 MB Uploaded: 35,00 MB speed:1835.01kb/s
+[2022-06-11 19:02:37][notice]Uploading backupagk-62a5104b7e837_2022-06-11-18-59_backup_all.zip Total size: 137,10 MB Uploaded: 42,00 MB speed:1835.01kb/s
+[2022-06-11 19:02:41][notice]Uploading backupagk-62a5104b7e837_2022-06-11-18-59_backup_all.zip Total size: 137,10 MB Uploaded: 48,00 MB speed:1572.86kb/s
+[2022-06-11 19:02:45][notice]Uploading backupagk-62a5104b7e837_2022-06-11-18-59_backup_all.zip Total size: 137,10 MB Uploaded: 56,00 MB speed:2097.15kb/s
+[2022-06-11 19:02:49][notice]Uploading backupagk-62a5104b7e837_2022-06-11-18-59_backup_all.zip Total size: 137,10 MB Uploaded: 63,00 MB speed:1835.01kb/s
+[2022-06-11 19:02:53][notice]Uploading backupagk-62a5104b7e837_2022-06-11-18-59_backup_all.zip Total size: 137,10 MB Uploaded: 71,00 MB speed:2097.15kb/s
+[2022-06-11 19:02:57][notice]Uploading backupagk-62a5104b7e837_2022-06-11-18-59_backup_all.zip Total size: 137,10 MB Uploaded: 80,00 MB speed:2359.3kb/s
+[2022-06-11 19:03:01][notice]Uploading backupagk-62a5104b7e837_2022-06-11-18-59_backup_all.zip Total size: 137,10 MB Uploaded: 89,00 MB speed:2359.3kb/s
+[2022-06-11 19:03:05][notice]Uploading backupagk-62a5104b7e837_2022-06-11-18-59_backup_all.zip Total size: 137,10 MB Uploaded: 99,00 MB speed:2621.44kb/s
+[2022-06-11 19:03:09][notice]Uploading backupagk-62a5104b7e837_2022-06-11-18-59_backup_all.zip Total size: 137,10 MB Uploaded: 109,00 MB speed:2621.44kb/s
+[2022-06-11 19:03:13][notice]Uploading backupagk-62a5104b7e837_2022-06-11-18-59_backup_all.zip Total size: 137,10 MB Uploaded: 118,00 MB speed:2359.3kb/s
+[2022-06-11 19:03:17][notice]Uploading backupagk-62a5104b7e837_2022-06-11-18-59_backup_all.zip Total size: 137,10 MB Uploaded: 128,00 MB speed:2621.44kb/s
+[2022-06-11 19:03:22][notice]Uploading backupagk-62a5104b7e837_2022-06-11-18-59_backup_all.zip Total size: 137,10 MB Uploaded: 137,10 MB speed:1907.62kb/s
+[2022-06-11 19:03:22][notice]Finished uploading backupagk-62a5104b7e837_2022-06-11-18-59_backup_all.zip
+[2022-06-11 19:03:22][notice]Finish upload to googledrive

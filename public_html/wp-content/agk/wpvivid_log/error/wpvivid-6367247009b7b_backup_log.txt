@@ -1,0 +1,2 @@
+[2022-11-06 01:09:18][error]Backup the file ends with an error Too many resumption attempts.
+[2022-11-06 01:09:22][error]Too many resumption attempts.

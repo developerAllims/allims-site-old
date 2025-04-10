@@ -1,0 +1,86 @@
+Log created: 2022-08-30 17:50:12
+Type: backup
+[2022-08-30 17:50:13][notice]Start backing up.
+[2022-08-30 17:50:13][notice]server info fcgi:On max execution time: 900 wp version:6.0.1 php version:7.3.28 db version:5.7.32 php ini:safe_mode: memory_limit:256M memory_get_usage:124,77 MB memory_get_peak_usage:159,14 MB extensions:PDO enabled curl enabled zlib enabled   is_multisite:0
+[2022-08-30 17:50:14][notice]Prepare to backup backup_custom_db files.
+[2022-08-30 17:50:14][notice]Start exporting database.
+[2022-08-30 17:50:14][notice]max_allowed_packet less than 32M :16,00 MB
+[2022-08-30 17:50:14][notice]Preparing to dump table wp_actionscheduler_actions
+[2022-08-30 17:50:14][notice]Preparing to dump table wp_actionscheduler_claims
+[2022-08-30 17:50:15][notice]Preparing to dump table wp_actionscheduler_groups
+[2022-08-30 17:50:16][notice]Preparing to dump table wp_actionscheduler_logs
+[2022-08-30 17:50:17][notice]Preparing to dump table wp_cli_cookie_scan
+[2022-08-30 17:50:17][notice]Preparing to dump table wp_cli_cookie_scan_categories
+[2022-08-30 17:50:18][notice]Preparing to dump table wp_cli_cookie_scan_cookies
+[2022-08-30 17:50:18][notice]Preparing to dump table wp_cli_cookie_scan_url
+[2022-08-30 17:50:19][notice]Preparing to dump table wp_cli_scripts
+[2022-08-30 17:50:20][notice]Preparing to dump table wp_commentmeta
+[2022-08-30 17:50:20][notice]Preparing to dump table wp_comments
+[2022-08-30 17:50:21][notice]Preparing to dump table wp_imagify_files
+[2022-08-30 17:50:22][notice]Preparing to dump table wp_imagify_folders
+[2022-08-30 17:50:22][notice]Preparing to dump table wp_links
+[2022-08-30 17:50:23][notice]Preparing to dump table wp_options
+[2022-08-30 17:50:24][notice]Preparing to dump table wp_postmeta
+[2022-08-30 17:50:24][notice]Preparing to dump table wp_posts
+[2022-08-30 17:50:25][notice]Preparing to dump table wp_term_relationships
+[2022-08-30 17:50:25][notice]Preparing to dump table wp_term_taxonomy
+[2022-08-30 17:50:26][notice]Preparing to dump table wp_termmeta
+[2022-08-30 17:50:26][notice]Preparing to dump table wp_terms
+[2022-08-30 17:50:27][notice]Preparing to dump table wp_usermeta
+[2022-08-30 17:50:28][notice]Preparing to dump table wp_users
+[2022-08-30 17:50:28][notice]Preparing to dump table wp_wfblockediplog
+[2022-08-30 17:50:29][notice]Preparing to dump table wp_wfblocks7
+[2022-08-30 17:50:29][notice]Preparing to dump table wp_wfconfig
+[2022-08-30 17:50:30][notice]Preparing to dump table wp_wfcrawlers
+[2022-08-30 17:50:31][notice]Preparing to dump table wp_wffilechanges
+[2022-08-30 17:50:31][notice]Preparing to dump table wp_wffilemods
+[2022-08-30 17:50:32][notice]Preparing to dump table wp_wfhits
+[2022-08-30 17:50:33][notice]Preparing to dump table wp_wfhoover
+[2022-08-30 17:50:33][notice]Preparing to dump table wp_wfissues
+[2022-08-30 17:50:34][notice]Preparing to dump table wp_wfknownfilelist
+[2022-08-30 17:50:35][notice]Preparing to dump table wp_wflivetraffichuman
+[2022-08-30 17:50:35][notice]Preparing to dump table wp_wflocs
+[2022-08-30 17:50:36][notice]Preparing to dump table wp_wflogins
+[2022-08-30 17:50:37][notice]Preparing to dump table wp_wfls_2fa_secrets
+[2022-08-30 17:50:37][notice]Preparing to dump table wp_wfls_settings
+[2022-08-30 17:50:38][notice]Preparing to dump table wp_wfnotifications
+[2022-08-30 17:50:38][notice]Preparing to dump table wp_wfpendingissues
+[2022-08-30 17:50:39][notice]Preparing to dump table wp_wfreversecache
+[2022-08-30 17:50:39][notice]Preparing to dump table wp_wfsnipcache
+[2022-08-30 17:50:40][notice]Preparing to dump table wp_wfstatus
+[2022-08-30 17:50:40][notice]Preparing to dump table wp_wftrafficrates
+[2022-08-30 17:50:41][notice]Preparing to dump table wp_wpmailsmtp_debug_events
+[2022-08-30 17:50:41][notice]Preparing to dump table wp_wpmailsmtp_tasks_meta
+[2022-08-30 17:50:42][notice]Preparing to dump table wp_wpr_rocket_cache
+[2022-08-30 17:50:43][notice]Preparing to dump table wp_wpr_rucss_used_css
+[2022-08-30 17:50:43][notice]Preparing to dump table wp_wsal_metadata
+[2022-08-30 17:50:44][notice]Preparing to dump table wp_wsal_occurrences
+[2022-08-30 17:50:45][notice]Preparing to dump table wp_yoast_indexable
+[2022-08-30 17:50:46][notice]Preparing to dump table wp_yoast_indexable_hierarchy
+[2022-08-30 17:50:47][notice]Preparing to dump table wp_yoast_migrations
+[2022-08-30 17:50:47][notice]Preparing to dump table wp_yoast_primary_term
+[2022-08-30 17:50:48][notice]Preparing to dump table wp_yoast_seo_links
+[2022-08-30 17:50:48][notice]Exporting database finished.
+[2022-08-30 17:50:48][notice]Start compressing backup_custom_db
+[2022-08-30 17:50:49][notice]Prepare to zip files. file: backupagk-630e78046dd06_2022-08-30-17-50_backup_db.zip
+[2022-08-30 17:50:49][notice]Adding zip files completed.backupagk-630e78046dd06_2022-08-30-17-50_backup_db.zip, filesize: 14,38 MB
+[2022-08-30 17:50:49][notice]Compressing backup_custom_db completed
+[2022-08-30 17:50:49][notice]Backing up backup_custom_db completed.
+[2022-08-30 17:50:52][notice]Prepare to backup backup_custom_core files.
+[2022-08-30 17:50:52][notice]File number: 2481
+[2022-08-30 17:50:52][notice]Start compressing backup_custom_core
+[2022-08-30 17:50:52][notice]Prepare to zip files. file: backupagk-630e78046dd06_2022-08-30-17-50_backup_core.zip
+[2022-08-30 17:50:55][notice]Adding zip files completed.backupagk-630e78046dd06_2022-08-30-17-50_backup_core.zip, filesize: 47,58 MB
+[2022-08-30 17:50:55][notice]Compressing backup_custom_core completed
+[2022-08-30 17:50:55][notice]Backing up backup_custom_core completed.
+[2022-08-30 17:50:57][notice]Prepare to backup backup_merge files.
+[2022-08-30 17:50:57][notice]File number: 2
+[2022-08-30 17:50:57][notice]Start compressing backup_merge
+[2022-08-30 17:50:58][notice]Prepare to zip files. file: backupagk-630e78046dd06_2022-08-30-17-50_backup_all.zip
+[2022-08-30 17:51:02][notice]Adding zip files completed.backupagk-630e78046dd06_2022-08-30-17-50_backup_all.zip, filesize: 25,76 MB
+[2022-08-30 17:51:02][notice]Cleaned up file, filename: /home/storage/8/7f/89/allims/public_html/wp-content/wpvividbackups/backupagk-630e78046dd06_2022-08-30-17-50_backup_core.zip
+[2022-08-30 17:51:02][notice]Cleaned up file, filename: /home/storage/8/7f/89/allims/public_html/wp-content/wpvividbackups/backupagk-630e78046dd06_2022-08-30-17-50_backup_db.zip
+[2022-08-30 17:51:02][notice]Compressing backup_merge completed
+[2022-08-30 17:51:02][notice]Backing up backup_merge completed.
+[2022-08-30 17:51:04][notice]Backup completed.
+[2022-08-30 17:51:04][notice]Backup succeeded.

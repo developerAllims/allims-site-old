@@ -1,0 +1,38 @@
+.mais{ width: 28px; height: 28px; display: inline-block; background: url('/images/adicionar.png') center no-repeat; float: right; }
+.voltar{ width: 28px; height: 28px; display: inline-block; background: url('/images/voltar.png') center no-repeat; float: right; margin-right: 30px; }
+
+.mais:hover{ opacity: 0.6; }
+.voltar:hover{ opacity: 0.6; }
+
+.body table{ width: 100%; min-width: 1100px;  color: #828282; padding: 0 15px; }
+.body table th{ padding: 0 10px; }
+.body table tr{ height: 35px; line-height: 25px; }
+.body table tr td{ padding: 0 10px; }
+.body table .cabecalho{ background: #cfcfcf !important; line-height: 35px; }
+.body table .cabecalho b{ display: block;  }
+.body table .pointer{ cursor: pointer; }
+.body table .cinza_escuro{ background: #e5e5e5; }
+.body table .cinza_claro{ background: #f6f6f6; }
+.body table tbody{ background: #e5e5e5; }
+
+.body table .edit{ width: auto; height: 16px; display: block; vertical-align: middle; background: url('/images/input_editable_preto.png') center no-repeat; }
+.body table .link_pesquisa{ width: auto; height: 16px; display: block; vertical-align: middle; background: url('/images/ico_amotras.png') center no-repeat; }
+
+.body table .calcule{ width: auto; height: 16px; display: block; vertical-align: middle; background: url('/images/ico_calcule.png') center no-repeat; }
+
+.body table input[type=checkbox]{ display: none; }
+.body table .check{ width: 18px; height: 20px; cursor: pointer; display: inline-block; background: url('/images/ico_check_off.png') center center no-repeat; vertical-align: middle; }
+.body table .checked{ width: 18px; height: 20px; cursor: pointer; display: inline-block; background: url('/images/ico_check_on.png') center center no-repeat; vertical-align: middle; }
+.body table .readonly{ cursor: default; opacity: 0.6 !important; }
+
+
+.body table button{ width: 106px; height: 32px; margin: 10px 0px 0 0; border: none; float: right; text-align: center; background: #495a87; color: #FFF; font-family: 'Myriad Pro'; font-size: 17px; cursor: pointer; }
+
+
+/*.list_programa_amostras input[type=checkbox]{ display: block !important; }*/
+
+@media print{ 
+	.body table .cabecalho span{ display:none; }
+	.barra_colorida{ display:none !important; }
+	.body table .cabecalho p{ display:block; color:#000; } 
+ }

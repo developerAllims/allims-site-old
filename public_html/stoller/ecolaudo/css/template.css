@@ -1,0 +1,101 @@
+html,body{ font-family: 'helvetica_condensedregular'; background: #FFF; }
+body{ overflow: auto; }
+
+#header{ margin-bottom: 5px; }
+.box_recomendacao #conteudo{ 
+	width:100%;
+	height: 100%;
+	/*height: 100%;                         para falta de suporte */  
+	/* height: -moz-calc(100% - 275px);
+	    height: -webkit-calc(100% - 275px);
+	    height: calc(100% - 275px); */
+	padding:10px;
+	overflow:auto;
+	display: block;
+}
+.informacoes{ width: 75%; height: 50px; float: left; /* top: 100px; */ border: 1px solid #D1D1D1; background: #FFF; z-index: 5001; margin-bottom: 15px; }
+.informacoes table{ height: 40px; display: block; width: 100%; margin: 5px;  }
+.informacoes table tbody{ height: 40px; display: block; width: 100%; }
+.informacoes table tbody tr{ height: 20px; display: block; width: 100%; }
+.informacoes td{ width: 32%; display: inline-block; }
+/*.informacoes td a{ float: right; }*/
+.informacoes label{ font-weight: bold; }
+
+.informacoes span{ width: 1px; height: 16px; border-left: 1px solid #D1D1D1; display: inline-block;  margin: 0 5px; float: right; }
+.informacoes .links{ width: 16px; height: 16px; display: inline-block;  margin: 0 5px; float: right; }
+.informacoes .pre_visualizar{ background: url('/ecolaudo/imagens/ico_visu.png') center no-repeat; }
+
+.informacoes .pre_close{ background: url('/ecolaudo/imagens/ico_delete.png') center no-repeat; }
+.informacoes .pre_salvar{ background: url('/ecolaudo/imagens/ico_save.png') center no-repeat; }
+.informacoes .pre_cancelar{ background: url('/ecolaudo/imagens/ico_back.png') center no-repeat; }
+
+
+.resultados{ width: 20%; height: auto; float: right; /* position: fixed; */ /* margin-top: 15px; */ right: 20px; border: 1px solid #D1D1D1; padding: 5px; background: #FFF;  }
+.resultados .listagem{ width: 100%; height: 30px; display: block; }
+.resultados p{ line-height: 30px; text-align: center; border: 1px solid #D1D1D1; margin-bottom: 10px; font-weight: bold; }
+.resultados a{ line-height: 25px; text-align: center; padding: 2px 7px; margin: 0; float: left; border: 1px solid #D1D1D1; color: #9f9f9f; background: #dfdfdf; border-bottom: none; border-top-left-radius: 4px; border-top-right-radius: 4px;  }
+.resultados a:hover{ color: #bbbbbb;  }
+.resultados a.selected{ background: #f8f8f8; }
+
+
+
+
+
+
+.resultados table{ border: 1px solid #D1D1D1; padding: 1px; font-size: 11px; display: block; }
+.resultados table tr{ line-height: 15px; }
+.resultados table tr td{ padding: 3px; }
+.resultados table.table_solo tr td:nth-child(1){ width: 40%; }
+.resultados table.table_solo tr td:nth-child(2){ width: 40%; }
+/*.resultados table tr td:nth-child(3){ width: 20%; }*/
+
+/*.resultados table thead{ display: inline-block; }*/
+.resultados table thead tr{ background: #ccc; display: block; }
+.resultados table thead tr div{ float: left; /* border: 1px solid #FFF; */ }
+
+/*.resultados table tbody{ height: 150px; display: inline-block; overflow:auto; }*/
+.resultados table tbody tr{ display: block; }
+.resultados table tbody tr:nth-child(even){ background: #f8f8f8; }
+.resultados table tbody td{ padding-left: 5px; /* border: 1px solid #D1D1D1; */  }
+
+.resultados thead, .resultados tbody { display: block; }
+
+.resultados tbody {
+	width: 100%;
+    height: auto;       /* Just for the demo          */
+    overflow-y: auto;    /* Trigger vertical scroll    */
+    overflow-x: hidden;  /* Hide the horizontal scroll */
+}
+
+
+.resultados .table_folha{ display: none; }
+.resultados table.table_folha thead tr td { width: 19% !important; display: inline-block; padding: 0px !important; }
+
+.resultados table.table_folha thead tr td div{ /* border: 1px solid #FFF; */ padding: 3px 1px 0px 1px; }
+
+.resultados .table_folha tbody td{ width: 20% !important; display: inline-block; vertical-align: middle; }
+.resultados .table_folha .sub_title td{ width: 100% !important; display: block !important; background: #ccc; }
+
+.adjoined-bottom{ width: 75%; margin: 20px 0 0 0; overflow-y: auto; }
+
+
+
+.recomendacao_culturas{ width: 75%;  font-size: 8pt; background: url('/ecolaudo/imagens/rodape_terra_estagios.png') center bottom repeat-x; border: none !important;}
+.recomendacao_culturas td{ padding: 10px 0; text-align: center; vertical-align: middle; } 
+.recomendacao_culturas .rodape td{ border: none !important; }
+.recomendacao_culturas .estagios{ font-size: 10pt; color: #FFF; font-weight: 500; }
+.recomendacao_culturas .cultura{ font-size: 10pt; color: #FFF; font-weight: 600; }
+.recomendacao_culturas p{ font-size: 12pt; font-weight: bold; margin: 5px 0; padding: 0; display: block; color: #212C5A; }
+.recomendacao_culturas p.mila span{ color: #8C7865; }
+.recomendacao_culturas p.vita span{ color: #3194C9;  }
+.recomendacao_culturas p.bela span{ color: #F2B35D;  }
+
+
+.aplicacoes{ margin-top: 5px;  }
+.aplicacoes p{ margin: 3px 5px 0 0; padding: 0; font-size: 7pt; line-height: 15px; display: inline-block; }
+.aplicacoes img{ margin-right: 3px; }
+.aplicacoes .color_solo{ width: 15px; height: 7px; display: inline-block; }
+.aplicacoes .color_folha{ width: 15px; height: 7px; display: inline-block; }
+
+.oculto{ display: none; }
+.informacoes .abrir_texto{ background: url('/ecolaudo/imagens/ico_visu.png') center no-repeat; }

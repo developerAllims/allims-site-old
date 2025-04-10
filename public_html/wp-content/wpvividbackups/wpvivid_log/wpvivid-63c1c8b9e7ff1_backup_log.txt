@@ -1,0 +1,161 @@
+Log created: 2023-01-13 18:10:17
+Type: backup
+[2023-01-13 18:10:18][notice]Start backing up.
+[2023-01-13 18:10:18][notice]server info fcgi:On max execution time: 180 wp version:6.1.1 php version:7.4.23 db version:5.7.32 php ini:safe_mode: memory_limit:256M memory_get_usage:117,30 MB memory_get_peak_usage:118,29 MB extensions:PDO enabled curl enabled zlib enabled   is_multisite:0
+[2023-01-13 18:10:18][notice]Prepare to backup backup_db files.
+[2023-01-13 18:10:18][notice]Start exporting database.
+[2023-01-13 18:10:18][notice]Preparing to dump table wp_wfblockediplog
+[2023-01-13 18:10:18][notice]Preparing to dump table wp_wfls_settings
+[2023-01-13 18:10:18][notice]Preparing to dump table wp_wffilechanges
+[2023-01-13 18:10:18][notice]Preparing to dump table wp_wftrafficrates
+[2023-01-13 18:10:18][notice]Preparing to dump table wp_wpmailsmtp_tasks_meta
+[2023-01-13 18:10:18][notice]Preparing to dump table wp_wfcrawlers
+[2023-01-13 18:10:18][notice]Preparing to dump table wp_wpmailsmtp_debug_events
+[2023-01-13 18:10:18][notice]Preparing to dump table wp_wflocs
+[2023-01-13 18:10:18][notice]Preparing to dump table wp_cli_scripts
+[2023-01-13 18:10:18][notice]Preparing to dump table wp_cli_cookie_scan_url
+[2023-01-13 18:10:18][notice]Preparing to dump table wp_wfnotifications
+[2023-01-13 18:10:18][notice]Preparing to dump table wp_cli_cookie_scan
+[2023-01-13 18:10:18][notice]Preparing to dump table wp_wfreversecache
+[2023-01-13 18:10:18][notice]Preparing to dump table wp_wfls_2fa_secrets
+[2023-01-13 18:10:18][notice]Preparing to dump table wp_cli_cookie_scan_categories
+[2023-01-13 18:10:18][notice]Preparing to dump table wp_links
+[2023-01-13 18:10:18][notice]Preparing to dump table wp_yoast_migrations
+[2023-01-13 18:10:18][notice]Preparing to dump table wp_wflivetraffichuman
+[2023-01-13 18:10:18][notice]Preparing to dump table wp_wpvivid_options
+[2023-01-13 18:10:18][notice]Preparing to dump table wp_term_relationships
+[2023-01-13 18:10:18][notice]Preparing to dump table wp_wfhoover
+[2023-01-13 18:10:18][notice]Preparing to dump table wp_actionscheduler_claims
+[2023-01-13 18:10:18][notice]Preparing to dump table wp_actionscheduler_groups
+[2023-01-13 18:10:18][notice]Preparing to dump table wp_yoast_seo_links
+[2023-01-13 18:10:18][notice]Preparing to dump table wp_usermeta
+[2023-01-13 18:10:18][notice]Preparing to dump table wp_imagify_folders
+[2023-01-13 18:10:18][notice]Preparing to dump table wp_actionscheduler_logs
+[2023-01-13 18:10:18][notice]Preparing to dump table wp_terms
+[2023-01-13 18:10:18][notice]Preparing to dump table wp_cli_cookie_scan_cookies
+[2023-01-13 18:10:18][notice]Preparing to dump table wp_termmeta
+[2023-01-13 18:10:18][notice]Preparing to dump table wp_commentmeta
+[2023-01-13 18:10:19][notice]Preparing to dump table wp_term_taxonomy
+[2023-01-13 18:10:19][notice]Preparing to dump table wp_yoast_primary_term
+[2023-01-13 18:10:19][notice]Preparing to dump table wp_wfsnipcache
+[2023-01-13 18:10:19][notice]Preparing to dump table wp_yoast_indexable_hierarchy
+[2023-01-13 18:10:19][notice]Preparing to dump table wp_wfblocks7
+[2023-01-13 18:10:19][notice]Preparing to dump table wp_wpr_rocket_cache
+[2023-01-13 18:10:19][notice]Preparing to dump table wp_users
+[2023-01-13 18:10:19][notice]Preparing to dump table wp_wfissues
+[2023-01-13 18:10:19][notice]Preparing to dump table wp_wfpendingissues
+[2023-01-13 18:10:19][notice]Preparing to dump table wp_comments
+[2023-01-13 18:10:19][notice]Preparing to dump table wp_wpr_rucss_used_css
+[2023-01-13 18:10:19][notice]Preparing to dump table wp_actionscheduler_actions
+[2023-01-13 18:10:19][notice]Preparing to dump table wp_imagify_files
+[2023-01-13 18:10:19][notice]Preparing to dump table wp_yoast_indexable
+[2023-01-13 18:10:19][notice]Preparing to dump table wp_wfstatus
+[2023-01-13 18:10:19][notice]Preparing to dump table wp_wfconfig
+[2023-01-13 18:10:19][notice]Preparing to dump table wp_postmeta
+[2023-01-13 18:10:19][notice]Preparing to dump table wp_wflogins
+[2023-01-13 18:10:19][notice]Preparing to dump table wp_wfhits
+[2023-01-13 18:10:20][notice]Preparing to dump table wp_posts
+[2023-01-13 18:10:20][notice]Preparing to dump table wp_wfknownfilelist
+[2023-01-13 18:10:20][notice]Preparing to dump table wp_options
+[2023-01-13 18:10:20][notice]Preparing to dump table wp_wffilemods
+[2023-01-13 18:10:21][notice]Preparing to dump table wp_wsal_metadata
+[2023-01-13 18:10:21][notice]Preparing to dump table wp_wsal_occurrences
+[2023-01-13 18:10:22][notice]Exporting database finished.
+[2023-01-13 18:10:22][notice]Start compressing database
+[2023-01-13 18:10:22][notice]Prepare to zip file. file: www.allims.com.br_backupagk-63c1c8b9e7ff1_2023-01-13-18-10_backup_db.sql
+[2023-01-13 18:10:23][notice]Adding zip files completed.www.allims.com.br_backupagk-63c1c8b9e7ff1_2023-01-13-18-10_backup_db.part001.zip, filesize: 2,56 MB
+[2023-01-13 18:10:23][notice]Compressing database completed
+[2023-01-13 18:10:23][notice]Backing up backup_db completed.
+[2023-01-13 18:10:23][notice]Prepare to backup backup_themes files.
+[2023-01-13 18:10:23][notice]Compressing zip file:www.allims.com.br_backupagk-63c1c8b9e7ff1_2023-01-13-18-10_backup_themes.part001.zip index:500
+[2023-01-13 18:10:27][notice]Compressing zip file:www.allims.com.br_backupagk-63c1c8b9e7ff1_2023-01-13-18-10_backup_themes.part001.zip success. index:500 file size:7,16 MB
+[2023-01-13 18:10:27][notice]Compressing zip file:www.allims.com.br_backupagk-63c1c8b9e7ff1_2023-01-13-18-10_backup_themes.part001.zip index:1000
+[2023-01-13 18:10:32][notice]Compressing zip file:www.allims.com.br_backupagk-63c1c8b9e7ff1_2023-01-13-18-10_backup_themes.part001.zip success. index:1000 file size:13,62 MB
+[2023-01-13 18:10:33][notice]Compressing zip file:www.allims.com.br_backupagk-63c1c8b9e7ff1_2023-01-13-18-10_backup_themes.part001.zip index:1500
+[2023-01-13 18:10:34][notice]Compressing zip file:www.allims.com.br_backupagk-63c1c8b9e7ff1_2023-01-13-18-10_backup_themes.part001.zip success. index:1500 file size:16,82 MB
+[2023-01-13 18:10:35][notice]Backing up backup_themes completed.
+[2023-01-13 18:10:35][notice]Prepare to backup backup_plugin files.
+[2023-01-13 18:10:36][notice]Compressing zip file:www.allims.com.br_backupagk-63c1c8b9e7ff1_2023-01-13-18-10_backup_plugin.part001.zip index:500
+[2023-01-13 18:10:37][notice]Compressing zip file:www.allims.com.br_backupagk-63c1c8b9e7ff1_2023-01-13-18-10_backup_plugin.part001.zip success. index:500 file size:1,20 MB
+[2023-01-13 18:10:37][notice]Compressing zip file:www.allims.com.br_backupagk-63c1c8b9e7ff1_2023-01-13-18-10_backup_plugin.part001.zip index:1000
+[2023-01-13 18:10:38][notice]Compressing zip file:www.allims.com.br_backupagk-63c1c8b9e7ff1_2023-01-13-18-10_backup_plugin.part001.zip success. index:1000 file size:3,18 MB
+[2023-01-13 18:10:38][notice]Compressing zip file:www.allims.com.br_backupagk-63c1c8b9e7ff1_2023-01-13-18-10_backup_plugin.part001.zip index:1500
+[2023-01-13 18:10:39][notice]Compressing zip file:www.allims.com.br_backupagk-63c1c8b9e7ff1_2023-01-13-18-10_backup_plugin.part001.zip success. index:1500 file size:4,83 MB
+[2023-01-13 18:10:39][notice]Compressing zip file:www.allims.com.br_backupagk-63c1c8b9e7ff1_2023-01-13-18-10_backup_plugin.part001.zip index:2000
+[2023-01-13 18:10:40][notice]Compressing zip file:www.allims.com.br_backupagk-63c1c8b9e7ff1_2023-01-13-18-10_backup_plugin.part001.zip success. index:2000 file size:6,63 MB
+[2023-01-13 18:10:40][notice]Compressing zip file:www.allims.com.br_backupagk-63c1c8b9e7ff1_2023-01-13-18-10_backup_plugin.part001.zip index:2500
+[2023-01-13 18:10:42][notice]Compressing zip file:www.allims.com.br_backupagk-63c1c8b9e7ff1_2023-01-13-18-10_backup_plugin.part001.zip success. index:2500 file size:12,12 MB
+[2023-01-13 18:10:42][notice]Compressing zip file:www.allims.com.br_backupagk-63c1c8b9e7ff1_2023-01-13-18-10_backup_plugin.part001.zip index:3000
+[2023-01-13 18:10:44][notice]Compressing zip file:www.allims.com.br_backupagk-63c1c8b9e7ff1_2023-01-13-18-10_backup_plugin.part001.zip success. index:3000 file size:17,75 MB
+[2023-01-13 18:10:44][notice]Compressing zip file:www.allims.com.br_backupagk-63c1c8b9e7ff1_2023-01-13-18-10_backup_plugin.part001.zip index:3500
+[2023-01-13 18:10:45][notice]Compressing zip file:www.allims.com.br_backupagk-63c1c8b9e7ff1_2023-01-13-18-10_backup_plugin.part001.zip success. index:3500 file size:18,97 MB
+[2023-01-13 18:10:45][notice]Compressing zip file:www.allims.com.br_backupagk-63c1c8b9e7ff1_2023-01-13-18-10_backup_plugin.part001.zip index:4000
+[2023-01-13 18:10:47][notice]Compressing zip file:www.allims.com.br_backupagk-63c1c8b9e7ff1_2023-01-13-18-10_backup_plugin.part001.zip success. index:4000 file size:22,40 MB
+[2023-01-13 18:10:47][notice]Compressing zip file:www.allims.com.br_backupagk-63c1c8b9e7ff1_2023-01-13-18-10_backup_plugin.part001.zip index:4500
+[2023-01-13 18:10:49][notice]Compressing zip file:www.allims.com.br_backupagk-63c1c8b9e7ff1_2023-01-13-18-10_backup_plugin.part001.zip success. index:4500 file size:23,79 MB
+[2023-01-13 18:10:49][notice]Compressing zip file:www.allims.com.br_backupagk-63c1c8b9e7ff1_2023-01-13-18-10_backup_plugin.part001.zip index:5000
+[2023-01-13 18:10:57][notice]Compressing zip file:www.allims.com.br_backupagk-63c1c8b9e7ff1_2023-01-13-18-10_backup_plugin.part001.zip success. index:5000 file size:28,27 MB
+[2023-01-13 18:10:57][notice]Compressing zip file:www.allims.com.br_backupagk-63c1c8b9e7ff1_2023-01-13-18-10_backup_plugin.part001.zip index:5500
+[2023-01-13 18:10:59][notice]Compressing zip file:www.allims.com.br_backupagk-63c1c8b9e7ff1_2023-01-13-18-10_backup_plugin.part001.zip success. index:5500 file size:29,44 MB
+[2023-01-13 18:10:59][notice]Compressing zip file:www.allims.com.br_backupagk-63c1c8b9e7ff1_2023-01-13-18-10_backup_plugin.part001.zip index:6000
+[2023-01-13 18:11:00][notice]Compressing zip file:www.allims.com.br_backupagk-63c1c8b9e7ff1_2023-01-13-18-10_backup_plugin.part001.zip success. index:6000 file size:30,03 MB
+[2023-01-13 18:11:00][notice]Compressing zip file:www.allims.com.br_backupagk-63c1c8b9e7ff1_2023-01-13-18-10_backup_plugin.part001.zip index:6500
+[2023-01-13 18:11:03][notice]Compressing zip file:www.allims.com.br_backupagk-63c1c8b9e7ff1_2023-01-13-18-10_backup_plugin.part001.zip success. index:6500 file size:32,67 MB
+[2023-01-13 18:11:04][notice]Backing up backup_plugin completed.
+[2023-01-13 18:11:04][notice]Prepare to backup backup_uploads files.
+[2023-01-13 18:11:04][notice]Compressing zip file:www.allims.com.br_backupagk-63c1c8b9e7ff1_2023-01-13-18-10_backup_uploads.part001.zip index:500
+[2023-01-13 18:11:07][notice]Compressing zip file:www.allims.com.br_backupagk-63c1c8b9e7ff1_2023-01-13-18-10_backup_uploads.part001.zip success. index:500 file size:13,78 MB
+[2023-01-13 18:11:07][notice]Backing up backup_uploads completed.
+[2023-01-13 18:11:07][notice]Prepare to backup backup_content files.
+[2023-01-13 18:11:07][notice]Compressing zip file:www.allims.com.br_backupagk-63c1c8b9e7ff1_2023-01-13-18-10_backup_content.part001.zip index:500
+[2023-01-13 18:11:47][notice]Compressing zip file:www.allims.com.br_backupagk-63c1c8b9e7ff1_2023-01-13-18-10_backup_content.part001.zip success. index:500 file size:63,60 MB
+[2023-01-13 18:11:48][notice]Backing up backup_content completed.
+[2023-01-13 18:11:48][notice]Prepare to backup backup_core files.
+[2023-01-13 18:11:48][notice]Compressing zip file:www.allims.com.br_backupagk-63c1c8b9e7ff1_2023-01-13-18-10_backup_core.part001.zip index:500
+[2023-01-13 18:11:49][notice]Compressing zip file:www.allims.com.br_backupagk-63c1c8b9e7ff1_2023-01-13-18-10_backup_core.part001.zip success. index:500 file size:1,04 MB
+[2023-01-13 18:11:49][notice]Compressing zip file:www.allims.com.br_backupagk-63c1c8b9e7ff1_2023-01-13-18-10_backup_core.part001.zip index:1000
+[2023-01-13 18:11:50][notice]Compressing zip file:www.allims.com.br_backupagk-63c1c8b9e7ff1_2023-01-13-18-10_backup_core.part001.zip success. index:1000 file size:2,21 MB
+[2023-01-13 18:11:50][notice]Compressing zip file:www.allims.com.br_backupagk-63c1c8b9e7ff1_2023-01-13-18-10_backup_core.part001.zip index:1500
+[2023-01-13 18:11:52][notice]Compressing zip file:www.allims.com.br_backupagk-63c1c8b9e7ff1_2023-01-13-18-10_backup_core.part001.zip success. index:1500 file size:4,61 MB
+[2023-01-13 18:11:52][notice]Compressing zip file:www.allims.com.br_backupagk-63c1c8b9e7ff1_2023-01-13-18-10_backup_core.part001.zip index:2000
+[2023-01-13 18:11:55][notice]Compressing zip file:www.allims.com.br_backupagk-63c1c8b9e7ff1_2023-01-13-18-10_backup_core.part001.zip success. index:2000 file size:10,30 MB
+[2023-01-13 18:11:55][notice]Compressing zip file:www.allims.com.br_backupagk-63c1c8b9e7ff1_2023-01-13-18-10_backup_core.part001.zip index:2500
+[2023-01-13 18:11:57][notice]Compressing zip file:www.allims.com.br_backupagk-63c1c8b9e7ff1_2023-01-13-18-10_backup_core.part001.zip success. index:2500 file size:12,44 MB
+[2023-01-13 18:11:57][notice]Compressing zip file:www.allims.com.br_backupagk-63c1c8b9e7ff1_2023-01-13-18-10_backup_core.part001.zip index:3000
+[2023-01-13 18:11:57][notice]Compressing zip file:www.allims.com.br_backupagk-63c1c8b9e7ff1_2023-01-13-18-10_backup_core.part001.zip success. index:3000 file size:12,59 MB
+[2023-01-13 18:11:57][notice]Backing up backup_core completed.
+[2023-01-13 18:11:57][notice]Prepare to backup backup_merge files.
+[2023-01-13 18:11:57][notice]Prepare to zip file. file: www.allims.com.br_backupagk-63c1c8b9e7ff1_2023-01-13-18-10_backup_db.zip
+[2023-01-13 18:11:57][notice]Adding zip files completed.www.allims.com.br_backupagk-63c1c8b9e7ff1_2023-01-13-18-10_backup_all.part001.zip, filesize: 2,46 MB
+[2023-01-13 18:11:57][notice]Prepare to zip file. file: www.allims.com.br_backupagk-63c1c8b9e7ff1_2023-01-13-18-10_backup_themes.zip
+[2023-01-13 18:11:59][notice]Adding zip files completed.www.allims.com.br_backupagk-63c1c8b9e7ff1_2023-01-13-18-10_backup_all.part001.zip, filesize: 19,02 MB
+[2023-01-13 18:11:59][notice]Prepare to zip file. file: www.allims.com.br_backupagk-63c1c8b9e7ff1_2023-01-13-18-10_backup_plugin.zip
+[2023-01-13 18:12:01][notice]Adding zip files completed.www.allims.com.br_backupagk-63c1c8b9e7ff1_2023-01-13-18-10_backup_all.part001.zip, filesize: 50,24 MB
+[2023-01-13 18:12:02][notice]Prepare to zip file. file: www.allims.com.br_backupagk-63c1c8b9e7ff1_2023-01-13-18-10_backup_uploads.zip
+[2023-01-13 18:12:03][notice]Adding zip files completed.www.allims.com.br_backupagk-63c1c8b9e7ff1_2023-01-13-18-10_backup_all.part001.zip, filesize: 63,96 MB
+[2023-01-13 18:12:03][notice]Prepare to zip file. file: www.allims.com.br_backupagk-63c1c8b9e7ff1_2023-01-13-18-10_backup_content.zip
+[2023-01-13 18:12:08][notice]Adding zip files completed.www.allims.com.br_backupagk-63c1c8b9e7ff1_2023-01-13-18-10_backup_all.part001.zip, filesize: 126,66 MB
+[2023-01-13 18:12:08][notice]Prepare to zip file. file: www.allims.com.br_backupagk-63c1c8b9e7ff1_2023-01-13-18-10_backup_core.zip
+[2023-01-13 18:12:10][notice]Adding zip files completed.www.allims.com.br_backupagk-63c1c8b9e7ff1_2023-01-13-18-10_backup_all.part001.zip, filesize: 138,84 MB
+[2023-01-13 18:12:11][notice]Backing up backup_merge completed.
+[2023-01-13 18:12:11][notice]Check upload folder www_allims_com_br
+[2023-01-13 18:12:12][notice]Start uploading www.allims.com.br_backupagk-63c1c8b9e7ff1_2023-01-13-18-10_backup_all.zip
+[2023-01-13 18:12:12][notice]Check if the server already has the same name file.
+[2023-01-13 18:12:12][notice]Initiate a resumable upload session.
+[2023-01-13 18:12:16][notice]Uploading www.allims.com.br_backupagk-63c1c8b9e7ff1_2023-01-13-18-10_backup_all.zip Total size: 138,84 MB Uploaded: 6,00 MB speed:1572.86kb/s
+[2023-01-13 18:12:20][notice]Uploading www.allims.com.br_backupagk-63c1c8b9e7ff1_2023-01-13-18-10_backup_all.zip Total size: 138,84 MB Uploaded: 15,00 MB speed:2359.3kb/s
+[2023-01-13 18:12:24][notice]Uploading www.allims.com.br_backupagk-63c1c8b9e7ff1_2023-01-13-18-10_backup_all.zip Total size: 138,84 MB Uploaded: 23,00 MB speed:2097.15kb/s
+[2023-01-13 18:12:28][notice]Uploading www.allims.com.br_backupagk-63c1c8b9e7ff1_2023-01-13-18-10_backup_all.zip Total size: 138,84 MB Uploaded: 31,00 MB speed:2097.15kb/s
+[2023-01-13 18:12:32][notice]Uploading www.allims.com.br_backupagk-63c1c8b9e7ff1_2023-01-13-18-10_backup_all.zip Total size: 138,84 MB Uploaded: 39,00 MB speed:2097.15kb/s
+[2023-01-13 18:12:36][notice]Uploading www.allims.com.br_backupagk-63c1c8b9e7ff1_2023-01-13-18-10_backup_all.zip Total size: 138,84 MB Uploaded: 47,00 MB speed:2097.15kb/s
+[2023-01-13 18:12:40][notice]Uploading www.allims.com.br_backupagk-63c1c8b9e7ff1_2023-01-13-18-10_backup_all.zip Total size: 138,84 MB Uploaded: 56,00 MB speed:2359.3kb/s
+[2023-01-13 18:12:44][notice]Uploading www.allims.com.br_backupagk-63c1c8b9e7ff1_2023-01-13-18-10_backup_all.zip Total size: 138,84 MB Uploaded: 64,00 MB speed:2097.15kb/s
+[2023-01-13 18:12:48][notice]Uploading www.allims.com.br_backupagk-63c1c8b9e7ff1_2023-01-13-18-10_backup_all.zip Total size: 138,84 MB Uploaded: 73,00 MB speed:2359.3kb/s
+[2023-01-13 18:12:52][notice]Uploading www.allims.com.br_backupagk-63c1c8b9e7ff1_2023-01-13-18-10_backup_all.zip Total size: 138,84 MB Uploaded: 83,00 MB speed:2621.44kb/s
+[2023-01-13 18:12:56][notice]Uploading www.allims.com.br_backupagk-63c1c8b9e7ff1_2023-01-13-18-10_backup_all.zip Total size: 138,84 MB Uploaded: 93,00 MB speed:2621.44kb/s
+[2023-01-13 18:13:00][notice]Uploading www.allims.com.br_backupagk-63c1c8b9e7ff1_2023-01-13-18-10_backup_all.zip Total size: 138,84 MB Uploaded: 103,00 MB speed:2621.44kb/s
+[2023-01-13 18:13:04][notice]Uploading www.allims.com.br_backupagk-63c1c8b9e7ff1_2023-01-13-18-10_backup_all.zip Total size: 138,84 MB Uploaded: 114,00 MB speed:2883.58kb/s
+[2023-01-13 18:13:08][notice]Uploading www.allims.com.br_backupagk-63c1c8b9e7ff1_2023-01-13-18-10_backup_all.zip Total size: 138,84 MB Uploaded: 125,00 MB speed:2883.58kb/s
+[2023-01-13 18:13:12][notice]Uploading www.allims.com.br_backupagk-63c1c8b9e7ff1_2023-01-13-18-10_backup_all.zip Total size: 138,84 MB Uploaded: 136,00 MB speed:2883.58kb/s
+[2023-01-13 18:13:14][notice]Finished uploading www.allims.com.br_backupagk-63c1c8b9e7ff1_2023-01-13-18-10_backup_all.zip
+[2023-01-13 18:13:14][notice]Finish upload to googledrive

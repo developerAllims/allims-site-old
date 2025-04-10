@@ -1,0 +1,138 @@
+<IfModule mod_rewrite.c>
+
+	RewriteEngine On
+
+		
+
+	RewriteCond %{REQUEST_FILENAME} !-f
+
+
+
+	RewriteRule ^/?$ /view/index.php [NC,L]
+
+
+
+
+
+	RewriteRule ^impressao/([0-9,_-]+)/?$ /view/impressao_etiquetas.php?code=$1 [NC,L]
+
+
+
+	RewriteRule ^instituicao/?$ /view/instituicao.php [NC,L]
+
+
+
+
+
+
+
+	RewriteRule ^laboratorio/?$ /view/laboratorio.php [NC,L]
+
+	RewriteRule ^laboratorio/novo/?$ /view/laboratorio_novo.php [NC,L]
+
+	RewriteRule ^laboratorio/alterar/([0-9]+)/?$ /view/laboratorio_alterar.php?samp=$1 [NC,L]
+
+	RewriteRule ^laboratorio/amostra/([0-9]+)/?$ /view/amostras.php?samp=$1 [NC,L]
+
+
+
+	RewriteRule ^laboratorio/contrato/([0-9]+)/?$ /view/contrato.php?samp=$1 [NC,L]
+
+	RewriteRule ^laboratorio/contrato/novo/([0-9]+)/?$ /view/contrato_novo.php?samp=$1 [NC,L]
+
+	RewriteRule ^laboratorio/contrato/alterar/([0-9]+)/?$ /view/contrato_alterar.php?pk_contracts=$1 [NC,L]
+
+
+
+	RewriteRule ^laboratorio/contato/([0-9]+)/?$ /view/contato.php?samp=$1 [NC,L]
+
+	RewriteRule ^laboratorio/contato/novo/([0-9]+)/?$ /view/contato_novo.php?samp=$1 [NC,L]
+
+	RewriteRule ^laboratorio/contato/alterar/([0-9]+)/?$ /view/contato_alterar.php?samp=$1 [NC,L]
+
+
+
+	RewriteRule ^laboratorio/avaliacao/([0-9]+)/?$ /view/avaliacao.php?samp=$1 [NC,L]
+
+
+
+	RewriteRule ^laboratorio/usuario/([0-9]+)/?$ /view/usuario.php?samp=$1 [NC,L]
+
+	RewriteRule ^laboratorio/usuario/novo/([0-9]+)/?$ /view/usuario_novo.php?samp=$1 [NC,L]
+
+	RewriteRule ^laboratorio/usuario/alterar/([0-9]+)/?$ /view/usuario_alterar_cadastrado.php?samp=$1 [NC,L]
+
+
+
+	RewriteRule ^laboratorio/selo/([0-9]+)/?$ /view/selo.php?samp=$1 [NC,L]
+
+	RewriteRule ^laboratorio/selo/alterar/([0-9]+)/?$ /view/selo_alterar_laboratorio.php?samp=$1 [NC,L]
+
+	RewriteRule ^laboratorio/selo/novo/([0-9]+)/?$ /view/selos_novo.php?samp=$1 [NC,L]
+
+	
+
+	RewriteRule ^avaliacao/?$ /view/avaliacao.php [NC,L]
+
+
+
+	RewriteRule ^contrato/?$ /view/contrato.php [NC,L]
+
+
+
+	RewriteRule ^areferencias/?$ /view/controle.php [NC,L]
+
+	RewriteRule ^areferencias/novo/?$ /view/controle_novo.php [NC,L]
+	RewriteRule ^areferencias/alterar/([0-9]+)/?$ /view/controle_alterar.php?samp=$1 [NC,L]
+
+	RewriteRule ^areferencias/uso/([0-9]+)/?$ /view/controle_uso.php?samp=$1 [NC,L]
+
+	
+
+	RewriteRule ^programa/?$ /view/programa.php [NC,L]
+
+	RewriteRule ^programa/novo/?$ /view/programa_novo.php [NC,L]
+
+	RewriteRule ^programa/etapa/([0-9]+)/?$ /view/programa_etapa.php?samp=$1 [NC,L]
+
+	RewriteRule ^programa/etapa/novo/([0-9]+)/?$ /view/programa_etapa_novo.php?samp=$1 [NC,L]
+
+	RewriteRule ^programa/etapa/alterar/([0-9]+)/?$ /view/programa_etapa_alterar.php?samp=$1 [NC,L]
+
+	RewriteRule ^programa/etapa/senvio/([0-9]+)/?$ /view/programa_etapa_envio.php?samp=$1 [NC,L]
+
+	RewriteRule ^programa/amostra/([0-9]+)/?$ /view/programa_amostra.php?samp=$1 [NC,L]
+
+	RewriteRule ^programa/amostra/novo/([0-9]+)/?$ /view/programa_amostra_novo.php?samp=$1 [NC,L]
+
+	RewriteRule ^programa/amostra/alterar/([0-9]+)/?$ /view/programa_amostra_alterar.php?samp=$1 [NC,L]
+
+	RewriteRule ^programa/amostra/resultados/([0-9]+)/?$ /view/programa_amostra_listagem.php?samp=$1 [NC,L]
+
+	RewriteRule ^programa/selo/([0-9]+)/?$ /view/programa_selo.php?samp=$1 [NC,L]
+
+	RewriteRule ^programa/selo/novo/([0-9]+)/?$ /view/programa_selo_novo.php?samp=$1 [NC,L]
+
+	RewriteRule ^programa/selo/alterar/([0-9]+)/?$ /view/programa_selo_alterar.php?samp=$1 [NC,L]
+
+
+
+	RewriteRule ^selo/?$ /view/selo.php [NC,L]
+
+	RewriteRule ^selo/alterar/([0-9]+)/?$ /view/selo_alterar.php?samp=$1 [NC,L]
+
+
+
+
+
+	RewriteRule ^usuario/?$ /view/usuario.php [NC,L]
+
+	RewriteRule ^usuario/novo/?$ /view/usuario_novo.php [NC,L]
+
+	RewriteRule ^usuario/alterar?$ /view/usuario_alterar.php [NC,L]
+
+	RewriteRule ^usuario/alterar/([0-9]+)/?$ /view/usuario_alterar_cadastrado.php?samp=$1 [NC,L]	
+
+	RewriteRule ^info/?$ /view/info.php [NC,L]
+
+</IfModule>

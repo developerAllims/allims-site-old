@@ -1,0 +1,12 @@
+body{ font-family:'helvetica_condensedregular'; }
+.form_culturas{ border: 0px solid #000; }
+.form_culturas .combo{ display: block; margin: 5px 0; }
+.form_culturas .cultures{ display: inline-block;}
+.form_culturas .inline{ display: inline-block; vertical-align: bottom; border: 1px solid #dfdfdf; padding: 5px; }
+.form_culturas p{ display: block; padding: 0; margin: 0; font-family:'helvetica_condensedbold'; }
+.form_culturas span{ margin: 0 !important; width: auto; display: inline-block; }
+.form_culturas input[type=text]{ width: 80px; line-height: 15px !important; }
+.form_culturas input[readonly]{ background: #fdfdfd; }
+.form_culturas input[name="p-esperada"]{ width: 80px; }
+.form_culturas input[name="ano-folha"]{ width: 50px; }
+.form_culturas select{ padding: 0 5px; line-height: 15px; }

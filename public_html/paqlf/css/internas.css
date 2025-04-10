@@ -1,0 +1,49 @@
+.header{ width: 100%; min-width: 1220px; height: 148px; background: #133469 url('/images/interna_fundo_header.jpg') center right no-repeat; }
+.header .logo_embrapa{ width: 238px; height: 64px; padding: 24px; background: url('/images/logo_embrapa_branco.png') center no-repeat; }
+
+.body{ min-width: 1220px;  margin: -40px 0 50px 0; padding: 26px 0 0 0; background: #FFF; border-top-left-radius: 10px; border-top-right-radius: 10px; }
+.body .titulo{ font-size: 29px; color: #828282; margin: 0 15px 10px 15px; padding: 0; font-family: 'Myriad Pro'; font-weight: bold; display: block; border-bottom: 2px solid #e2e2e2; }
+
+.body .menu{ margin:-60px 15px 0 0; padding: 0; float: right; }
+.body .menu li{ display: inline-block; }
+.body .menu li a{ height: 36px; line-height: 41px; display: inline-block; padding: 0 13px 0 35px; color: #FFF; font-size: 18px; text-decoration: none; }
+
+.body .menu .amostras{ background: url('/images/ico_amostras_off.png') 15px center no-repeat; }
+.body .menu .resultado{ background: url('/images/ico_resultado_off.png') 10px center no-repeat; }
+.body .menu .novo_resultado{ background: url('/images/ico_novo_resultado_off.png') 15px center no-repeat; }
+.body .menu .laboratorio{ background: url('/images/ico_laboratorio_off.png') 10px center no-repeat; }
+.body .menu .usuario{ background: url('/images/ico_usuario_off.png') 15px center no-repeat; }
+.body .menu .selos{ background: url('/images/ico_selos_off.png') 15px center no-repeat; }
+
+.body .menu .selected{ background: #FFF;  border-top-right-radius: 5px; border-top-left-radius: 5px;  /*box-shadow: 0px -3px 5px 0px #666666;*/ }
+.body .menu .selected a{ color: #818181; }
+
+.body .menu .selected .amostras{ background: url('/images/ico_amostras_on.png') 15px center no-repeat; }
+.body .menu .selected .resultado{ background: url('/images/ico_resultado_on.png') 10px center no-repeat; }
+.body .menu .selected .novo_resultado{ background: url('/images/ico_novo_resultado_on.png') 15px center no-repeat; }
+.body .menu .selected .laboratorio{ background: url('/images/ico_laboratorio_on.png') 10px center no-repeat; }
+.body .menu .selected .usuario{ background: url('/images/ico_usuario_on.png') 15px center no-repeat; }
+.body .menu .selected .selos{ background: url('/images/ico_selos_on.png') 15px center no-repeat; }
+
+
+.voltar{ width: 28px; height: 28px; display: inline-block; background: url('/images/voltar.png') center no-repeat; float: right; margin-right: 30px; }
+.voltar:hover{ opacity: 0.6; }
+
+/* DROPDOWN LIST MENU SUPERIOR DE LOGIN / LOGOUT */
+.menu_superior_login{ z-index:0; }
+.menu_superior_login .drop{ width:auto; height:30px; display: inline-block; top:20px; right:20px; background: url('/images/user_fundo.png'); -webkit-border-radius: 10px; -moz-border-radius: 10px; border-radius: 10px; position:absolute; z-index:1000;}
+.menu_superior_login .drop span{ width:auto; color:#FFF; line-height:30px; padding:0 40px 0 20px; margin-right: 10px; display:inline-block; border-radius:8px; background: url('/images/ico_fundo_user.png') right 7px no-repeat; cursor:pointer; }
+.menu_superior_login .drop span:hover { /* aqui agente ajusta apenas a parte superior do menu */ opacity: 0.7; }
+.menu_superior_login .drop ul{ width:100px; margin:3px 0 0 15px; padding: 0; position:absolute; border-radius:8px; color:#FFF; background:#495a87; display:none; list-style: none; }
+.menu_superior_login .drop ul li{ padding: 0; margin: 0; }
+.menu_superior_login .drop ul li a{ line-height: 30px; display: block; color: #FFF; text-decoration: none; padding: 0 0 0 10px; border-bottom: 1px solid #8693b4; }
+.menu_superior_login .drop ul li a:hover{ opacity: 0.7; }
+
+button:hover{ opacity: 0.7; }
+.cancelar:hover{ opacity: 0.7; }
+
+textarea{ font-family: 'Myriad Pro';  }
+input{ font-family: 'Myriad Pro';  }
+
+
+select{ padding: 0 10px; color: #828282; border: 1px solid #dcdcdc; appearance:none; -webkit-appearance: none; -moz-appearance: none; background-image: url('/images/arrow_down_select.png'); background-position: right 10px center; background-repeat: no-repeat;}

@@ -1,0 +1,20 @@
+.mais{ width: 28px; height: 28px; display: inline-block; background: url('/images/adicionar.png') center no-repeat; float: right; }
+.mais:hover{ opacity: 0.6; }
+
+.subtitulo{ margin-top: 85px !important; }
+.body table label{ height: 35px; line-height: 35px; background: #e5e5e5; font-size: 17px; color: #828282; display: block; padding: 0 0 0 10px; background-repeat: no-repeat !important; background-position: left center !important; }
+.body table{ width: 100%; color: #828282; padding: 0 15px; background:#FFF; }
+.body table tr td input[type=text]{ width: calc(100% - 22px); height: 35px; line-height: 35px; display: block; text-align: right; padding: 0 10px; border: 1px solid #dcdcdc; font-size: 17px; color: #828282; }
+.body table tr td select{ width: 100%; height: 37px; line-height: 37px; margin: 0; border: none;  display: block; text-align: right !important; padding: 0 10px; color: #828282; border: 1px solid #dcdcdc;}
+.body table tr td .observacao{ text-align: left !important; }
+.body table .readonly{ height: 35px; line-height: 35px; background: #efefef; display: block; padding: 0 10px; text-align: right; }
+.body table .edit.readonly{ width: auto; display: block; text-align: center; background: url('/images/input_editable.png') center no-repeat; cursor: default; vertical-align: middle; }
+
+.body textarea{ width: calc(100% - 22px); height: 80px; line-height: 20px; padding: 10px; resize: none; border: 1px solid #dcdcdc; font-size: 17px; color: #828282;}
+
+.body table .excluir{ width: 16px; height: 16px; line-height: 16px; vertical-align: middle; background: url('/images/cancelar.png') center no-repeat; display: inline-block; }
+.body table .excluir.readonly{ background: url('/images/cancelar_transparente.png') center no-repeat;  vertical-align: middle; cursor: default; }
+.body table .cancelado.readonly{ width: 16px; height: 16px; vertical-align: middle; background: url('/images/cancelado.png') center no-repeat; cursor: default; display: inline-block; }
+
+.body table button{ width: 106px; height: 32px; margin: 10px 5px 0 0; border: none; float: right; text-align: center; background: #495a87; color: #FFF; font-family: 'Myriad Pro'; font-size: 17px; cursor: pointer; }
+.body table .cancelar{ width: 106px; height: 32px; line-height: 32px; text-decoration: none; display: inline-block; margin: 10px 0px 0 0; border: none; float: right; text-align: center; color: #FFF; font-family: 'Myriad Pro'; font-size: 17px; cursor: pointer;  background: #495a87; }

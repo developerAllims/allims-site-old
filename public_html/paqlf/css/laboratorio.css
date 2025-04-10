@@ -1,0 +1,35 @@
+.body table{ width: 100%; color: #828282; padding: 0 15px; }
+.body table label{ height: 35px; line-height: 35px; background: #e5e5e5; font-size: 17px; color: #828282; display: inline-block; padding: 0 0 0 10px; }
+
+.body table tr td .lab_primeiro{ width: 130px; }
+.body table tr td .lab_lab{ width: 130px; }
+.body table tr td .lab_im{ width: 170px; }
+.body table tr td .lab_cep{ width: 45px; }
+.body table tr td .lab_med{ width: 90px; }
+
+.body table input{ width: auto; height: 33px; font-size: 17px; color: #828282; padding: 0 30px 0 10px; border: 1px solid #dcdcdc; background: #FFF url('/images/input_editable.jpg') center right no-repeat; background-position: calc(100% - 10px) center; }
+.body table input[name=razao]{ width: calc(100% - 457px); display: inline-block; }
+.body table input[name=cod]{ width: 85px; background: #FFF; }
+.body table input[name=endereco]{ width: calc(100% - 372px); display: inline-block; }
+.body table input[name=endereco_numero]{ width: 85px; display: inline-block; }
+.body table input[name=complemento]{ width: calc(100% - 185px); display: inline-block; }
+.body table input[name=fantasia]{ width: calc(100% - 185px); display: inline-block; }
+.body table input[name=cnpj]{ width: calc(100% - 185px); display: inline-block; }
+.body table input[name=insc_estadual]{ width: calc(100% - 185px); display: inline-block; }
+.body table input[name=insc_municipal]{ width: calc(100% - 225px); display: inline-block; }
+.body table input[name=cidade]{ width: calc(100% - 185px); display: inline-block; }
+.body table input[name=estado]{  width:calc(100% - 744px);  display: inline-block; }
+.body table input[name=cep]{width:200px; display: inline-block; }
+.body table input[name=caixa_postal]{ width:150px; display: inline-block; }
+.body table input[name=telefone]{ width: calc(100% - 185px); display: inline-block; }
+.body table input[name=fax]{ width:191px; display: inline-block; }
+.body table input[name=celular]{ width: calc(100% - 483px); display: inline-block; }
+.body table input[name=email]{ width: calc(100% - 185px); display: inline-block; }
+.body table button{ width: 106px; height: 32px; border: none; float: right; text-align: center; background: #495a87; color: #FFF; font-family: 'Myriad Pro'; font-size: 17px; cursor: pointer; }
+.body table input[name=participacao]{ width: calc(100% - 185px); display: inline-block; background: #fff; }
+.body table input[readonly]{background: #f4f4f4;}
+
+.nome_cidades{ width: auto !important; height: auto; display: none; max-height: 150px; overflow: auto; margin:-1px 0 0 143px; position: absolute; border: 1px solid #d3d3d3; background: #FFF; }
+.nome_cidades tr{ line-height: 30px; }
+.nome_cidades tr td{ border-bottom: 1px solid #d3d3d3; }
+.nome_cidades tr td a{ height: 30px; display: block; text-decoration: none; color: #828282; }

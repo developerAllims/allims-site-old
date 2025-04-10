@@ -1,0 +1,26 @@
+.body table{ width: 100%; color: #828282; padding: 0 15px; background:#FFF; }
+.body table tbody{ background: #FFF; }
+
+.body table label{ height: 35px; line-height: 35px; background: #e5e5e5; font-size: 17px; color: #828282; display: inline-block; padding: 0 0 0 10px; background-repeat: no-repeat !important; background-position: left center !important; }
+.body table tr td .lab_primeiro{ width: 130px; }
+.body table input{ width: auto; height: 33px; font-size: 17px; color: #828282; padding: 0 30px 0 10px; border: 1px solid #dcdcdc; background: #FFF url('/images/input_editable.jpg') center right no-repeat; background-position: calc(100% - 10px) center; }
+.body table input[type=text]{ width: calc(100% - 45px); display: inline-block; }
+.body table input[type=email]{ width: calc(100% - 45px); display: inline-block; }
+.body table input[type=password]{ width: calc(100% - 45px); display: inline-block; }
+
+.body table span{ width: calc(100% - 45px); display: inline-block; height: 33px; line-height: 33px; font-size: 17px; color: #828282; padding: 0 30px 0 10px; border: 1px solid #dcdcdc; background: #f4f4f4;}
+.body table input[readonly]{ background: #f4f4f4; }
+
+table input[type=checkbox]{ display: none; }
+.body table .check{ width: auto; height: 20px; line-height: 20px; cursor: pointer; display: inline-block; background-color:#FFF; background-image:url('/images/ico_check_off.png'); vertical-align: middle; padding: 7px 0 5px 25px; margin-left: 10px; vertical-align: middle; }
+.body table .checked{ width: auto; height: 20px; line-height: 20px;  cursor: pointer; display: inline-block; background-color:#FFF; background-image:url('/images/ico_check_on.png'); vertical-align: middle; padding-left: 25px; margin-left: 10px; vertical-align: middle; }
+.body table label img{ padding: 2px 5px 0 0; display: inline-block; }
+
+.body table .img_amostra{ padding-left: 3px; }
+.body table .img_usuario{ padding-left: 3px; }
+
+.body table button{ width: 106px; height: 32px; margin: 10px 5px 0 0; border: none; float: right; text-align: center; background: #495a87; color: #FFF; font-family: 'Myriad Pro'; font-size: 17px; cursor: pointer; }
+.body table .cancelar{ width: 106px; height: 32px; line-height: 32px; text-decoration: none; display: inline-block; margin: 10px 6px 0 0; border: none; float: right; text-align: center; color: #FFF; font-family: 'Myriad Pro'; font-size: 17px; cursor: pointer;  background: #495a87; }
+
+.body .sub_td{ padding-right: 4px; }
+.body table .table_interna{ width: calc( 100% - 9px); margin: 0; padding: 0; border: 1px solid #dcdcdc; }

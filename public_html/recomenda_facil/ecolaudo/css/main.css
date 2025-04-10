@@ -1,0 +1,1306 @@
+@charset "UTF-8";
+
+html,body {
+/*	-webkit-overflow-scrolling:touch !important;*/
+	height:100%;
+/*	overflow-x: hidden; /* primeira vers. */
+	overflow: hidden !important;
+	background:#666;
+	min-width: 1100px;
+}
+
+.disabled{ background:#c8c8c8 !important; }
+
+.disabled:hover{ background:#c8c8c8 !important; color:#535353 !important; cursor:context-menu !important; -webkit-transition:none !important; }
+
+#main {
+	height:100%;
+	position:relative;
+	background:#dfdfdf;
+	padding-bottom:40px;
+/*	border:1px solid red; */
+	-webkit-overflow-scrolling: touch;
+}
+
+* html #main { height: 100%; /* hack para IE6 que trata height como min-height */ }
+
+#header {	width:100%;	height:120px; display:table; background-color: #FFF;	background-image: url(/ecolaudo/imagens/logo_allims_header.png);	background-repeat: no-repeat;	background-position: 15px 30px;	}
+
+#botao:hover {	cursor:pointer; }
+
+input[type=submit]{ border:none; }
+
+.box_alert{ width:auto; max-width: 80%; height:auto; min-height:125px;	 position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);	z-index:1000;	padding:25px;	border-radius:7px;	background:#F2F2F2;	border:6px solid #CCC;	z-index:10000;	display:none;}
+.box_alert p{ font-size:15px;	display:inline-block;	margin:10px auto;}
+.box_alert span{ margin:0 0 20px 0;	display:block;}
+.box_alert .bt_down { display:inline-table;	height:25px; line-height:25px; padding-left:15px;	padding-right:15px;	margin:0 20px 0 0;	color:#535353;	background:#ffffff no-repeat; border:1px solid #CCC;	border-radius:4px; /* canto arrendondado no botões do menu */	-webkit-transition: all 0.5s ease-out;	}
+.box_alert .bt_down:hover  {background:#F7941E no-repeat; color:#fff;	-webkit-transition: all 0.5s ease-out;}
+
+
+
+.margin_left20 { margin-left:10px;}
+.padding_left20 {padding-left:10px;}
+
+
+/* MENU NIVEL 01 */
+	.menu_nivel01 {	display:block;	padding:0 10px; margin-top:105px; border-bottom:3px solid #F7941E; }
+	
+	
+	.menu_nivel01 ul li {
+		display:inline-table;
+		height:28px;
+		line-height: 28px;
+		/*border:1px solid red;*/
+		padding-left:10px;
+		padding-right:10px;
+		border-top:3px solid transparent;
+		border-right:3px solid transparent;
+		border-left: 3px solid transparent;
+		margin-bottom: -3px;
+		/* padding-top:14px; */
+	}
+	
+
+	
+	.menu_nivel01 .bt_up  {
+		background-color:#dfdfdf;
+		border-style: solid;
+		border-top:3px solid #F7941E;
+		border-right:3px solid #F7941E;
+		border-left: 3px solid #F7941E;
+		border-top-left-radius:4px; /* canto arrendondado no botões do menu	 */
+		border-top-right-radius:4px; /* canto arrendondado no botões do menu */
+		-moz-border-top-radius:4px;
+		-webkit-border-top-radius:4px;
+		-ms-border-radius: 4px; 
+
+	}
+	
+	.menu_nivel01 a{
+		line-height: 25px;
+		font-size: 13px !important;
+	}
+
+	.menu_nivel01 .bt_up a {
+		color:#535353;	
+	}
+	.menu_nivel01 .bt_down a {
+		color:#F7941E; /* cor do texto do menuNivel01 quando não está clicado */	
+	}
+	.menu_nivel01 .bt_down a:hover {
+		color:#c8d7bb; 	
+	}
+	
+
+
+/* MENU NIVEL 02 */
+	.menu_nivel02 {
+		width:100%;
+		height:auto;
+		display:table;
+		background:#dfdfdf;
+		border-bottom:1px solid #8b8c8e;
+		
+	}
+	
+	.menu_nivel02 .content {
+		margin:5px 20px;
+		/*border:1px solid red; */
+	}
+	
+	/*Usuario*/
+	.menu_nivel02 .content .subtitle{
+		display:inline-block;
+		margin:12px 0 0 0;
+		font-size:20px;
+		font-weight:bold;
+		/*border:1px solid #000;*/
+	}
+	
+	.busca-geral{
+		width:196px;
+		height:25px;
+		float:left;
+		margin:0 50px 0 0;
+		background: #FFF;
+		border-radius: 50px;
+		/* background:url(/ecolaudo/imagens/bg_busca.png) no-repeat center; */
+		}
+	.busca {
+		width:142px;
+		height:25px;
+		margin:0px 30px 0 17px;
+		border:none;
+		position:absolute;
+		float:left;
+	}
+
+	/* .busca input[name=busca] {
+		height:25px;
+	} */
+
+	.btn-busca{
+		width:30px;
+		height:25px;
+		float:right;
+		border:none;
+		background:url(/ecolaudo/imagens/bg_busca_btn.png) no-repeat left center;
+	}
+	.btn-busca:hover{ 
+		opacity:0.65;
+		-moz-opacity: 0.65;
+		filter: alpha(opacity=65);
+		cursor:pointer;
+	}
+	
+	/*.busca {
+		width:196px;
+		height:31px;
+		border:0px;
+		padding:0 30px 0 17px;
+		margin-right:50px;
+		background:url(/imagens/bg_busca.png);
+		float:left;
+		border:1px solid #033;
+	}*/
+	
+	
+	.menu_nivel02 ul li {
+		display:inline-table;
+		height:auto;
+		/*border:1px solid red;*/
+	}
+	
+	.menu_nivel02 .bt_down  {
+		display:inline-table;
+		height:25px;
+		line-height:25px;
+		line-height:25px;
+		padding-left:35px;
+		padding-right:15px;
+		margin-right:10px;
+		color:#535353;
+		
+		background:#ffffff no-repeat;
+		border-radius:4px; /* canto arrendondado no botões do menu */	
+	    -webkit-transition: all 0.5s ease-out;
+		
+	}
+	
+	.pagination{
+		width:auto;
+		float:right;
+		margin:-30px 5px 0 0; 
+	}
+	.pagination label{
+		line-height:33px;
+		display:inline-block;
+		margin:0;
+	}
+	.pagination .current{
+		font-weight:bold;
+	}
+	.pagination .all{
+		margin:0 20px 0 0;
+	}
+	.pagination .bt_down{
+		width:36px;
+		line-height:25px;
+		text-align:center;
+		font-weight:bold;
+		margin:0;
+		padding:0;
+	}
+	
+	
+	.pagination .disabled{
+		background:#c8c8c8;
+	}
+	
+	
+	.menu_nivel02 .bt_down:hover  {
+		background:#F7941E no-repeat;
+		color:#fff;
+	    -webkit-transition: all 0.5s ease-out;
+	}
+	
+	.pagination .disabled:hover{
+		background:#c8c8c8;
+		color:#535353;
+	    cursor:context-menu !important;
+		-webkit-transition:none;
+	}
+	
+	.pagination .pagina{ width: 34px; height: 25px; line-height: 25px; padding: 2px 0; text-align: center; font-weight: bold; }
+	
+	/* ícones do menu nível02 */
+	
+	.menu_nivel02 .filtro { background-image:url(/ecolaudo/imagens/icon_filtro_normal.png);}
+	.menu_nivel02 .filtro:hover { background-image:url(/ecolaudo/imagens/icon_filtro_over.png);}
+
+	.menu_nivel02 .exportar { background-image:url(/ecolaudo/imagens/icon_exportar_normal.png);}
+	.menu_nivel02 .exportar:hover {	background-image:url(/ecolaudo/imagens/icon_exportar_over.png);}
+
+	.menu_nivel02 .visualizar { background-image:url(/ecolaudo/imagens/icon_visualizar_normal.png); }
+	.menu_nivel02 .visualizar:hover { background-image:url(/ecolaudo/imagens/icon_visualizar_over.png); }
+
+	.menu_nivel02 .pastas { background-image:url(/ecolaudo/imagens/icon_pastas_normal.png); }
+	.menu_nivel02 .pastas:hover { background-image:url(/ecolaudo/imagens/icon_pastas_over.png);}
+
+	.menu_nivel02 .importar { background-image:url(/ecolaudo/imagens/icon_upload.png); }
+	.menu_nivel02 .importar:hover { background-image:url(/ecolaudo/imagens/icon_upload_hover.png);}
+	
+	.menu_nivel02 .amostra-email{ background-image:url(/ecolaudo/imagens/ico-copy.png); }
+	.menu_nivel02 .amostra-email:hover{ background-image:url(/ecolaudo/imagens/ico-copy-branco.png); }
+	
+
+
+		
+	
+/* HEADER OCULTA ( FILTROS / MENU OCULTO) */
+
+#header_oculta {	
+
+	height:0;
+	overflow:hidden;
+	-webkit-transition: all 0.5s ease-out;
+	width:100%;
+	background-color: #aaaaaa;
+	border-bottom:0px solid #c2c2c3;
+	/*	border:1px solid red; */
+}
+	
+	.box_pastas{ width:100%; }
+	/* .box_pastas ul { margin:-10px 0 0 0; } */
+	.box_pastas ul li{  display:inline-block; }
+	
+	.box_pastas .bt_down {
+		display:inline-table;
+		height:25px;
+		line-height:25px;
+		padding-left:15px;
+		padding-right:15px;
+		margin-right:10px;
+		color:#535353;
+		background:#ffffff no-repeat;
+		border-radius:4px; /* canto arrendondado no botões do menu */	
+	    -webkit-transition: all 0.5s ease-out;
+	}
+	.box_pastas .bt_down:hover  {
+		background:#F7941E no-repeat;
+		color:#fff;
+	    -webkit-transition: all 0.5s ease-out;
+	}
+
+	.box_pastas .disabled:hover{
+		background:#c8c8c8;
+		color:#535353;
+	    cursor:context-menu !important;
+		-webkit-transition:none;
+	}
+	.box_pastas .disabled{
+		background:#c8c8c8;
+	}
+	.box_pastas .conteudo_novo{
+		display:none;
+	}
+	.box_pastas input{
+		margin:-5px 10px 0 0;
+		padding:5px;
+		line-height:23px !important;
+		border-radius:3px;
+		border:none;
+	}
+	
+	.box_pastas .lista_pasta{
+		width:320px;
+		max-height:300px;
+		position:absolute;
+		z-index:1000;
+		display:none;
+		margin:0 0 0 0;
+		padding:1px 0 0 0;
+		overflow-y:auto;
+		overflow-x:hidden;
+		border-radius:5px;
+		/*border:1px solid #000;*/
+	}
+	.box_pastas .lista_pasta li{
+		line-height:25px;
+		display:block;
+		border-radius:0px !important;
+		border-bottom:1px solid #CCC;
+	}
+	
+	.box_pastas .lista_pasta .bt_down {
+		background:#e8f0df !important;
+		width:100%;
+	}
+	.box_pastas .lista_pasta .bt_down {
+		border-radius:0px !important;
+	}
+	
+	.box_pastas .lista_pasta .bt_down:hover {
+		background:#fafcc9 !important;
+		color:#535353;
+		 -webkit-transition:none !important;
+	}
+	.box_pastas .listagem-pastas{
+		margin:10px 0 0 0;
+		overflow-x: auto; 
+		white-space: nowrap;
+	}
+	.box_pastas .listagem-pastas ul{
+		margin:5px 0;
+		float:left;
+		/*border:1px solid #F00;*/
+	}
+	
+	.box_pastas .listagem-pastas .bt_down {
+		display:inline-table;
+		height:25px;
+		line-height:25px;
+		padding-left:29px;
+		padding-right:15px;
+		margin-right:10px;
+		color:#535353;
+		border-radius:4px; /* canto arrendondado no botões do menu */	
+	    -webkit-transition: all 0.5s ease-out;
+		background:#c8c8c8 url(/ecolaudo/imagens/icon_close_folder.png) no-repeat 2px 4px;
+	}
+	.box_pastas .listagem-pastas .enabled{
+		background:#ffffff url(/ecolaudo/imagens/icon_open_folder.png) no-repeat 2px 4px;
+	}
+	
+	
+	/* Cadastro de amostras para novo email*/
+	
+	.cad-amostra-email{ width:auto; margin:0 0 0 560px; }
+	.cad-amostra-email li{  display:inline-block; }
+	
+	.cad-amostra-email .bt_down {
+		display:inline-block;
+		height:25px;
+		line-height:25px;
+		padding-left:15px;
+		padding-right:15px;
+		margin-left:10px;
+		color:#535353;
+		background:#ffffff no-repeat;
+		border-radius:4px; /* canto arrendondado no botões do menu */	
+	    -webkit-transition: all 0.5s ease-out;
+	}
+	.cad-amostra-email .bt_down:hover  {
+		background:#F7941E no-repeat;
+		color:#fff;
+	    -webkit-transition: all 0.5s ease-out;
+	}
+	
+	
+	
+/* MENU NIVEL 03 */
+
+	.menu_nivel03 {
+		
+		width:100%;
+		height:auto;
+		display:table;
+		padding:10px 20px;
+	/*	border:1px solid red; */
+		
+	}
+	
+	.menu_nivel03 .content {
+	/*	border:1px solid green; */
+	}
+	
+	.box_filtros {
+		display:table;		
+		float:left;
+		margin-right:20px;
+	/*	border:1px solid red; */		
+	}
+	
+	.bt_sub {
+		float:left;
+		margin-right:20px;
+	}
+	
+	#form_data {
+		display:inline-table;
+		width:900px;
+		float:left;
+/*		border:2px solid blue;  */
+		
+	}
+	
+	.form_data ul {
+		list-style:none;
+	}
+	
+	#form_data ul li {
+		display:inline-table;
+	}
+	
+
+	
+/* Formulário dos Filtros (o calendário é definido no arquivo dentro de js/calendario_dropdown) */
+
+	.titulo {
+		margin-bottom:10px;
+		position: relative;
+		width: 250px;
+		height:30px;
+		padding:8px;
+		background: #e6e6e6;
+		border-radius: 4px;
+		outline: none;
+		color:#343333;
+		font-size:14px;
+		-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+		-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+		box-sizing: border-box;         /* Opera/IE 8+ */		
+	}
+
+	#col01, #col02, #col03, #col04 {			
+		width:200px;
+		height:30px;
+		margin-right:20px;			
+		z-index:100;
+		display:table;
+		float:left;
+	/*	border:1px solid red; */
+		z-index:2000;			
+	}
+	
+	#filtro_propriedade {
+		height:30px;
+		margin-left:20px;			
+		z-index:100;
+		display:table;
+		float:left;
+		border:1px solid green;
+		z-index:2000;			
+	}
+	
+	.form_box_data {
+		width:120px;
+		float:left;
+		height:30px;
+		border-radius:4px;
+		border: 0px solid #000000;
+		background:url(/ecolaudo/imagens/bg_calendar.png) no-repeat 0px 0px #e6e6e6;
+		padding-left:40px;
+		cursor:pointer;
+	}
+	
+		
+	.form_box_texto{
+		width:250px;
+		height:30px;
+		margin-bottom:10px;
+		
+		float:left;
+		border-radius:4px;
+		border: 0px solid #000000;
+		background:#e6e6e6;
+		font-size:13px;						
+		padding-left:10px;
+		
+	}
+	.form_box_texto:focus, .form_box_data:focus {
+		background:#fff;
+	}
+				
+		
+	
+/* */
+	
+
+	
+/* DROPDOWN LIST MENU SUPERIOR DE LOGIN / LOGOUT */
+.menu_superior_login{
+	z-index:0;
+}
+	.menu_superior_login .drop{
+		width:auto;
+		height:auto;
+		display:table;
+		border:3px solid #F7941E;
+		display: inline-block;
+		top:20px;
+		right:20px;
+		-webkit-border-radius: 15px;
+		-moz-border-radius: 15px;
+		border-radius: 15px;
+		position:absolute;
+		z-index:2;
+		}
+	.menu_superior_login .drop span{
+		width:100%;
+		color:#9abc78;
+		line-height:20px;
+		font-size: 13px;
+		color: #F7941E;
+		padding:0 5px;
+		display:inline-block;
+		border-radius:8px;
+		cursor:pointer;
+		/*border:1px solid #F00;*/
+		}
+		
+	.menu_superior_login .drop span:hover { /* aqui agente ajusta apenas a parte superior do menu */
+		color:#c8d7bb;
+	    cursor: pointer;
+	}
+	.menu_superior_login .drop ul{
+			width:auto;
+			margin:5px 0 0 0;
+			position:absolute;
+			border-radius:8px;
+			background:#F7941E;
+			display:none;
+			/*border:1px solid #0F9;*/
+		}
+		
+	.menu_superior_login .drop ul li{
+		line-height:15px;
+		border-bottom:1px solid #FFF ;
+		}
+
+	.menu_superior_login .drop ul li a {
+		width:100%;
+		display:inline-block;
+		color:#FFF;
+		font-size: 13px;
+		padding:5px 15px;
+		/*border:1px solid #F00;*/
+	}
+	.menu_superior_login .drop ul li a:hover {
+		color:#fff;
+		background:none;
+		-webkit-transition: all .3s;
+	}
+
+
+
+
+
+	
+
+/* */
+
+
+
+
+
+
+/* CONTEUDO */
+
+#conteudo {
+	width:100%;
+	/*height: 100%;                         para falta de suporte */  
+	height: -moz-calc(100% - 175px);
+	    height: -webkit-calc(100% - 175px);
+	    height: calc(100% - 175px);
+	padding:10px;
+	overflow:auto;
+	padding-bottom:130px;
+	display: block;
+	
+	/*border:1px solid red; */
+}
+
+
+/* listagem_amostra MAIN - início */
+	.fundo{ min-width: 1063px; height: 35px; border-bottom:1px solid #d5d5d6; background:#f9f9f9; display: block; position: fixed; display: block; right:27px; left:10px;  }
+	
+	.fundo table{ height: 35px; }
+	.fundo table tr{ line-height: 35px; }
+	.fundo table tr th {
+		/* define o estilo do título da listagem_amostra */
+		font-family:helvetica_condensedbold;
+		font-size:14px;
+		color:#464848;
+		height: 35px;
+		line-height: 35px;
+		
+	}
+	.fundo table tr th div{
+	
+		
+		margin-top: -5px;
+	  	height: 35px;
+	  	color: #000;
+	  	/*top: 180px;
+	  	padding-top: 4px;*/
+	  	line-height: 35px;
+	}
+
+
+
+	.listagem_amostra{
+		width:100%;
+		margin:-10px 0 0 0;
+		min-width:800px;
+	}
+	.listagem_amostra .topo_listagem{
+		right:27px;
+		left:10px;
+		z-index:0;
+	}
+	.listagem_amostra .topo_listagem 
+	.listagem_amostra .topo_listagem th{
+	  height: 0;
+	  line-height: 0;
+	  padding-top: 0;
+	  padding-bottom: 0;
+	  color: transparent;
+	  border: none;
+	  white-space: nowrap;
+	}
+
+	
+
+	.listagem_amostra thead tr:hover {
+		background:#f9f9f9;
+		cursor:auto;
+	}
+
+	.listagem_amostra .topo_listagem th div{
+	  	position: absolute;
+	  	color: transparent;
+		margin-top: -5px;
+	  	height: 20px;
+	  /*top: 180px;
+	  padding-top: 4px;*/
+	  /*line-height: 35px;*/
+	}
+
+
+
+
+	.listagem_amostra th {
+		/* define o estilo do título da listagem_amostra */
+		font-family:helvetica_condensedbold;
+		font-size:14px;
+		color:#464848;
+		
+	}
+	
+	.listagem_amostra td {
+		/* define o estilo das celulas (no geral) */
+		border-bottom:1px solid #d5d5d6;
+		vertical-align:middle;
+	}
+	
+	
+	
+	.listagem_amostra tr:nth-child(odd) {
+		/* define um estilo para linha par (alternar cores entre linhas) */
+		background:#f9f9f9;
+		
+	}
+	
+	.listagem_amostra tr {
+		background:pink;			
+	}
+	
+	.listagem_amostra tr {
+		background:#f9f9f9;
+		height:35px;
+		vertical-align:bottom;
+		padding-top:20px;
+		
+	}
+	
+	.listagem_amostra tr.cor {
+		/* define um estilo para linha ímpar (alternar cores entre linhas) */
+		background:#fff;
+		-webkit-transition: all 0.5s ease-out;
+	}
+	
+	
+	
+	.listagem_amostra tr:hover {
+		background:#fafcc9;
+		cursor:pointer;
+		-webkit-transition: all 0.5s ease-out;
+	}
+	.listagem_amostra a {
+		width:100%;
+		height:100%;
+		display:inline-block;
+		padding:5px 30px 5px 10px;
+		color:#3c4657;
+	/*	border:1px solid red; */
+		
+	}
+	.listagem_amostra .conteudo_tabela{
+		display:block;
+		margin:100px 0 0 0;
+	}
+
+	
+	
+	/* Cadastro -- */
+	.listagem_amostras{
+		width:100%;
+		margin:0 0 0 0;
+		min-width:800px;
+	}
+	
+	.listagem_amostras td{
+		/* define o estilo das celulas (no geral) */
+		border-bottom:1px solid #d5d5d6;
+		vertical-align:middle;
+	}
+	
+	.listagem_amostras tr {
+		background:#f9f9f9;
+		height:35px;
+		vertical-align:bottom;
+		padding-top:20px;
+	}
+
+	.listagem_amostras a {
+		width:100%;
+		height:100%;
+		display:inline-block;
+		padding-top:7px;
+		padding-left:10px;
+		padding-right:30px;		
+		text-align:right;
+		color:#333;
+	/*	border:1px solid red; */	
+	}
+		
+	.listagem_amostras tr.disabled:hover{
+		background:#c8c8c8 !important;
+		cursor:default;
+	}
+
+	.listagem_amostras .bt_down:hover  {
+		background:#F7941E no-repeat;
+		color:#fff;
+	    -webkit-transition: all 0.5s ease-out;
+	}
+	
+	.listagem_amostras .disabled{
+		background:#c8c8c8;
+	}
+	.listagem_amostras input[type=text]{
+		line-height:15px;
+	}
+
+
+
+	
+	/* Usuario */
+	
+	/* listagem_amostra MAIN - início 
+	.formulario_interno{
+		display:none;
+	}*/
+	.listagem_usuarios{
+		width:100%;
+		margin:0 0 0 0;
+		min-width:800px;
+	}
+	.listagem_usuarios thead tr:hover {
+		background:#f9f9f9;
+		cursor:auto;
+	}
+	
+	.listagem_usuarios td {
+		/* define o estilo das celulas (no geral) */
+		border-bottom:1px solid #d5d5d6;
+		vertical-align:middle;
+	}
+	
+	
+	
+	/*.listagem_usuarios tr:nth-child(odd) {
+		/* define um estilo para linha par (alternar cores entre linhas)
+		background:#f9f9f9;
+	}*/
+	.listagem_usuarios tr {
+		background:#f9f9f9;
+		height:35px;
+		vertical-align:bottom;
+		padding-top:20px;
+	}
+	.listagem_usuarios tr:hover {
+		background:#fafcc9;
+		cursor:pointer;
+		-webkit-transition: all 0.5s ease-out;
+	}
+	.listagem_usuarios a {
+		width:100%;
+		height:100%;
+		display:inline-block;
+		padding-top:7px;
+		padding-left:10px;
+		padding-right:30px;		
+		text-align:right;
+		color:#333;
+	/*	border:1px solid red; */	
+	}
+	.listagem_usuarios .lock {
+		float:right;
+		margin-right:40px;
+		cursor:default;	
+	}
+	
+	
+	.listagem_usuarios .selected td{
+		background:#ecefe8;
+	}
+	.listagem_usuarios .selected td:hover{
+		cursor:default;
+	}
+	
+	.listagem_usuarios tr.disabled:hover{
+		background:#f9f9f9 !important;
+		cursor:default;
+	}
+	
+	.listagem_usuarios .table_interna{
+		width:100%;
+		/*border:1px solid #000;*/
+	}
+	.listagem_usuarios .table_interna tr{
+		line-height:40px;
+	}
+	.listagem_usuarios .table_interna td{
+		width:50%;
+		/*border:1px solid #000;*/
+	}
+	.listagem_usuarios .table_interna label{
+		margin:0 10px 0 0;
+		float:right;
+	}
+	
+	
+	
+	.listagem_usuarios .table_interna input{
+		margin:0 10px 0 0;
+		float:left;		
+	}
+	.listagem_usuarios .table_interna .error_a{
+		color:#ecefe8;
+		float:left;
+	}
+	.listagem_usuarios .table_interna .error_b{
+		color:#ecefe8;
+		float:left;
+	}
+	.listagem_usuarios .table_interna .senha{
+		margin:10px 10px 0 0;
+	}
+	/*.listagem_usuarios .table_interna a{
+		height:25px;
+		width:150px;
+		margin:0;
+		padding:0;
+		border:1px solid #000;
+		display:inline-block;
+		float:left;	
+		text-align:center;
+		color:blue;
+	}*/
+	.listagem_usuarios .table_interna .erro{
+		float:left;
+	}
+	.table_interna .bt_down{
+		width:auto;
+		height:33px;
+		line-height:33px;
+		display:inline-block;
+		color:#535353;
+		text-align:center;
+		font-weight:bold;
+		margin:5px 0;
+		padding:0 10px;
+		background:#ffffff no-repeat;
+		border-radius:4px; /* canto arrendondado no botões do menu */	
+	    -webkit-transition: all 0.5s ease-out;
+	}
+	.table_interna .bt_down:hover  {
+		background:#F7941E no-repeat;
+		color:#fff;
+	    -webkit-transition: all 0.5s ease-out;
+	}
+	
+	.table_interna .disabled{
+		background:#c8c8c8;
+	}
+	.table_interna .disabled:hover{
+		cursor:default !important;
+		color:#535353;
+		background:#c8c8c8;
+	}
+	.table_interna input[type=text]{
+		line-height:15px;
+	}
+	
+	
+	/* Legendas de cada laboratório (cores e ícones) */
+	
+		.box_color {
+		
+			width:35px;
+			height:35px;
+			display:table;
+			
+		}
+	
+		.lab00 { width:35px; background:url(/ecolaudo/imagens/icon_lab00.png) left center no-repeat; } /* Icone Tubo Ensaio */				
+		.lab01 { width:35px; background:url(/ecolaudo/imagens/icon_lab01.png) -3px center no-repeat; border-left: 3px solid #a1ba6b; } /* Solo */
+		.lab02 { width:35px; background:url(/ecolaudo/imagens/icon_lab02.png) -3px center no-repeat; border-left: 3px solid #a1ba6b; } /* Folha */
+		.lab03 { width:35px; background:url(/ecolaudo/imagens/icon_lab03.png) -3px center no-repeat; border-left: 3px solid #aab7be; } /* Fertilizante */
+		.lab04 { width:35px; background:url(/ecolaudo/imagens/icon_lab04.png) -3px center no-repeat; border-left: 3px solid #a39887; } /* Nutricao Animal */
+		.lab05 { width:35px; background:url(/ecolaudo/imagens/icon_lab05.png) -3px center no-repeat; border-left: 3px solid #72a0b9; } /* Meio Ambiente */
+		.lab06 { width:35px; background:url(/ecolaudo/imagens/icon_lab06.png) -3px center no-repeat; border-left: 3px solid #a87574; } /* Nematóide */
+		.lab07 { width:35px; background:url(/ecolaudo/imagens/icon_lab07.png) -3px center no-repeat; border-left: 3px solid #847ba8; } /* Microbiologia */		
+		
+
+/* */
+
+
+/* listagem_amostra MAIN - fim */
+
+/* */
+
+
+/* DADOS DE FORMULÁRIO */
+
+	input[type=checkbox] {
+		width:18px;
+		height:18px;			
+	    -webkit-appearance:button;   
+		border-radius:3px;
+		border:1px solid #bbbbbb;
+		background-color:#fff;
+	}
+	
+	input[type=checkbox]:checked {
+		background:url(/ecolaudo/imagens/checked.png) #fff !important;
+	}
+	
+	input[type=checkbox]:hover {
+	   background:url(/ecolaudo/imagens/checked_over.png) #fff;
+	}
+
+	.check_{ margin-left: 9px; }
+/*  */
+
+	.float-right{
+	  float: right;
+	}
+
+
+/* placeholder - IE8 */
+.placeholder{
+	color:#c6b1a9;
+}
+input[type=text]{
+	line-height:25px;
+	vertical-align:center;
+	/*border:1px solid #000\9;*/
+}
+
+/*.block{
+	width:34px !important;
+	height:40px;
+	padding:0 0 0 10px;
+	display:inline-block;
+	background:url(/ecolaudo/imagens/waiting.png) no-repeat right;
+}*/
+
+
+
+.block{
+	width:20px !important;
+	height:21px;
+	display:inline-block;
+	margin:10px;
+	/*background:url(/ecolaudo/imagens/waiting.png) no-repeat right;*/
+}
+.blocked{
+	cursor:default;
+	color:#999 !important;
+}
+
+/* FOOTER */
+	#footer {
+		width:100%;
+		height:25px;
+		line-height:25px;
+		background:#bdbdbd;
+		border-top:1px solid #a8a8a8;
+		display:table;
+		position:absolute;
+		bottom:0px;
+	}
+
+	
+	#footer .logo_allims {
+		width:81px;
+		height:25px;
+		float:right;
+		background:url(/ecolaudo/imagens/logo_allims.png) center no-repeat;
+		text-indent:-100px;
+		display:table;
+		overflow:hidden;
+	}
+
+
+/* LOADING */
+.loading{
+	width:100%;
+	height:100%;
+	background:url(/ecolaudo/imagens/ajax-loader.gif) no-repeat center rgba(0,0,0,0.05);
+	opacity:0.6;
+	-moz-opacity: 0.6;
+	filter: alpha(opacity=60);
+	position:fixed;
+	top:0;
+	border:1px solid #000;	
+	z-index:9999;
+	display:none;
+}
+.modal{
+	width:100%;
+	height:100%;
+	background-image:url(/ecolaudo/imagens/modal.png),url(/ecolaudo/imagens/ajax-loader.gif);
+	background-repeat:repeat, no-repeat;
+	background-position:center;
+	position:fixed;
+	top:0 !important;
+	right:0 !important;
+	left:0 !important;
+	z-index:9999;
+	display:none;
+}
+.modal iframe{
+	height:100%;
+	width:80%;
+	min-width:610px;
+	overflow:auto;
+	margin:0 auto;
+	display:block;
+	-webkit-overflow-scrolling: touch;
+}
+
+.modal iframe{ width:80%; }
+
+
+
+.pergunta_grafico{
+	width:auto;
+	min-width:200px;
+	height:70px;
+	padding:20px 0 0 20px;
+	position:absolute;
+	border:1px solid #333;
+	top:50%; 
+	left:50%;
+	margin:-35px 0 0 -100px;
+	background:#FFF;
+	z-index:9999;
+	display:none;
+	text-align:center;
+}
+
+.pergunta_grafico .bt_down {
+		font-family: 'helvetica_condensedregular';
+		display:inline-table;
+		height:25px;
+		line-height:25px;
+		padding-left:15px;
+		padding-right:15px;
+		margin:0 20px 0 0;
+		color:#535353;
+		background:#ffffff no-repeat;
+		border:1px solid #CCC;
+		border-radius:4px; /* canto arrendondado no bot�es do menu */	
+	    -webkit-transition: all 0.5s ease-out;
+	}
+.pergunta_grafico .bt_down:hover  {
+	background:#F7941E no-repeat;
+	color:#fff;
+	-webkit-transition: all 0.5s ease-out;
+}
+
+.pergunta_grafico .listagem{
+	width:auto;
+	max-width:500px;
+	max-height:200px;
+	position:absolute;
+	z-index:1000;
+	display:none;
+	margin:0 0 0 0 !important;
+	padding:1px 0 0 0;
+	overflow-y:auto;
+	overflow-x:hidden !important;
+	border-radius:5px;
+	text-align:left;
+	/*border:1px solid #000;*/
+}
+.pergunta_grafico .listagem li{
+	line-height:25px;
+	display:block;
+	border-radius:0px !important;
+	border-bottom:1px solid #CCC;
+}
+
+.pergunta_grafico .listagem .bt_down {
+	background:#e8f0df !important;
+	width:100%;
+}
+.pergunta_grafico .listagem .bt_down {
+	border-radius:0px !important;
+}
+
+.pergunta_grafico .listagem .bt_down:hover {
+	background:#fafcc9 !important;
+	color:#535353;
+	 -webkit-transition:none !important;
+}
+.pergunta_grafico .listagem {
+	margin:10px 0 0 0;
+	overflow-x: auto; 
+	white-space: nowrap;
+}
+.pergunta_grafico .listagem .ul{
+	margin:5px 0;
+	float:left;
+	/*border:1px solid #F00;*/
+}
+
+.pergunta_grafico .listagem .bt_down {
+	display:inline-table;
+	height:25px;
+	line-height:25px;
+	padding-left:29px;
+	padding-right:15px;
+	margin-right:10px;
+	color:#535353;
+	border-radius:4px; /* canto arrendondado no bot�es do menu */	
+	-webkit-transition: all 0.5s ease-out;
+	background:#c8c8c8 url(/imagens/icon_close_folder.png) no-repeat 2px 4px;
+}
+.pergunta_grafico .listagem .enabled{
+	background:#ffffff url(/imagens/icon_open_folder.png) no-repeat 2px 4px;
+}
+
+
+.listagem_amostra #conteudo_tabela .recomendar{
+width: 16px;
+height: 16px;
+/*border: 1px solid #F00;*/
+cursor: pointer;
+display: inline-block;
+border: none;
+margin: 1px 3px;
+background: url('/ecolaudo/imagens/mais_16x16.png') center no-repeat;
+}
+
+.listagem_amostra #conteudo_tabela .calc_aguardando{
+width: 16px;
+height: 16px;
+/*border: 1px solid #F00;*/
+display: inline-block;
+border: none;
+margin: 1px 3px;
+background: url('/ecolaudo/imagens/time_16x16.png') center no-repeat;
+}
+
+.listagem_amostra #conteudo_tabela .calc_ok{
+width: 16px;
+height: 16px;
+/*border: 1px solid #F00;*/
+display: inline-block;
+border: none !important;
+margin: 1px 3px;
+background: url('/ecolaudo/imagens/ok_16x16.png') center no-repeat;
+}
+
+.listagem_amostra #conteudo_tabela .calc_erro{
+width: 16px;
+height: 16px;
+/*border: 1px solid #F00;*/
+display: inline-block;
+border: none;
+margin: 1px 3px;
+background: url('/ecolaudo/imagens/alert_16x16.png') center no-repeat;
+}
+
+.listagem_amostra #conteudo_tabela .rec_editar{
+width: 16px;
+height: 16px;
+/*border: 1px solid #F00;*/
+display: inline-block;
+cursor: pointer;
+border: none;
+margin: 1px 3px;
+background: url('/ecolaudo/imagens/edit_16x16.png') center no-repeat;
+}
+
+.listagem_amostra #conteudo_tabela .editar_amostra{
+width: 16px;
+height: 16px;
+/*border: 1px solid #F00;*/
+display: inline-block;
+cursor: pointer;
+border: none;
+margin: 1px 3px;
+background: url('/ecolaudo/imagens/btn_editar_16x16.png') center no-repeat;
+}
+
+.box_recomendacao{ width: 100%; height: auto; min-height: calc(100%-105px); background: #FFF; position: fixed; z-index: 9997; margin-top: 105px; }
+
+
+/* .modal iframe{
+	height:100%;
+	width:80%;
+	min-width:610px;
+	overflow:auto;
+	margin:0 auto;
+	display:block;
+	-webkit-overflow-scrolling: touch;
+} */
+
+
+/* Cadastro Amostra */
+.fundo_cadastro { background: #F9F9F9; display: table; }
+.fundo_cadastro .img{ display: inline-block; margin-top: 5px; vertical-align: top; }
+.fundo_cadastro .img .img_preview{ width: 100px; border: 1px solid #dfdfdf; margin: -2px -15px 0 0; display: inline-block;  }
+.fundo_cadastro .img a{ width: 10px; height: 10px; vertical-align: top; background: url('/ecolaudo/imagens/ico_remove.png') center no-repeat; display: inline-block; /* position: absolute; margin-top: -100px; margin: -95px 0 0 -10px; */  }
+
+.table_100{ width: 100% !important; }
+
+.table_cadastro{ width:auto; float: left; vertical-align: top; padding: 10px 5px; margin-top: 0 auto; }
+.table_cadastro tr{ width: auto; /* height:20px; */ line-height:25px;  }
+.table_cadastro td{ border-bottom: 1px solid #D5D5D6; }
+.table_cadastro input{ margin:2px 10px 2px 0; border: 1px solid #A9A9A9; /* float:left; */ }
+.table_cadastro input[type=text]{ width: 100%; display: block; line-height:15px; font-size: 12px; }
+.table_cadastro select{width: 100%;}
+.table_cadastro .resultados{ width: 50px !important; }
+
+
+.table_cadastro .bt_down{ width:auto; height:33px; line-height:33px; display:inline-block; border: 1px solid #D5D5D6; color:#535353; text-align:center; font-weight:bold; 	margin:5px 0; 	padding:0 10px; 	background:#ffffff no-repeat; 	border-radius:4px; /* canto arrendondado no botões do menu	 */     -webkit-transition: all 0.5s ease-out; }
+
+.table_interna .bt_down:hover  { background:#F7941E no-repeat; color:#fff; -webkit-transition: all 0.5s ease-out;  }
+
+input[readonly]{ background: #F9F9F9; }
+
+select[readonly] {
+  background: #eee; 
+  pointer-events: none;
+  touch-action: none;
+}

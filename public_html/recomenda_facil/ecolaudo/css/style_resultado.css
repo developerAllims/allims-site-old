@@ -1,0 +1,76 @@
+html, body{ 
+	padding:0; 
+	margin:0; 
+	background:#F5F5F5; 
+	font-family:'helvetica_condensedregular'; 
+	background:transparent !important;
+	color:#000 !important;
+	text-shadow:none !important;
+	filter:none !important;
+	-ms-filter:none !important;
+}
+
+canvas{	}
+
+.center{ margin:0 auto; }
+
+.content{ width:90%; min-width:940px; margin-top:-20px; background:#FBFBFB; padding:10px 0; display:table;}
+
+.content h3{ width:auto; line-height:40px; text-align:center; background:#8bb363; color:#FFF; margin:10px 0; padding:0; font-family:'helvetica_condensedbold';}
+
+strong{font-family:'helvetica_condensedbold';}
+
+/*Pagina Resultados*/
+.informacoes{}
+.informacoes span{ line-height:25px; width:400px; display:inline-block; }
+
+
+.result-analitico{ width:100%; display:table; padding:0 10px; }
+.result-analitico .resultado{ width:94px; border:1px solid #000; margin:0 2px; text-align:center; float:left; }
+
+.result-analitico .resultado h3, h4, h5, p{ margin:0; padding:0;}
+.result-analitico .resultado h3{ height:30px; background:none; color:#000; font-size:20px;}
+.result-analitico .resultado h4{ border-bottom:1px solid #000; color:#666; font-size:15px; }
+.result-analitico .resultado h5{ color:#999; font-size:13px; }
+.result-analitico .resultado p{ font-size:20px; font-family:'helvetica_condensedbold'; }
+
+.culturas{ width:100%; display:table; }
+.culturas div{ width:33%; height:80px; float:left; margin:0; padding:1px; border:1px solid #9B9B9B; }
+.culturas div p{ font-size:12px; display:block; margin-bottom:30px;  }
+.culturas div span{ font-size:20px; margin-left:5px; }
+.culturas .cultura{ }
+.culturas .espacamento{}
+.culturas .producao{}
+
+.indice_nutigrama{ }
+.indice_nutigrama .bar{ }
+.indice_nutigrama .bar canvas{ width:100%; height:100px;}
+
+.indice_dris{  width:900px; display:table; margin:0 auto 50px auto; }
+.indice_dris .informacoes_dris{ width:150px; margin:30px; border:1px solid #8bb363; float:left; }
+.indice_dris .informacoes_dris tr { border-bottom:1px solid #8bb363; }
+.indice_dris .informacoes_dris tr td{ text-align:center; border:1px solid #8bb363; }
+
+.indice_dris .radar{ width:300px; float:left; margin:30px auto 0 100px; }
+
+.footer{ text-align:center; padding:5px 0; border-top:2px solid #8bb363; border-bottom:2px solid #8bb363;}
+.footer p{ font-size:12px; }
+.footer span{ width:800px; display:block; margin:0 auto; }
+.footer .texto{ margin:5px 0; padding:5px 0; border-top:1px solid #8bb363; border-bottom:1px solid #8bb363; }
+.footer .texto p{ font-size:10px;}
+
+
+
+.botoes{ width:100%; margin:20px 0 10px 0; display:table; }
+.botoes input[type=button]{ width:100px; height:40px; display:inline-block; background:#99b87b; border:1px solid #6a963e; color:#FFF; font-family:'helvetica_condensedbold'; font-size:15px; border-radius:5px; }
+.botoes .imprimir{ float:right; }
+.botoes input[type=button]:hover{ background:#b2c89d; cursor:pointer; }
+
+
+@media print {
+	 .result-analitico .resultado{ width:70px; border:1px solid #000; margin:0 2px; text-align:center; float:left; }
+	 .culturas div{ width:309px; }
+	 .footer{ margin-top:-100px; }
+	 .indice_nutigrama .bar #canvas_bar{ width:940px !important; }
+	 .botoes{ display:none; }
+}

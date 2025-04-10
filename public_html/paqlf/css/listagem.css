@@ -1,0 +1,10 @@
+.body table{ width: 100%; min-width: 1100px;  text-align: center; color: #828282; padding: 0 15px; }
+.body table th{ padding: 0 10px; }
+.body table tr{ height: 35px; line-height: 35px; }
+.body table .cinza_escuro{ background: #e5e5e5; }
+.body table .cinza_claro{ background: #f6f6f6; }
+.body table .cabecalho{ background: #cfcfcf !important; }
+.body table tbody{ background: #e5e5e5; }
+.body table .edit{ width: 16px; height: 16px; display: inline-block; vertical-align: middle; background: url('/images/input_editable_preto.png'); }
+.body table .excluir{ width: 16px; height: 16px; line-height: 16px; vertical-align: middle; background: url('/images/cancelar.png') center no-repeat; display: inline-block; }
+.body table .link_pesquisa{ width: auto; height: 16px; display: block; vertical-align: middle; background: url('/images/ico_amotras.png') center no-repeat; }

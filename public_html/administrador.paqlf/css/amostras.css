@@ -1,0 +1,17 @@
+.body table .cinza_claro td:first-child{ text-align: left; padding: 0 10px; }
+.body table .cinza td:first-child{ text-align: left; padding: 0 10px; }
+.body table .cabecalho{ background: #cfcfcf !important; }
+.body table .cinza{ background: #fbfbfb; }
+.body table .align_left{ text-align: left; padding: 0 10px; }
+
+.body table .sub_item{ height: 0px; line-height: 0px; /*display: none;*/ }
+.body table .abrir{ cursor: pointer; }
+/*0000CD --- 07D100*/
+.body table .um_aterisco{ color: #EBA000; font-weight: bold;}
+.body table .dois_aterisco{ color:#FF644C; font-weight: bold; }
+.body table .tres_aterisco{ color: #B70000; font-weight: bold; }
+
+h2 form{ display: inline-block; float: right; font-size: 17px; }
+h2 form input{ width: 50px; height: 25px; line-height: 20px; padding: 0 10px; font-size: 17px; }
+h2 form .pesquisar{ width: 18px; height: 20px; display: inline-block; background: url('/images/bg_busca_btn.png') center no-repeat; float: right; margin: 0 0 0 3px; }
+

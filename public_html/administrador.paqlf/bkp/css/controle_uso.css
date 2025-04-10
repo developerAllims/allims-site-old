@@ -1,0 +1,6 @@
+.filtro{ width: auto; display: inline-block; float: right; margin: 0 5px 0 0;}
+.filtro input[type=checkbox]{ display: none; }
+.filtro .check{ width: auto; height: 20px; line-height: 20px; cursor: pointer; display: inline-block; background-color:#FFF; background-image:url('/images/ico_check_off.png'); background-repeat: no-repeat; background-position: left center; vertical-align: middle; padding: 7px 0 5px 25px; margin-left: 10px; }
+.filtro .checked{ width: auto; height: 20px; line-height: 20px;  cursor: pointer; display: inline-block; background-color:#FFF; background-image:url('/images/ico_check_on.png'); background-repeat: no-repeat; background-position: left center; vertical-align: middle; padding-left: 25px; margin-left: 10px; }
+.filtro label{ height: 30px; line-height: 30px; background: #e5e5e5; font-size: 17px; color: #828282; display: inline-block; padding: 0 0 0 10px; }
+.filtro select{ width: auto; height: 25px; line-height: 25px; margin: 0; border: none;  display: inline-block; padding: 0 25px 0 10px; color: #828282; border: 1px solid #dcdcdc;}

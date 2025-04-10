@@ -1,0 +1,62 @@
+/* CSS Document */
+.opiniao{
+	width:300px;
+	height:300px;
+	position:fixed;
+	/*bottom:-375px;*/
+	bottom:-270px;
+	left:40%;
+	/*border:1px solid #000;*/
+}
+.opiniao .push{
+	width:70px;
+	height:25px;
+	margin:0 0 0 115px;
+	border-radius:7px; 
+	border:1px solid #CCC;
+	border-bottom:none;
+
+	background: #fff url(/ecolaudo/imagens/icon_seta_up.png) no-repeat center !important ;
+	/*border:1px solid #F00;*/
+}
+
+.opiniao form{
+	width:100%;
+	height:275px;
+	margin:-5px 0 0 0;
+	padding:15px;
+	border-radius:7px; 
+	background:#dfdfdf;
+	border:1px solid #CCC;
+}
+.opiniao form p{
+	margin:5px 0;
+	display:block;
+}
+.opiniao form textarea{
+	width:100%;
+	height:50%;
+	resize:none;
+	margin:5px 0;
+	display:block;
+}
+
+.opiniao .bt_down{
+	display:inline-table;
+	height:33px;
+	padding:10px;
+	color:#535353;
+	background:#ffffff no-repeat;
+	border-radius:4px; /* canto arrendondado no botões do menu */	
+	-webkit-transition: all 0.5s ease-out;	
+}
+.opiniao .bt_down:hover{
+	background:#6f9d41 no-repeat;
+	color:#fff;
+	-webkit-transition: all 0.5s ease-out;
+}
+
+.opiniao .envio{
+	float:right\9;
+	margin-left:135px;
+}

@@ -1,0 +1,167 @@
+Log created: 2022-11-20 18:00:43
+Type: backup
+[2022-11-20 18:00:45][notice]Start backing up.
+[2022-11-20 18:00:45][notice]server info fcgi:On max execution time: 180 wp version:6.1.1 php version:7.3.28 db version:5.7.32 php ini:safe_mode: memory_limit:256M memory_get_usage:128,32 MB memory_get_peak_usage:214,86 MB extensions:PDO enabled curl enabled zlib enabled   is_multisite:0
+[2022-11-20 18:00:46][notice]Prepare to backup backup_db files.
+[2022-11-20 18:00:48][notice]Start exporting database.
+[2022-11-20 18:00:48][notice]Preparing to dump table wp_wfblockediplog
+[2022-11-20 18:00:49][notice]Preparing to dump table wp_wfls_settings
+[2022-11-20 18:00:51][notice]Preparing to dump table wp_wffilechanges
+[2022-11-20 18:00:52][notice]Preparing to dump table wp_wftrafficrates
+[2022-11-20 18:00:54][notice]Preparing to dump table wp_wpmailsmtp_tasks_meta
+[2022-11-20 18:00:55][notice]Preparing to dump table wp_wfcrawlers
+[2022-11-20 18:00:57][notice]Preparing to dump table wp_wpmailsmtp_debug_events
+[2022-11-20 18:00:59][notice]Preparing to dump table wp_wflocs
+[2022-11-20 18:01:00][notice]Preparing to dump table wp_cli_scripts
+[2022-11-20 18:01:02][notice]Preparing to dump table wp_cli_cookie_scan_url
+[2022-11-20 18:01:03][notice]Preparing to dump table wp_wfnotifications
+[2022-11-20 18:01:05][notice]Preparing to dump table wp_cli_cookie_scan
+[2022-11-20 18:01:06][notice]Preparing to dump table wp_wfreversecache
+[2022-11-20 18:01:08][notice]Preparing to dump table wp_wfls_2fa_secrets
+[2022-11-20 18:01:09][notice]Preparing to dump table wp_cli_cookie_scan_categories
+[2022-11-20 18:01:10][notice]Preparing to dump table wp_links
+[2022-11-20 18:01:12][notice]Preparing to dump table wp_yoast_migrations
+[2022-11-20 18:01:14][notice]Preparing to dump table wp_wflivetraffichuman
+[2022-11-20 18:01:15][notice]Preparing to dump table wp_wpvivid_options
+[2022-11-20 18:01:17][notice]Preparing to dump table wp_term_relationships
+[2022-11-20 18:01:18][notice]Preparing to dump table wp_wfhoover
+[2022-11-20 18:01:20][notice]Preparing to dump table wp_actionscheduler_claims
+[2022-11-20 18:01:21][notice]Preparing to dump table wp_actionscheduler_groups
+[2022-11-20 18:01:23][notice]Preparing to dump table wp_yoast_seo_links
+[2022-11-20 18:01:24][notice]Preparing to dump table wp_usermeta
+[2022-11-20 18:01:25][notice]Preparing to dump table wp_imagify_folders
+[2022-11-20 18:01:28][notice]Preparing to dump table wp_actionscheduler_logs
+[2022-11-20 18:01:29][notice]Preparing to dump table wp_terms
+[2022-11-20 18:01:30][notice]Preparing to dump table wp_cli_cookie_scan_cookies
+[2022-11-20 18:01:32][notice]Preparing to dump table wp_termmeta
+[2022-11-20 18:01:34][notice]Preparing to dump table wp_commentmeta
+[2022-11-20 18:01:35][notice]Preparing to dump table wp_term_taxonomy
+[2022-11-20 18:01:37][notice]Preparing to dump table wp_yoast_primary_term
+[2022-11-20 18:01:39][notice]Preparing to dump table wp_wfsnipcache
+[2022-11-20 18:01:40][notice]Preparing to dump table wp_yoast_indexable_hierarchy
+[2022-11-20 18:01:41][notice]Preparing to dump table wp_wfblocks7
+[2022-11-20 18:01:43][notice]Preparing to dump table wp_wpr_rocket_cache
+[2022-11-20 18:01:45][notice]Preparing to dump table wp_users
+[2022-11-20 18:01:46][notice]Preparing to dump table wp_wfissues
+[2022-11-20 18:01:48][notice]Preparing to dump table wp_wfpendingissues
+[2022-11-20 18:01:50][notice]Preparing to dump table wp_comments
+[2022-11-20 18:01:51][notice]Preparing to dump table wp_wpr_rucss_used_css
+[2022-11-20 18:01:52][notice]Preparing to dump table wp_actionscheduler_actions
+[2022-11-20 18:01:53][notice]Preparing to dump table wp_imagify_files
+[2022-11-20 18:01:55][notice]Preparing to dump table wp_yoast_indexable
+[2022-11-20 18:01:56][notice]Preparing to dump table wp_wfstatus
+[2022-11-20 18:01:58][notice]Preparing to dump table wp_wsal_occurrences
+[2022-11-20 18:02:00][notice]Preparing to dump table wp_wflogins
+[2022-11-20 18:02:01][notice]Preparing to dump table wp_postmeta
+[2022-11-20 18:02:03][notice]Preparing to dump table wp_posts
+[2022-11-20 18:02:04][notice]Preparing to dump table wp_wfhits
+[2022-11-20 18:02:06][notice]Preparing to dump table wp_wfconfig
+[2022-11-20 18:02:07][notice]Preparing to dump table wp_wfknownfilelist
+[2022-11-20 18:02:09][notice]Preparing to dump table wp_wsal_metadata
+[2022-11-20 18:02:11][notice]Preparing to dump table wp_wffilemods
+[2022-11-20 18:02:13][notice]Preparing to dump table wp_options
+[2022-11-20 18:02:16][notice]Exporting database finished.
+[2022-11-20 18:02:16][notice]Start compressing database
+[2022-11-20 18:02:17][notice]Prepare to zip file. file: www.allims.com.br_backupagk-637a957b39ce2_2022-11-20-18-00_backup_db.sql
+[2022-11-20 18:02:18][notice]Adding zip files completed.www.allims.com.br_backupagk-637a957b39ce2_2022-11-20-18-00_backup_db.part001.zip, filesize: 2,51 MB
+[2022-11-20 18:02:19][notice]Compressing database completed
+[2022-11-20 18:02:20][notice]Backing up backup_db completed.
+[2022-11-20 18:02:21][notice]Prepare to backup backup_themes files.
+[2022-11-20 18:02:23][notice]Compressing zip file:www.allims.com.br_backupagk-637a957b39ce2_2022-11-20-18-00_backup_themes.part001.zip index:500
+[2022-11-20 18:02:27][notice]Compressing zip file:www.allims.com.br_backupagk-637a957b39ce2_2022-11-20-18-00_backup_themes.part001.zip success. index:500 file size:7,16 MB
+[2022-11-20 18:02:28][notice]Compressing zip file:www.allims.com.br_backupagk-637a957b39ce2_2022-11-20-18-00_backup_themes.part001.zip index:1000
+[2022-11-20 18:02:34][notice]Compressing zip file:www.allims.com.br_backupagk-637a957b39ce2_2022-11-20-18-00_backup_themes.part001.zip success. index:1000 file size:13,61 MB
+[2022-11-20 18:02:35][notice]Compressing zip file:www.allims.com.br_backupagk-637a957b39ce2_2022-11-20-18-00_backup_themes.part001.zip index:1500
+[2022-11-20 18:02:37][notice]Compressing zip file:www.allims.com.br_backupagk-637a957b39ce2_2022-11-20-18-00_backup_themes.part001.zip success. index:1500 file size:16,82 MB
+[2022-11-20 18:02:40][notice]Backing up backup_themes completed.
+[2022-11-20 18:02:42][notice]Prepare to backup backup_plugin files.
+[2022-11-20 18:02:45][notice]Compressing zip file:www.allims.com.br_backupagk-637a957b39ce2_2022-11-20-18-00_backup_plugin.part001.zip index:500
+[2022-11-20 18:02:46][notice]Compressing zip file:www.allims.com.br_backupagk-637a957b39ce2_2022-11-20-18-00_backup_plugin.part001.zip success. index:500 file size:1,20 MB
+[2022-11-20 18:02:47][notice]Compressing zip file:www.allims.com.br_backupagk-637a957b39ce2_2022-11-20-18-00_backup_plugin.part001.zip index:1000
+[2022-11-20 18:02:48][notice]Compressing zip file:www.allims.com.br_backupagk-637a957b39ce2_2022-11-20-18-00_backup_plugin.part001.zip success. index:1000 file size:2,97 MB
+[2022-11-20 18:02:49][notice]Compressing zip file:www.allims.com.br_backupagk-637a957b39ce2_2022-11-20-18-00_backup_plugin.part001.zip index:1500
+[2022-11-20 18:02:50][notice]Compressing zip file:www.allims.com.br_backupagk-637a957b39ce2_2022-11-20-18-00_backup_plugin.part001.zip success. index:1500 file size:4,47 MB
+[2022-11-20 18:02:51][notice]Compressing zip file:www.allims.com.br_backupagk-637a957b39ce2_2022-11-20-18-00_backup_plugin.part001.zip index:2000
+[2022-11-20 18:02:52][notice]Compressing zip file:www.allims.com.br_backupagk-637a957b39ce2_2022-11-20-18-00_backup_plugin.part001.zip success. index:2000 file size:6,26 MB
+[2022-11-20 18:02:52][notice]Compressing zip file:www.allims.com.br_backupagk-637a957b39ce2_2022-11-20-18-00_backup_plugin.part001.zip index:2500
+[2022-11-20 18:02:54][notice]Compressing zip file:www.allims.com.br_backupagk-637a957b39ce2_2022-11-20-18-00_backup_plugin.part001.zip success. index:2500 file size:14,87 MB
+[2022-11-20 18:02:55][notice]Compressing zip file:www.allims.com.br_backupagk-637a957b39ce2_2022-11-20-18-00_backup_plugin.part001.zip index:3000
+[2022-11-20 18:02:57][notice]Compressing zip file:www.allims.com.br_backupagk-637a957b39ce2_2022-11-20-18-00_backup_plugin.part001.zip success. index:3000 file size:17,58 MB
+[2022-11-20 18:02:58][notice]Compressing zip file:www.allims.com.br_backupagk-637a957b39ce2_2022-11-20-18-00_backup_plugin.part001.zip index:3500
+[2022-11-20 18:02:59][notice]Compressing zip file:www.allims.com.br_backupagk-637a957b39ce2_2022-11-20-18-00_backup_plugin.part001.zip success. index:3500 file size:18,45 MB
+[2022-11-20 18:03:00][notice]Compressing zip file:www.allims.com.br_backupagk-637a957b39ce2_2022-11-20-18-00_backup_plugin.part001.zip index:4000
+[2022-11-20 18:03:02][notice]Compressing zip file:www.allims.com.br_backupagk-637a957b39ce2_2022-11-20-18-00_backup_plugin.part001.zip success. index:4000 file size:22,12 MB
+[2022-11-20 18:03:03][notice]Compressing zip file:www.allims.com.br_backupagk-637a957b39ce2_2022-11-20-18-00_backup_plugin.part001.zip index:4500
+[2022-11-20 18:03:05][notice]Compressing zip file:www.allims.com.br_backupagk-637a957b39ce2_2022-11-20-18-00_backup_plugin.part001.zip success. index:4500 file size:23,61 MB
+[2022-11-20 18:03:06][notice]Compressing zip file:www.allims.com.br_backupagk-637a957b39ce2_2022-11-20-18-00_backup_plugin.part001.zip index:5000
+[2022-11-20 18:03:14][notice]Compressing zip file:www.allims.com.br_backupagk-637a957b39ce2_2022-11-20-18-00_backup_plugin.part001.zip success. index:5000 file size:28,13 MB
+[2022-11-20 18:03:14][notice]Compressing zip file:www.allims.com.br_backupagk-637a957b39ce2_2022-11-20-18-00_backup_plugin.part001.zip index:5500
+[2022-11-20 18:03:16][notice]Compressing zip file:www.allims.com.br_backupagk-637a957b39ce2_2022-11-20-18-00_backup_plugin.part001.zip success. index:5500 file size:29,05 MB
+[2022-11-20 18:03:17][notice]Compressing zip file:www.allims.com.br_backupagk-637a957b39ce2_2022-11-20-18-00_backup_plugin.part001.zip index:6000
+[2022-11-20 18:03:18][notice]Compressing zip file:www.allims.com.br_backupagk-637a957b39ce2_2022-11-20-18-00_backup_plugin.part001.zip success. index:6000 file size:29,57 MB
+[2022-11-20 18:03:19][notice]Compressing zip file:www.allims.com.br_backupagk-637a957b39ce2_2022-11-20-18-00_backup_plugin.part001.zip index:6500
+[2022-11-20 18:03:22][notice]Compressing zip file:www.allims.com.br_backupagk-637a957b39ce2_2022-11-20-18-00_backup_plugin.part001.zip success. index:6500 file size:32,19 MB
+[2022-11-20 18:03:23][notice]Compressing zip file:www.allims.com.br_backupagk-637a957b39ce2_2022-11-20-18-00_backup_plugin.part001.zip index:7000
+[2022-11-20 18:03:24][notice]Compressing zip file:www.allims.com.br_backupagk-637a957b39ce2_2022-11-20-18-00_backup_plugin.part001.zip success. index:7000 file size:32,49 MB
+[2022-11-20 18:03:26][notice]Backing up backup_plugin completed.
+[2022-11-20 18:03:29][notice]Prepare to backup backup_uploads files.
+[2022-11-20 18:03:31][notice]Compressing zip file:www.allims.com.br_backupagk-637a957b39ce2_2022-11-20-18-00_backup_uploads.part001.zip index:500
+[2022-11-20 18:03:35][notice]Compressing zip file:www.allims.com.br_backupagk-637a957b39ce2_2022-11-20-18-00_backup_uploads.part001.zip success. index:500 file size:13,79 MB
+[2022-11-20 18:03:38][notice]Backing up backup_uploads completed.
+[2022-11-20 18:03:40][notice]Prepare to backup backup_content files.
+[2022-11-20 18:03:42][notice]Compressing zip file:www.allims.com.br_backupagk-637a957b39ce2_2022-11-20-18-00_backup_content.part001.zip index:500
+[2022-11-20 18:04:21][notice]Compressing zip file:www.allims.com.br_backupagk-637a957b39ce2_2022-11-20-18-00_backup_content.part001.zip success. index:500 file size:63,91 MB
+[2022-11-20 18:04:24][notice]Backing up backup_content completed.
+[2022-11-20 18:04:26][notice]Prepare to backup backup_core files.
+[2022-11-20 18:04:28][notice]Compressing zip file:www.allims.com.br_backupagk-637a957b39ce2_2022-11-20-18-00_backup_core.part001.zip index:500
+[2022-11-20 18:04:29][notice]Compressing zip file:www.allims.com.br_backupagk-637a957b39ce2_2022-11-20-18-00_backup_core.part001.zip success. index:500 file size:1,04 MB
+[2022-11-20 18:04:30][notice]Compressing zip file:www.allims.com.br_backupagk-637a957b39ce2_2022-11-20-18-00_backup_core.part001.zip index:1000
+[2022-11-20 18:04:30][notice]Compressing zip file:www.allims.com.br_backupagk-637a957b39ce2_2022-11-20-18-00_backup_core.part001.zip success. index:1000 file size:2,22 MB
+[2022-11-20 18:04:31][notice]Compressing zip file:www.allims.com.br_backupagk-637a957b39ce2_2022-11-20-18-00_backup_core.part001.zip index:1500
+[2022-11-20 18:04:32][notice]Compressing zip file:www.allims.com.br_backupagk-637a957b39ce2_2022-11-20-18-00_backup_core.part001.zip success. index:1500 file size:4,62 MB
+[2022-11-20 18:04:33][notice]Compressing zip file:www.allims.com.br_backupagk-637a957b39ce2_2022-11-20-18-00_backup_core.part001.zip index:2000
+[2022-11-20 18:04:37][notice]Compressing zip file:www.allims.com.br_backupagk-637a957b39ce2_2022-11-20-18-00_backup_core.part001.zip success. index:2000 file size:10,30 MB
+[2022-11-20 18:04:38][notice]Compressing zip file:www.allims.com.br_backupagk-637a957b39ce2_2022-11-20-18-00_backup_core.part001.zip index:2500
+[2022-11-20 18:04:39][notice]Compressing zip file:www.allims.com.br_backupagk-637a957b39ce2_2022-11-20-18-00_backup_core.part001.zip success. index:2500 file size:12,50 MB
+[2022-11-20 18:04:40][notice]Compressing zip file:www.allims.com.br_backupagk-637a957b39ce2_2022-11-20-18-00_backup_core.part001.zip index:3000
+[2022-11-20 18:04:40][notice]Compressing zip file:www.allims.com.br_backupagk-637a957b39ce2_2022-11-20-18-00_backup_core.part001.zip success. index:3000 file size:12,59 MB
+[2022-11-20 18:04:43][notice]Backing up backup_core completed.
+[2022-11-20 18:04:45][notice]Prepare to backup backup_merge files.
+[2022-11-20 18:04:47][notice]Prepare to zip file. file: www.allims.com.br_backupagk-637a957b39ce2_2022-11-20-18-00_backup_db.zip
+[2022-11-20 18:04:47][notice]Adding zip files completed.www.allims.com.br_backupagk-637a957b39ce2_2022-11-20-18-00_backup_all.part001.zip, filesize: 2,42 MB
+[2022-11-20 18:04:48][notice]Prepare to zip file. file: www.allims.com.br_backupagk-637a957b39ce2_2022-11-20-18-00_backup_themes.zip
+[2022-11-20 18:04:49][notice]Adding zip files completed.www.allims.com.br_backupagk-637a957b39ce2_2022-11-20-18-00_backup_all.part001.zip, filesize: 18,98 MB
+[2022-11-20 18:04:50][notice]Prepare to zip file. file: www.allims.com.br_backupagk-637a957b39ce2_2022-11-20-18-00_backup_plugin.zip
+[2022-11-20 18:04:52][notice]Adding zip files completed.www.allims.com.br_backupagk-637a957b39ce2_2022-11-20-18-00_backup_all.part001.zip, filesize: 49,99 MB
+[2022-11-20 18:04:53][notice]Prepare to zip file. file: www.allims.com.br_backupagk-637a957b39ce2_2022-11-20-18-00_backup_uploads.zip
+[2022-11-20 18:04:55][notice]Adding zip files completed.www.allims.com.br_backupagk-637a957b39ce2_2022-11-20-18-00_backup_all.part001.zip, filesize: 63,72 MB
+[2022-11-20 18:04:55][notice]Prepare to zip file. file: www.allims.com.br_backupagk-637a957b39ce2_2022-11-20-18-00_backup_content.zip
+[2022-11-20 18:05:00][notice]Adding zip files completed.www.allims.com.br_backupagk-637a957b39ce2_2022-11-20-18-00_backup_all.part001.zip, filesize: 126,72 MB
+[2022-11-20 18:05:01][notice]Prepare to zip file. file: www.allims.com.br_backupagk-637a957b39ce2_2022-11-20-18-00_backup_core.zip
+[2022-11-20 18:05:03][notice]Adding zip files completed.www.allims.com.br_backupagk-637a957b39ce2_2022-11-20-18-00_backup_all.part001.zip, filesize: 138,91 MB
+[2022-11-20 18:05:07][notice]Backing up backup_merge completed.
+[2022-11-20 18:05:09][notice]Check upload folder www_allims_com_br
+[2022-11-20 18:05:10][notice]Start uploading www.allims.com.br_backupagk-637a957b39ce2_2022-11-20-18-00_backup_all.zip
+[2022-11-20 18:05:11][notice]Check if the server already has the same name file.
+[2022-11-20 18:05:12][notice]Initiate a resumable upload session.
+[2022-11-20 18:05:14][notice]Uploading www.allims.com.br_backupagk-637a957b39ce2_2022-11-20-18-00_backup_all.zip Total size: 138,91 MB Uploaded: 2,00 MB speed:524.29kb/s
+[2022-11-20 18:05:20][notice]Uploading www.allims.com.br_backupagk-637a957b39ce2_2022-11-20-18-00_backup_all.zip Total size: 138,91 MB Uploaded: 10,00 MB speed:2097.15kb/s
+[2022-11-20 18:05:26][notice]Uploading www.allims.com.br_backupagk-637a957b39ce2_2022-11-20-18-00_backup_all.zip Total size: 138,91 MB Uploaded: 18,00 MB speed:2097.15kb/s
+[2022-11-20 18:05:31][notice]Uploading www.allims.com.br_backupagk-637a957b39ce2_2022-11-20-18-00_backup_all.zip Total size: 138,91 MB Uploaded: 24,00 MB speed:1572.86kb/s
+[2022-11-20 18:05:36][notice]Uploading www.allims.com.br_backupagk-637a957b39ce2_2022-11-20-18-00_backup_all.zip Total size: 138,91 MB Uploaded: 30,00 MB speed:1572.86kb/s
+[2022-11-20 18:05:41][notice]Uploading www.allims.com.br_backupagk-637a957b39ce2_2022-11-20-18-00_backup_all.zip Total size: 138,91 MB Uploaded: 37,00 MB speed:1835.01kb/s
+[2022-11-20 18:05:47][notice]Uploading www.allims.com.br_backupagk-637a957b39ce2_2022-11-20-18-00_backup_all.zip Total size: 138,91 MB Uploaded: 44,00 MB speed:1835.01kb/s
+[2022-11-20 18:05:52][notice]Uploading www.allims.com.br_backupagk-637a957b39ce2_2022-11-20-18-00_backup_all.zip Total size: 138,91 MB Uploaded: 51,00 MB speed:1835.01kb/s
+[2022-11-20 18:05:58][notice]Uploading www.allims.com.br_backupagk-637a957b39ce2_2022-11-20-18-00_backup_all.zip Total size: 138,91 MB Uploaded: 59,00 MB speed:2097.15kb/s
+[2022-11-20 18:06:04][notice]Uploading www.allims.com.br_backupagk-637a957b39ce2_2022-11-20-18-00_backup_all.zip Total size: 138,91 MB Uploaded: 67,00 MB speed:2097.15kb/s
+[2022-11-20 18:06:09][notice]Uploading www.allims.com.br_backupagk-637a957b39ce2_2022-11-20-18-00_backup_all.zip Total size: 138,91 MB Uploaded: 73,00 MB speed:1572.86kb/s
+[2022-11-20 18:06:14][notice]Uploading www.allims.com.br_backupagk-637a957b39ce2_2022-11-20-18-00_backup_all.zip Total size: 138,91 MB Uploaded: 81,00 MB speed:2097.15kb/s
+[2022-11-20 18:06:19][notice]Uploading www.allims.com.br_backupagk-637a957b39ce2_2022-11-20-18-00_backup_all.zip Total size: 138,91 MB Uploaded: 89,00 MB speed:2097.15kb/s
+[2022-11-20 18:06:24][notice]Uploading www.allims.com.br_backupagk-637a957b39ce2_2022-11-20-18-00_backup_all.zip Total size: 138,91 MB Uploaded: 97,00 MB speed:2097.15kb/s
+[2022-11-20 18:06:29][notice]Uploading www.allims.com.br_backupagk-637a957b39ce2_2022-11-20-18-00_backup_all.zip Total size: 138,91 MB Uploaded: 106,00 MB speed:2359.3kb/s
+[2022-11-20 18:06:34][notice]Uploading www.allims.com.br_backupagk-637a957b39ce2_2022-11-20-18-00_backup_all.zip Total size: 138,91 MB Uploaded: 114,00 MB speed:2097.15kb/s
+[2022-11-20 18:06:39][notice]Uploading www.allims.com.br_backupagk-637a957b39ce2_2022-11-20-18-00_backup_all.zip Total size: 138,91 MB Uploaded: 122,00 MB speed:2097.15kb/s
+[2022-11-20 18:06:44][notice]Uploading www.allims.com.br_backupagk-637a957b39ce2_2022-11-20-18-00_backup_all.zip Total size: 138,91 MB Uploaded: 131,00 MB speed:2359.3kb/s
+[2022-11-20 18:06:50][notice]Uploading www.allims.com.br_backupagk-637a957b39ce2_2022-11-20-18-00_backup_all.zip Total size: 138,91 MB Uploaded: 138,91 MB speed:1658.74kb/s
+[2022-11-20 18:06:51][notice]Finished uploading www.allims.com.br_backupagk-637a957b39ce2_2022-11-20-18-00_backup_all.zip
+[2022-11-20 18:06:53][notice]Finish upload to googledrive

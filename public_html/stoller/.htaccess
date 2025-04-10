@@ -1,0 +1,18 @@
+<IfModule mod_rewrite.c>
+	RewriteEngine On
+	
+	RewriteRule ^/?$ 												ecolaudo/index.php [NC,L]
+	RewriteRule ^amostras/?$ 										ecolaudo/amostras.php [NC,L]
+	RewriteRule ^amostras/([a-z,0-9,A-Z,_-]+)/?$ 					ecolaudo/amostras.php?folder=$1 
+	RewriteRule ^amostras/([a-z,0-9,A-Z,_-]+)/([0-9]+)/?$ 			ecolaudo/amostras.php?folder=$1&pag=$2
+	RewriteRule ^email/(.*)/?$ 										ecolaudo/index.php?email=$1 
+	RewriteRule ^usuario/?$ 										ecolaudo/usuario.php [NC,L]
+	RewriteRule ^formulario/?$ 										ecolaudo/formulario.php [NC,L]
+	RewriteRule ^template/?$ 										ecolaudo/template.php [NC,L]
+	RewriteRule ^cadastro/?$ 										ecolaudo/cadastro.php [NC,L]
+	RewriteRule ^cadastro/([a-z,0-9,A-Z,_-]+)/?$ 					ecolaudo/cadastro.php?samp=$1 
+
+	RewriteRule ^api/?$ 											api/api/api.php [NC,L]
+	RewriteRule ^api/([A-Za-z0-9-_]+)/?$ 							api/api/api.php?api_function=$1 [NC,L]
+	RewriteRule ^api/([A-Za-z0-9-_]+)/([A-Za-z0-9-_]+)/?$ 			api/api/api.php?api_function=$1&parameter=$2 [NC,L]
+</IfModule>

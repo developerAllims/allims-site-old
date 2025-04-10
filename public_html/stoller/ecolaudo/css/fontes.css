@@ -1,0 +1,62 @@
+@charset "UTF-8";
+/* CSS FONTS */
+@font-face {
+    font-family: 'bariol_regularregular';
+    src: url('/ecolaudo/fonts/bariol_regular-webfont.eot');
+    src: url('/ecolaudo/fonts/bariol_regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/ecolaudo/fonts/bariol_regular-webfont.woff') format('woff'),
+         url('/ecolaudo/fonts/bariol_regular-webfont.ttf') format('truetype'),
+         url('/ecolaudo/fonts/bariol_regular-webfont.svg#bariol_regularregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+	@font-face {
+		font-family: 'helvetica_condensedregular';
+		src: url('/ecolaudo/fonts/ps-webfont.eot');
+		src: url('/ecolaudo/fonts/ps-webfont.eot?#iefix') format('embedded-opentype'),
+			 url('/ecolaudo/fonts/ps-webfont.woff') format('woff'),
+			 url('/ecolaudo/fonts/ps-webfont.ttf') format('truetype'),
+			 url('/ecolaudo/fonts/ps-webfont.svg#helvetica_condensedregular') format('svg');
+		font-weight: normal;
+		font-style: normal;
+	
+	}	
+	
+	@font-face {
+		font-family: 'helvetica_condensedbold';
+		src: url('/ecolaudo/fonts/ps_1-webfont.eot');
+		src: url('/ecolaudo/fonts/ps_1-webfont.eot?#iefix') format('embedded-opentype'),
+			 url('/ecolaudo/fonts/ps_1-webfont.woff') format('woff'),
+			 url('/ecolaudo/fonts/ps_1-webfont.ttf') format('truetype'),
+			 url('/ecolaudo/fonts/ps_1-webfont.svg#helvetica_condensedbold') format('svg');
+		font-weight: normal;
+		font-style: normal;
+	
+	}
+	
+	
+	
+	
+
+		
+/* */
+
+
+.fonte_padrao {
+	font-family:helvetica_condensedregular;
+	font-size:15px;
+}
+
+.fonte_input {
+	font-family:helvetica_condensedregular;
+	font-size:13px;
+}
+
+.fonte_listagem_amostra {
+	font-family:helvetica_condensedregular;
+	font-size:14px;
+	color:#363533;	
+}

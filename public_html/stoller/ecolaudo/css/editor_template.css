@@ -1,0 +1,51 @@
+.rTitlePractice{
+    Font-Weight: Bold;
+    Font-Size: 12px;
+    Color: #E8E8E8;
+    Background-color: #363636;
+    Font-Family: 'helvetica_condensedregular';
+    text-align: center;
+    line-height: 26px;
+}
+.rTitleSubPractice{
+    Font-Weight: Bold;
+    Font-Size: 12px;
+    Color: #6E6E6E;
+    Background-color: #F9F9F9;
+    Font-Family: 'helvetica_condensedregular';
+    line-height: 22px;
+    /*text-align: center;*/
+    border-top: 1px solid #BDBDBD;
+    border-bottom: 1px solid #BDBDBD;
+}
+.rPhraseInputs{
+    Font-Weight: Normal;
+    Font-Size: 12px;
+    Color: #363636;
+    Font-Family: 'helvetica_condensedregular';
+}
+.rTitleInputs{
+    Font-Weight: Bold;
+    Font-Size: 12px;
+    Color: #363636;
+    Font-Family: 'helvetica_condensedregular';
+}
+.rTitleInputsAddOn{
+    Font-Weig   ht: Bold;
+    Font-Size: 12px;
+    Color: #363636;
+    Font-Family: 'helvetica_condensedregular';
+}
+.rInputs{
+    Font-Weight: Normal;
+    Font-Size: 12px;
+    Color: #363636;
+    Font-Family: 'helvetica_condensedregular';
+}
+.rObs{
+    Font-Weight: Normal;
+    Font-Size: 12px;
+    Color: #363636;
+    Font-Family: 'helvetica_condensedregular';
+}
+

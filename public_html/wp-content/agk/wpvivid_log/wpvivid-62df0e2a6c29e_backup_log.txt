@@ -1,0 +1,332 @@
+Log created: 2022-07-25 18:42:02
+Type: backup
+[2022-07-25 18:42:02][notice]Start backing up.
+[2022-07-25 18:42:02][notice]server info fcgi:On max execution time: 900 wp version:6.0.1 php version:7.3.28 db version:5.7.32 php ini:safe_mode: memory_limit:256M memory_get_usage:119,24 MB memory_get_peak_usage:141,39 MB extensions:PDO enabled curl enabled zlib enabled   is_multisite:0
+[2022-07-25 18:42:03][notice]Prepare to backup backup_db files.
+[2022-07-25 18:42:03][notice]Start exporting database.
+[2022-07-25 18:42:03][notice]Preparing to dump table wp_wffilechanges
+[2022-07-25 18:42:03][notice]Preparing to dump table wp_wpmailsmtp_tasks_meta
+[2022-07-25 18:42:04][notice]Preparing to dump table wp_wflocs
+[2022-07-25 18:42:04][notice]Preparing to dump table wp_wfls_settings
+[2022-07-25 18:42:04][notice]Preparing to dump table wp_wfnotifications
+[2022-07-25 18:42:05][notice]Preparing to dump table wp_wfreversecache
+[2022-07-25 18:42:05][notice]Preparing to dump table wp_wfblockediplog
+[2022-07-25 18:42:05][notice]Preparing to dump table wp_wpmailsmtp_debug_events
+[2022-07-25 18:42:06][notice]Preparing to dump table wp_wftrafficrates
+[2022-07-25 18:42:06][notice]Preparing to dump table wp_cli_scripts
+[2022-07-25 18:42:06][notice]Preparing to dump table wp_cli_cookie_scan_url
+[2022-07-25 18:42:07][notice]Preparing to dump table wp_cli_cookie_scan
+[2022-07-25 18:42:07][notice]Preparing to dump table wp_wfcrawlers
+[2022-07-25 18:42:07][notice]Preparing to dump table wp_yoast_migrations
+[2022-07-25 18:42:08][notice]Preparing to dump table wp_cli_cookie_scan_categories
+[2022-07-25 18:42:08][notice]Preparing to dump table wp_links
+[2022-07-25 18:42:09][notice]Preparing to dump table wp_wfls_2fa_secrets
+[2022-07-25 18:42:09][notice]Preparing to dump table wp_term_relationships
+[2022-07-25 18:42:09][notice]Preparing to dump table wp_actionscheduler_groups
+[2022-07-25 18:42:09][notice]Preparing to dump table wp_wflivetraffichuman
+[2022-07-25 18:42:10][notice]Preparing to dump table wp_wfhoover
+[2022-07-25 18:42:10][notice]Preparing to dump table wp_actionscheduler_claims
+[2022-07-25 18:42:10][notice]Preparing to dump table wp_yoast_primary_term
+[2022-07-25 18:42:11][notice]Preparing to dump table wp_yoast_seo_links
+[2022-07-25 18:42:11][notice]Preparing to dump table wp_imagify_folders
+[2022-07-25 18:42:11][notice]Preparing to dump table wp_usermeta
+[2022-07-25 18:42:12][notice]Preparing to dump table wp_actionscheduler_logs
+[2022-07-25 18:42:12][notice]Preparing to dump table wp_cli_cookie_scan_cookies
+[2022-07-25 18:42:13][notice]Preparing to dump table wp_terms
+[2022-07-25 18:42:13][notice]Preparing to dump table wp_termmeta
+[2022-07-25 18:42:13][notice]Preparing to dump table wp_term_taxonomy
+[2022-07-25 18:42:13][notice]Preparing to dump table wp_commentmeta
+[2022-07-25 18:42:14][notice]Preparing to dump table wp_wfblocks7
+[2022-07-25 18:42:14][notice]Preparing to dump table wp_users
+[2022-07-25 18:42:14][notice]Preparing to dump table wp_yoast_indexable_hierarchy
+[2022-07-25 18:42:15][notice]Preparing to dump table wp_wfsnipcache
+[2022-07-25 18:42:15][notice]Preparing to dump table wp_wpr_rucss_resources
+[2022-07-25 18:42:16][notice]Preparing to dump table wp_wfpendingissues
+[2022-07-25 18:42:16][notice]Preparing to dump table wp_wfissues
+[2022-07-25 18:42:16][notice]Preparing to dump table wp_comments
+[2022-07-25 18:42:17][notice]Preparing to dump table wp_wpr_rucss_used_css
+[2022-07-25 18:42:17][notice]Preparing to dump table wp_actionscheduler_actions
+[2022-07-25 18:42:17][notice]Preparing to dump table wp_imagify_files
+[2022-07-25 18:42:18][notice]Preparing to dump table wp_yoast_indexable
+[2022-07-25 18:42:18][notice]Preparing to dump table wp_postmeta
+[2022-07-25 18:42:18][notice]Preparing to dump table wp_wsal_occurrences
+[2022-07-25 18:42:19][notice]Preparing to dump table wp_wfstatus
+[2022-07-25 18:42:20][notice]Preparing to dump table wp_wflogins
+[2022-07-25 18:42:20][notice]Preparing to dump table wp_posts
+[2022-07-25 18:42:21][notice]Preparing to dump table wp_wfhits
+[2022-07-25 18:42:21][notice]Preparing to dump table wp_wsal_metadata
+[2022-07-25 18:42:22][notice]Preparing to dump table wp_wfconfig
+[2022-07-25 18:42:22][notice]Preparing to dump table wp_wfknownfilelist
+[2022-07-25 18:42:23][notice]Preparing to dump table wp_wffilemods
+[2022-07-25 18:42:24][notice]Preparing to dump table wp_options
+[2022-07-25 18:42:25][notice]Exporting database finished.
+[2022-07-25 18:42:25][notice]Start compressing database
+[2022-07-25 18:42:25][notice]Prepare to zip file. file: backupagk-62df0e2a6c29e_2022-07-25-18-42_backup_db.sql
+[2022-07-25 18:42:26][notice]Adding zip files completed.backupagk-62df0e2a6c29e_2022-07-25-18-42_backup_db.part001.zip, filesize: 2,32 MB
+[2022-07-25 18:42:26][notice]Compressing database completed
+[2022-07-25 18:42:27][notice]Backing up backup_db completed.
+[2022-07-25 18:42:27][notice]Prepare to backup backup_themes files.
+[2022-07-25 18:42:29][notice]Compressing zip file:backupagk-62df0e2a6c29e_2022-07-25-18-42_backup_themes.part001.zip index:0
+[2022-07-25 18:42:30][notice]Compressing zip file:backupagk-62df0e2a6c29e_2022-07-25-18-42_backup_themes.part001.zip success. index:100 file size:1,63 MB
+[2022-07-25 18:42:30][notice]Compressing zip file:backupagk-62df0e2a6c29e_2022-07-25-18-42_backup_themes.part001.zip index:100
+[2022-07-25 18:42:30][notice]Compressing zip file:backupagk-62df0e2a6c29e_2022-07-25-18-42_backup_themes.part001.zip success. index:200 file size:1,89 MB
+[2022-07-25 18:42:30][notice]Compressing zip file:backupagk-62df0e2a6c29e_2022-07-25-18-42_backup_themes.part001.zip index:200
+[2022-07-25 18:42:31][notice]Compressing zip file:backupagk-62df0e2a6c29e_2022-07-25-18-42_backup_themes.part001.zip success. index:300 file size:3,66 MB
+[2022-07-25 18:42:31][notice]Compressing zip file:backupagk-62df0e2a6c29e_2022-07-25-18-42_backup_themes.part001.zip index:300
+[2022-07-25 18:42:32][notice]Compressing zip file:backupagk-62df0e2a6c29e_2022-07-25-18-42_backup_themes.part001.zip success. index:400 file size:4,07 MB
+[2022-07-25 18:42:32][notice]Compressing zip file:backupagk-62df0e2a6c29e_2022-07-25-18-42_backup_themes.part001.zip index:400
+[2022-07-25 18:42:33][notice]Compressing zip file:backupagk-62df0e2a6c29e_2022-07-25-18-42_backup_themes.part001.zip success. index:500 file size:4,44 MB
+[2022-07-25 18:42:33][notice]Compressing zip file:backupagk-62df0e2a6c29e_2022-07-25-18-42_backup_themes.part001.zip index:500
+[2022-07-25 18:42:33][notice]Compressing zip file:backupagk-62df0e2a6c29e_2022-07-25-18-42_backup_themes.part001.zip success. index:600 file size:4,67 MB
+[2022-07-25 18:42:33][notice]Compressing zip file:backupagk-62df0e2a6c29e_2022-07-25-18-42_backup_themes.part001.zip index:600
+[2022-07-25 18:42:34][notice]Compressing zip file:backupagk-62df0e2a6c29e_2022-07-25-18-42_backup_themes.part001.zip success. index:700 file size:5,12 MB
+[2022-07-25 18:42:34][notice]Compressing zip file:backupagk-62df0e2a6c29e_2022-07-25-18-42_backup_themes.part001.zip index:700
+[2022-07-25 18:42:38][notice]Compressing zip file:backupagk-62df0e2a6c29e_2022-07-25-18-42_backup_themes.part001.zip success. index:800 file size:8,71 MB
+[2022-07-25 18:42:38][notice]Compressing zip file:backupagk-62df0e2a6c29e_2022-07-25-18-42_backup_themes.part001.zip index:800
+[2022-07-25 18:42:39][notice]Compressing zip file:backupagk-62df0e2a6c29e_2022-07-25-18-42_backup_themes.part001.zip success. index:900 file size:10,02 MB
+[2022-07-25 18:42:39][notice]Compressing zip file:backupagk-62df0e2a6c29e_2022-07-25-18-42_backup_themes.part001.zip index:900
+[2022-07-25 18:42:40][notice]Compressing zip file:backupagk-62df0e2a6c29e_2022-07-25-18-42_backup_themes.part001.zip success. index:1000 file size:10,15 MB
+[2022-07-25 18:42:40][notice]Compressing zip file:backupagk-62df0e2a6c29e_2022-07-25-18-42_backup_themes.part001.zip index:1000
+[2022-07-25 18:42:41][notice]Compressing zip file:backupagk-62df0e2a6c29e_2022-07-25-18-42_backup_themes.part001.zip success. index:1100 file size:10,24 MB
+[2022-07-25 18:42:41][notice]Compressing zip file:backupagk-62df0e2a6c29e_2022-07-25-18-42_backup_themes.part001.zip index:1100
+[2022-07-25 18:42:41][notice]Compressing zip file:backupagk-62df0e2a6c29e_2022-07-25-18-42_backup_themes.part001.zip success. index:1200 file size:10,51 MB
+[2022-07-25 18:42:41][notice]Compressing zip file:backupagk-62df0e2a6c29e_2022-07-25-18-42_backup_themes.part001.zip index:1200
+[2022-07-25 18:42:43][notice]Compressing zip file:backupagk-62df0e2a6c29e_2022-07-25-18-42_backup_themes.part001.zip success. index:1300 file size:12,48 MB
+[2022-07-25 18:42:43][notice]Compressing zip file:backupagk-62df0e2a6c29e_2022-07-25-18-42_backup_themes.part001.zip index:1300
+[2022-07-25 18:42:44][notice]Compressing zip file:backupagk-62df0e2a6c29e_2022-07-25-18-42_backup_themes.part001.zip success. index:1400 file size:13,72 MB
+[2022-07-25 18:42:44][notice]Compressing zip file:backupagk-62df0e2a6c29e_2022-07-25-18-42_backup_themes.part001.zip index:1400
+[2022-07-25 18:42:45][notice]Compressing zip file:backupagk-62df0e2a6c29e_2022-07-25-18-42_backup_themes.part001.zip success. index:1500 file size:18,82 MB
+[2022-07-25 18:42:45][notice]Compressing zip file:backupagk-62df0e2a6c29e_2022-07-25-18-42_backup_themes.part001.zip index:1500
+[2022-07-25 18:42:45][notice]Compressing zip file:backupagk-62df0e2a6c29e_2022-07-25-18-42_backup_themes.part001.zip success. index:1600 file size:18,85 MB
+[2022-07-25 18:42:46][notice]Backing up backup_themes completed.
+[2022-07-25 18:42:47][notice]Prepare to backup backup_plugin files.
+[2022-07-25 18:42:52][notice]Compressing zip file:backupagk-62df0e2a6c29e_2022-07-25-18-42_backup_plugin.part001.zip index:0
+[2022-07-25 18:42:52][notice]Compressing zip file:backupagk-62df0e2a6c29e_2022-07-25-18-42_backup_plugin.part001.zip success. index:100 file size:370,12 KB
+[2022-07-25 18:42:52][notice]Compressing zip file:backupagk-62df0e2a6c29e_2022-07-25-18-42_backup_plugin.part001.zip index:100
+[2022-07-25 18:42:52][notice]Compressing zip file:backupagk-62df0e2a6c29e_2022-07-25-18-42_backup_plugin.part001.zip success. index:200 file size:605,21 KB
+[2022-07-25 18:42:52][notice]Compressing zip file:backupagk-62df0e2a6c29e_2022-07-25-18-42_backup_plugin.part001.zip index:200
+[2022-07-25 18:42:53][notice]Compressing zip file:backupagk-62df0e2a6c29e_2022-07-25-18-42_backup_plugin.part001.zip success. index:300 file size:900,08 KB
+[2022-07-25 18:42:53][notice]Compressing zip file:backupagk-62df0e2a6c29e_2022-07-25-18-42_backup_plugin.part001.zip index:300
+[2022-07-25 18:42:53][notice]Compressing zip file:backupagk-62df0e2a6c29e_2022-07-25-18-42_backup_plugin.part001.zip success. index:400 file size:1,03 MB
+[2022-07-25 18:42:53][notice]Compressing zip file:backupagk-62df0e2a6c29e_2022-07-25-18-42_backup_plugin.part001.zip index:400
+[2022-07-25 18:42:54][notice]Compressing zip file:backupagk-62df0e2a6c29e_2022-07-25-18-42_backup_plugin.part001.zip success. index:500 file size:1,19 MB
+[2022-07-25 18:42:54][notice]Compressing zip file:backupagk-62df0e2a6c29e_2022-07-25-18-42_backup_plugin.part001.zip index:500
+[2022-07-25 18:42:54][notice]Compressing zip file:backupagk-62df0e2a6c29e_2022-07-25-18-42_backup_plugin.part001.zip success. index:600 file size:1,33 MB
+[2022-07-25 18:42:54][notice]Compressing zip file:backupagk-62df0e2a6c29e_2022-07-25-18-42_backup_plugin.part001.zip index:600
+[2022-07-25 18:42:54][notice]Compressing zip file:backupagk-62df0e2a6c29e_2022-07-25-18-42_backup_plugin.part001.zip success. index:700 file size:1,49 MB
+[2022-07-25 18:42:54][notice]Compressing zip file:backupagk-62df0e2a6c29e_2022-07-25-18-42_backup_plugin.part001.zip index:700
+[2022-07-25 18:42:55][notice]Compressing zip file:backupagk-62df0e2a6c29e_2022-07-25-18-42_backup_plugin.part001.zip success. index:800 file size:2,06 MB
+[2022-07-25 18:42:55][notice]Compressing zip file:backupagk-62df0e2a6c29e_2022-07-25-18-42_backup_plugin.part001.zip index:800
+[2022-07-25 18:42:56][notice]Compressing zip file:backupagk-62df0e2a6c29e_2022-07-25-18-42_backup_plugin.part001.zip success. index:900 file size:2,72 MB
+[2022-07-25 18:42:56][notice]Compressing zip file:backupagk-62df0e2a6c29e_2022-07-25-18-42_backup_plugin.part001.zip index:900
+[2022-07-25 18:42:56][notice]Compressing zip file:backupagk-62df0e2a6c29e_2022-07-25-18-42_backup_plugin.part001.zip success. index:1000 file size:2,98 MB
+[2022-07-25 18:42:56][notice]Compressing zip file:backupagk-62df0e2a6c29e_2022-07-25-18-42_backup_plugin.part001.zip index:1000
+[2022-07-25 18:42:57][notice]Compressing zip file:backupagk-62df0e2a6c29e_2022-07-25-18-42_backup_plugin.part001.zip success. index:1100 file size:3,19 MB
+[2022-07-25 18:42:57][notice]Compressing zip file:backupagk-62df0e2a6c29e_2022-07-25-18-42_backup_plugin.part001.zip index:1100
+[2022-07-25 18:42:57][notice]Compressing zip file:backupagk-62df0e2a6c29e_2022-07-25-18-42_backup_plugin.part001.zip success. index:1200 file size:3,46 MB
+[2022-07-25 18:42:57][notice]Compressing zip file:backupagk-62df0e2a6c29e_2022-07-25-18-42_backup_plugin.part001.zip index:1200
+[2022-07-25 18:42:58][notice]Compressing zip file:backupagk-62df0e2a6c29e_2022-07-25-18-42_backup_plugin.part001.zip success. index:1300 file size:3,75 MB
+[2022-07-25 18:42:58][notice]Compressing zip file:backupagk-62df0e2a6c29e_2022-07-25-18-42_backup_plugin.part001.zip index:1300
+[2022-07-25 18:42:58][notice]Compressing zip file:backupagk-62df0e2a6c29e_2022-07-25-18-42_backup_plugin.part001.zip success. index:1400 file size:4,26 MB
+[2022-07-25 18:42:58][notice]Compressing zip file:backupagk-62df0e2a6c29e_2022-07-25-18-42_backup_plugin.part001.zip index:1400
+[2022-07-25 18:42:59][notice]Compressing zip file:backupagk-62df0e2a6c29e_2022-07-25-18-42_backup_plugin.part001.zip success. index:1500 file size:5,20 MB
+[2022-07-25 18:42:59][notice]Compressing zip file:backupagk-62df0e2a6c29e_2022-07-25-18-42_backup_plugin.part001.zip index:1500
+[2022-07-25 18:43:00][notice]Compressing zip file:backupagk-62df0e2a6c29e_2022-07-25-18-42_backup_plugin.part001.zip success. index:1600 file size:5,25 MB
+[2022-07-25 18:43:00][notice]Compressing zip file:backupagk-62df0e2a6c29e_2022-07-25-18-42_backup_plugin.part001.zip index:1600
+[2022-07-25 18:43:00][notice]Compressing zip file:backupagk-62df0e2a6c29e_2022-07-25-18-42_backup_plugin.part001.zip success. index:1700 file size:5,39 MB
+[2022-07-25 18:43:00][notice]Compressing zip file:backupagk-62df0e2a6c29e_2022-07-25-18-42_backup_plugin.part001.zip index:1700
+[2022-07-25 18:43:00][notice]Compressing zip file:backupagk-62df0e2a6c29e_2022-07-25-18-42_backup_plugin.part001.zip success. index:1800 file size:5,56 MB
+[2022-07-25 18:43:00][notice]Compressing zip file:backupagk-62df0e2a6c29e_2022-07-25-18-42_backup_plugin.part001.zip index:1800
+[2022-07-25 18:43:01][notice]Compressing zip file:backupagk-62df0e2a6c29e_2022-07-25-18-42_backup_plugin.part001.zip success. index:1900 file size:10,39 MB
+[2022-07-25 18:43:01][notice]Compressing zip file:backupagk-62df0e2a6c29e_2022-07-25-18-42_backup_plugin.part001.zip index:1900
+[2022-07-25 18:43:02][notice]Compressing zip file:backupagk-62df0e2a6c29e_2022-07-25-18-42_backup_plugin.part001.zip success. index:2000 file size:10,72 MB
+[2022-07-25 18:43:02][notice]Compressing zip file:backupagk-62df0e2a6c29e_2022-07-25-18-42_backup_plugin.part001.zip index:2000
+[2022-07-25 18:43:02][notice]Compressing zip file:backupagk-62df0e2a6c29e_2022-07-25-18-42_backup_plugin.part001.zip success. index:2100 file size:10,83 MB
+[2022-07-25 18:43:02][notice]Compressing zip file:backupagk-62df0e2a6c29e_2022-07-25-18-42_backup_plugin.part001.zip index:2100
+[2022-07-25 18:43:03][notice]Compressing zip file:backupagk-62df0e2a6c29e_2022-07-25-18-42_backup_plugin.part001.zip success. index:2200 file size:10,92 MB
+[2022-07-25 18:43:03][notice]Compressing zip file:backupagk-62df0e2a6c29e_2022-07-25-18-42_backup_plugin.part001.zip index:2200
+[2022-07-25 18:43:03][notice]Compressing zip file:backupagk-62df0e2a6c29e_2022-07-25-18-42_backup_plugin.part001.zip success. index:2300 file size:11,50 MB
+[2022-07-25 18:43:03][notice]Compressing zip file:backupagk-62df0e2a6c29e_2022-07-25-18-42_backup_plugin.part001.zip index:2300
+[2022-07-25 18:43:04][notice]Compressing zip file:backupagk-62df0e2a6c29e_2022-07-25-18-42_backup_plugin.part001.zip success. index:2400 file size:11,64 MB
+[2022-07-25 18:43:04][notice]Compressing zip file:backupagk-62df0e2a6c29e_2022-07-25-18-42_backup_plugin.part001.zip index:2400
+[2022-07-25 18:43:04][notice]Compressing zip file:backupagk-62df0e2a6c29e_2022-07-25-18-42_backup_plugin.part001.zip success. index:2500 file size:11,91 MB
+[2022-07-25 18:43:04][notice]Compressing zip file:backupagk-62df0e2a6c29e_2022-07-25-18-42_backup_plugin.part001.zip index:2500
+[2022-07-25 18:43:05][notice]Compressing zip file:backupagk-62df0e2a6c29e_2022-07-25-18-42_backup_plugin.part001.zip success. index:2600 file size:12,07 MB
+[2022-07-25 18:43:05][notice]Compressing zip file:backupagk-62df0e2a6c29e_2022-07-25-18-42_backup_plugin.part001.zip index:2600
+[2022-07-25 18:43:06][notice]Compressing zip file:backupagk-62df0e2a6c29e_2022-07-25-18-42_backup_plugin.part001.zip success. index:2700 file size:13,76 MB
+[2022-07-25 18:43:06][notice]Compressing zip file:backupagk-62df0e2a6c29e_2022-07-25-18-42_backup_plugin.part001.zip index:2700
+[2022-07-25 18:43:07][notice]Compressing zip file:backupagk-62df0e2a6c29e_2022-07-25-18-42_backup_plugin.part001.zip success. index:2800 file size:13,84 MB
+[2022-07-25 18:43:07][notice]Compressing zip file:backupagk-62df0e2a6c29e_2022-07-25-18-42_backup_plugin.part001.zip index:2800
+[2022-07-25 18:43:07][notice]Compressing zip file:backupagk-62df0e2a6c29e_2022-07-25-18-42_backup_plugin.part001.zip success. index:2900 file size:14,06 MB
+[2022-07-25 18:43:07][notice]Compressing zip file:backupagk-62df0e2a6c29e_2022-07-25-18-42_backup_plugin.part001.zip index:2900
+[2022-07-25 18:43:08][notice]Compressing zip file:backupagk-62df0e2a6c29e_2022-07-25-18-42_backup_plugin.part001.zip success. index:3000 file size:14,19 MB
+[2022-07-25 18:43:08][notice]Compressing zip file:backupagk-62df0e2a6c29e_2022-07-25-18-42_backup_plugin.part001.zip index:3000
+[2022-07-25 18:43:09][notice]Compressing zip file:backupagk-62df0e2a6c29e_2022-07-25-18-42_backup_plugin.part001.zip success. index:3100 file size:14,41 MB
+[2022-07-25 18:43:09][notice]Compressing zip file:backupagk-62df0e2a6c29e_2022-07-25-18-42_backup_plugin.part001.zip index:3100
+[2022-07-25 18:43:09][notice]Compressing zip file:backupagk-62df0e2a6c29e_2022-07-25-18-42_backup_plugin.part001.zip success. index:3200 file size:14,58 MB
+[2022-07-25 18:43:09][notice]Compressing zip file:backupagk-62df0e2a6c29e_2022-07-25-18-42_backup_plugin.part001.zip index:3200
+[2022-07-25 18:43:10][notice]Compressing zip file:backupagk-62df0e2a6c29e_2022-07-25-18-42_backup_plugin.part001.zip success. index:3300 file size:15,40 MB
+[2022-07-25 18:43:10][notice]Compressing zip file:backupagk-62df0e2a6c29e_2022-07-25-18-42_backup_plugin.part001.zip index:3300
+[2022-07-25 18:43:11][notice]Compressing zip file:backupagk-62df0e2a6c29e_2022-07-25-18-42_backup_plugin.part001.zip success. index:3400 file size:16,71 MB
+[2022-07-25 18:43:11][notice]Compressing zip file:backupagk-62df0e2a6c29e_2022-07-25-18-42_backup_plugin.part001.zip index:3400
+[2022-07-25 18:43:12][notice]Compressing zip file:backupagk-62df0e2a6c29e_2022-07-25-18-42_backup_plugin.part001.zip success. index:3500 file size:17,16 MB
+[2022-07-25 18:43:12][notice]Compressing zip file:backupagk-62df0e2a6c29e_2022-07-25-18-42_backup_plugin.part001.zip index:3500
+[2022-07-25 18:43:12][notice]Compressing zip file:backupagk-62df0e2a6c29e_2022-07-25-18-42_backup_plugin.part001.zip success. index:3600 file size:17,64 MB
+[2022-07-25 18:43:12][notice]Compressing zip file:backupagk-62df0e2a6c29e_2022-07-25-18-42_backup_plugin.part001.zip index:3600
+[2022-07-25 18:43:13][notice]Compressing zip file:backupagk-62df0e2a6c29e_2022-07-25-18-42_backup_plugin.part001.zip success. index:3700 file size:17,95 MB
+[2022-07-25 18:43:13][notice]Compressing zip file:backupagk-62df0e2a6c29e_2022-07-25-18-42_backup_plugin.part001.zip index:3700
+[2022-07-25 18:43:14][notice]Compressing zip file:backupagk-62df0e2a6c29e_2022-07-25-18-42_backup_plugin.part001.zip success. index:3800 file size:18,63 MB
+[2022-07-25 18:43:14][notice]Compressing zip file:backupagk-62df0e2a6c29e_2022-07-25-18-42_backup_plugin.part001.zip index:3800
+[2022-07-25 18:43:15][notice]Compressing zip file:backupagk-62df0e2a6c29e_2022-07-25-18-42_backup_plugin.part001.zip success. index:3900 file size:18,80 MB
+[2022-07-25 18:43:15][notice]Compressing zip file:backupagk-62df0e2a6c29e_2022-07-25-18-42_backup_plugin.part001.zip index:3900
+[2022-07-25 18:43:15][notice]Compressing zip file:backupagk-62df0e2a6c29e_2022-07-25-18-42_backup_plugin.part001.zip success. index:4000 file size:18,97 MB
+[2022-07-25 18:43:15][notice]Compressing zip file:backupagk-62df0e2a6c29e_2022-07-25-18-42_backup_plugin.part001.zip index:4000
+[2022-07-25 18:43:16][notice]Compressing zip file:backupagk-62df0e2a6c29e_2022-07-25-18-42_backup_plugin.part001.zip success. index:4100 file size:19,32 MB
+[2022-07-25 18:43:16][notice]Compressing zip file:backupagk-62df0e2a6c29e_2022-07-25-18-42_backup_plugin.part001.zip index:4100
+[2022-07-25 18:43:17][notice]Compressing zip file:backupagk-62df0e2a6c29e_2022-07-25-18-42_backup_plugin.part001.zip success. index:4200 file size:19,60 MB
+[2022-07-25 18:43:17][notice]Compressing zip file:backupagk-62df0e2a6c29e_2022-07-25-18-42_backup_plugin.part001.zip index:4200
+[2022-07-25 18:43:17][notice]Compressing zip file:backupagk-62df0e2a6c29e_2022-07-25-18-42_backup_plugin.part001.zip success. index:4300 file size:19,99 MB
+[2022-07-25 18:43:17][notice]Compressing zip file:backupagk-62df0e2a6c29e_2022-07-25-18-42_backup_plugin.part001.zip index:4300
+[2022-07-25 18:43:18][notice]Compressing zip file:backupagk-62df0e2a6c29e_2022-07-25-18-42_backup_plugin.part001.zip success. index:4400 file size:20,45 MB
+[2022-07-25 18:43:18][notice]Compressing zip file:backupagk-62df0e2a6c29e_2022-07-25-18-42_backup_plugin.part001.zip index:4400
+[2022-07-25 18:43:25][notice]Compressing zip file:backupagk-62df0e2a6c29e_2022-07-25-18-42_backup_plugin.part001.zip success. index:4500 file size:23,50 MB
+[2022-07-25 18:43:25][notice]Compressing zip file:backupagk-62df0e2a6c29e_2022-07-25-18-42_backup_plugin.part001.zip index:4500
+[2022-07-25 18:43:26][notice]Compressing zip file:backupagk-62df0e2a6c29e_2022-07-25-18-42_backup_plugin.part001.zip success. index:4600 file size:23,78 MB
+[2022-07-25 18:43:26][notice]Compressing zip file:backupagk-62df0e2a6c29e_2022-07-25-18-42_backup_plugin.part001.zip index:4600
+[2022-07-25 18:43:27][notice]Compressing zip file:backupagk-62df0e2a6c29e_2022-07-25-18-42_backup_plugin.part001.zip success. index:4700 file size:24,40 MB
+[2022-07-25 18:43:27][notice]Compressing zip file:backupagk-62df0e2a6c29e_2022-07-25-18-42_backup_plugin.part001.zip index:4700
+[2022-07-25 18:43:28][notice]Compressing zip file:backupagk-62df0e2a6c29e_2022-07-25-18-42_backup_plugin.part001.zip success. index:4800 file size:24,51 MB
+[2022-07-25 18:43:28][notice]Compressing zip file:backupagk-62df0e2a6c29e_2022-07-25-18-42_backup_plugin.part001.zip index:4800
+[2022-07-25 18:43:29][notice]Compressing zip file:backupagk-62df0e2a6c29e_2022-07-25-18-42_backup_plugin.part001.zip success. index:4900 file size:24,65 MB
+[2022-07-25 18:43:29][notice]Compressing zip file:backupagk-62df0e2a6c29e_2022-07-25-18-42_backup_plugin.part001.zip index:4900
+[2022-07-25 18:43:29][notice]Compressing zip file:backupagk-62df0e2a6c29e_2022-07-25-18-42_backup_plugin.part001.zip success. index:5000 file size:24,79 MB
+[2022-07-25 18:43:29][notice]Compressing zip file:backupagk-62df0e2a6c29e_2022-07-25-18-42_backup_plugin.part001.zip index:5000
+[2022-07-25 18:43:30][notice]Compressing zip file:backupagk-62df0e2a6c29e_2022-07-25-18-42_backup_plugin.part001.zip success. index:5100 file size:24,91 MB
+[2022-07-25 18:43:30][notice]Compressing zip file:backupagk-62df0e2a6c29e_2022-07-25-18-42_backup_plugin.part001.zip index:5100
+[2022-07-25 18:43:31][notice]Compressing zip file:backupagk-62df0e2a6c29e_2022-07-25-18-42_backup_plugin.part001.zip success. index:5200 file size:25,29 MB
+[2022-07-25 18:43:31][notice]Compressing zip file:backupagk-62df0e2a6c29e_2022-07-25-18-42_backup_plugin.part001.zip index:5200
+[2022-07-25 18:43:32][notice]Compressing zip file:backupagk-62df0e2a6c29e_2022-07-25-18-42_backup_plugin.part001.zip success. index:5300 file size:25,44 MB
+[2022-07-25 18:43:32][notice]Compressing zip file:backupagk-62df0e2a6c29e_2022-07-25-18-42_backup_plugin.part001.zip index:5300
+[2022-07-25 18:43:32][notice]Compressing zip file:backupagk-62df0e2a6c29e_2022-07-25-18-42_backup_plugin.part001.zip success. index:5400 file size:25,52 MB
+[2022-07-25 18:43:32][notice]Compressing zip file:backupagk-62df0e2a6c29e_2022-07-25-18-42_backup_plugin.part001.zip index:5400
+[2022-07-25 18:43:33][notice]Compressing zip file:backupagk-62df0e2a6c29e_2022-07-25-18-42_backup_plugin.part001.zip success. index:5500 file size:25,63 MB
+[2022-07-25 18:43:33][notice]Compressing zip file:backupagk-62df0e2a6c29e_2022-07-25-18-42_backup_plugin.part001.zip index:5500
+[2022-07-25 18:43:34][notice]Compressing zip file:backupagk-62df0e2a6c29e_2022-07-25-18-42_backup_plugin.part001.zip success. index:5600 file size:25,71 MB
+[2022-07-25 18:43:34][notice]Compressing zip file:backupagk-62df0e2a6c29e_2022-07-25-18-42_backup_plugin.part001.zip index:5600
+[2022-07-25 18:43:35][notice]Compressing zip file:backupagk-62df0e2a6c29e_2022-07-25-18-42_backup_plugin.part001.zip success. index:5700 file size:25,86 MB
+[2022-07-25 18:43:35][notice]Compressing zip file:backupagk-62df0e2a6c29e_2022-07-25-18-42_backup_plugin.part001.zip index:5700
+[2022-07-25 18:43:35][notice]Compressing zip file:backupagk-62df0e2a6c29e_2022-07-25-18-42_backup_plugin.part001.zip success. index:5800 file size:25,98 MB
+[2022-07-25 18:43:35][notice]Compressing zip file:backupagk-62df0e2a6c29e_2022-07-25-18-42_backup_plugin.part001.zip index:5800
+[2022-07-25 18:43:36][notice]Compressing zip file:backupagk-62df0e2a6c29e_2022-07-25-18-42_backup_plugin.part001.zip success. index:5900 file size:26,26 MB
+[2022-07-25 18:43:36][notice]Compressing zip file:backupagk-62df0e2a6c29e_2022-07-25-18-42_backup_plugin.part001.zip index:5900
+[2022-07-25 18:43:38][notice]Compressing zip file:backupagk-62df0e2a6c29e_2022-07-25-18-42_backup_plugin.part001.zip success. index:6000 file size:27,93 MB
+[2022-07-25 18:43:38][notice]Compressing zip file:backupagk-62df0e2a6c29e_2022-07-25-18-42_backup_plugin.part001.zip index:6000
+[2022-07-25 18:43:39][notice]Compressing zip file:backupagk-62df0e2a6c29e_2022-07-25-18-42_backup_plugin.part001.zip success. index:6100 file size:28,12 MB
+[2022-07-25 18:43:39][notice]Compressing zip file:backupagk-62df0e2a6c29e_2022-07-25-18-42_backup_plugin.part001.zip index:6100
+[2022-07-25 18:43:40][notice]Compressing zip file:backupagk-62df0e2a6c29e_2022-07-25-18-42_backup_plugin.part001.zip success. index:6200 file size:28,25 MB
+[2022-07-25 18:43:40][notice]Compressing zip file:backupagk-62df0e2a6c29e_2022-07-25-18-42_backup_plugin.part001.zip index:6200
+[2022-07-25 18:43:40][notice]Compressing zip file:backupagk-62df0e2a6c29e_2022-07-25-18-42_backup_plugin.part001.zip success. index:6300 file size:28,33 MB
+[2022-07-25 18:43:40][notice]Compressing zip file:backupagk-62df0e2a6c29e_2022-07-25-18-42_backup_plugin.part001.zip index:6300
+[2022-07-25 18:43:41][notice]Compressing zip file:backupagk-62df0e2a6c29e_2022-07-25-18-42_backup_plugin.part001.zip success. index:6400 file size:28,50 MB
+[2022-07-25 18:43:41][notice]Compressing zip file:backupagk-62df0e2a6c29e_2022-07-25-18-42_backup_plugin.part001.zip index:6400
+[2022-07-25 18:43:42][notice]Compressing zip file:backupagk-62df0e2a6c29e_2022-07-25-18-42_backup_plugin.part001.zip success. index:6500 file size:28,69 MB
+[2022-07-25 18:43:43][notice]Backing up backup_plugin completed.
+[2022-07-25 18:43:44][notice]Prepare to backup backup_uploads files.
+[2022-07-25 18:43:44][notice]Compressing zip file:backupagk-62df0e2a6c29e_2022-07-25-18-42_backup_uploads.part001.zip index:0
+[2022-07-25 18:43:46][notice]Compressing zip file:backupagk-62df0e2a6c29e_2022-07-25-18-42_backup_uploads.part001.zip success. index:100 file size:5,83 MB
+[2022-07-25 18:43:46][notice]Compressing zip file:backupagk-62df0e2a6c29e_2022-07-25-18-42_backup_uploads.part001.zip index:100
+[2022-07-25 18:43:47][notice]Compressing zip file:backupagk-62df0e2a6c29e_2022-07-25-18-42_backup_uploads.part001.zip success. index:200 file size:11,34 MB
+[2022-07-25 18:43:47][notice]Compressing zip file:backupagk-62df0e2a6c29e_2022-07-25-18-42_backup_uploads.part001.zip index:200
+[2022-07-25 18:43:50][notice]Compressing zip file:backupagk-62df0e2a6c29e_2022-07-25-18-42_backup_uploads.part001.zip success. index:300 file size:13,77 MB
+[2022-07-25 18:43:50][notice]Backing up backup_uploads completed.
+[2022-07-25 18:43:51][notice]Prepare to backup backup_content files.
+[2022-07-25 18:43:52][notice]Compressing zip file:backupagk-62df0e2a6c29e_2022-07-25-18-42_backup_content.part001.zip index:0
+[2022-07-25 18:43:59][notice]Compressing zip file:backupagk-62df0e2a6c29e_2022-07-25-18-42_backup_content.part001.zip success. index:100 file size:4,73 MB
+[2022-07-25 18:43:59][notice]Compressing zip file:backupagk-62df0e2a6c29e_2022-07-25-18-42_backup_content.part001.zip index:100
+[2022-07-25 18:44:00][notice]Compressing zip file:backupagk-62df0e2a6c29e_2022-07-25-18-42_backup_content.part001.zip success. index:200 file size:6,37 MB
+[2022-07-25 18:44:00][notice]Compressing zip file:backupagk-62df0e2a6c29e_2022-07-25-18-42_backup_content.part001.zip index:200
+[2022-07-25 18:44:01][notice]Compressing zip file:backupagk-62df0e2a6c29e_2022-07-25-18-42_backup_content.part001.zip success. index:300 file size:6,50 MB
+[2022-07-25 18:44:02][notice]Backing up backup_content completed.
+[2022-07-25 18:44:02][notice]Prepare to backup backup_core files.
+[2022-07-25 18:44:04][notice]Compressing zip file:backupagk-62df0e2a6c29e_2022-07-25-18-42_backup_core.part001.zip index:0
+[2022-07-25 18:44:05][notice]Compressing zip file:backupagk-62df0e2a6c29e_2022-07-25-18-42_backup_core.part001.zip success. index:100 file size:457,22 KB
+[2022-07-25 18:44:05][notice]Compressing zip file:backupagk-62df0e2a6c29e_2022-07-25-18-42_backup_core.part001.zip index:100
+[2022-07-25 18:44:05][notice]Compressing zip file:backupagk-62df0e2a6c29e_2022-07-25-18-42_backup_core.part001.zip success. index:200 file size:804,98 KB
+[2022-07-25 18:44:05][notice]Compressing zip file:backupagk-62df0e2a6c29e_2022-07-25-18-42_backup_core.part001.zip index:200
+[2022-07-25 18:44:06][notice]Compressing zip file:backupagk-62df0e2a6c29e_2022-07-25-18-42_backup_core.part001.zip success. index:300 file size:873,93 KB
+[2022-07-25 18:44:06][notice]Compressing zip file:backupagk-62df0e2a6c29e_2022-07-25-18-42_backup_core.part001.zip index:300
+[2022-07-25 18:44:06][notice]Compressing zip file:backupagk-62df0e2a6c29e_2022-07-25-18-42_backup_core.part001.zip success. index:400 file size:965,11 KB
+[2022-07-25 18:44:06][notice]Compressing zip file:backupagk-62df0e2a6c29e_2022-07-25-18-42_backup_core.part001.zip index:400
+[2022-07-25 18:44:06][notice]Compressing zip file:backupagk-62df0e2a6c29e_2022-07-25-18-42_backup_core.part001.zip success. index:500 file size:1,02 MB
+[2022-07-25 18:44:06][notice]Compressing zip file:backupagk-62df0e2a6c29e_2022-07-25-18-42_backup_core.part001.zip index:500
+[2022-07-25 18:44:07][notice]Compressing zip file:backupagk-62df0e2a6c29e_2022-07-25-18-42_backup_core.part001.zip success. index:600 file size:1,11 MB
+[2022-07-25 18:44:07][notice]Compressing zip file:backupagk-62df0e2a6c29e_2022-07-25-18-42_backup_core.part001.zip index:600
+[2022-07-25 18:44:07][notice]Compressing zip file:backupagk-62df0e2a6c29e_2022-07-25-18-42_backup_core.part001.zip success. index:700 file size:1,21 MB
+[2022-07-25 18:44:07][notice]Compressing zip file:backupagk-62df0e2a6c29e_2022-07-25-18-42_backup_core.part001.zip index:700
+[2022-07-25 18:44:07][notice]Compressing zip file:backupagk-62df0e2a6c29e_2022-07-25-18-42_backup_core.part001.zip success. index:800 file size:1,36 MB
+[2022-07-25 18:44:07][notice]Compressing zip file:backupagk-62df0e2a6c29e_2022-07-25-18-42_backup_core.part001.zip index:800
+[2022-07-25 18:44:08][notice]Compressing zip file:backupagk-62df0e2a6c29e_2022-07-25-18-42_backup_core.part001.zip success. index:900 file size:1,64 MB
+[2022-07-25 18:44:08][notice]Compressing zip file:backupagk-62df0e2a6c29e_2022-07-25-18-42_backup_core.part001.zip index:900
+[2022-07-25 18:44:08][notice]Compressing zip file:backupagk-62df0e2a6c29e_2022-07-25-18-42_backup_core.part001.zip success. index:1000 file size:2,26 MB
+[2022-07-25 18:44:08][notice]Compressing zip file:backupagk-62df0e2a6c29e_2022-07-25-18-42_backup_core.part001.zip index:1000
+[2022-07-25 18:44:09][notice]Compressing zip file:backupagk-62df0e2a6c29e_2022-07-25-18-42_backup_core.part001.zip success. index:1100 file size:2,79 MB
+[2022-07-25 18:44:09][notice]Compressing zip file:backupagk-62df0e2a6c29e_2022-07-25-18-42_backup_core.part001.zip index:1100
+[2022-07-25 18:44:10][notice]Compressing zip file:backupagk-62df0e2a6c29e_2022-07-25-18-42_backup_core.part001.zip success. index:1200 file size:3,05 MB
+[2022-07-25 18:44:10][notice]Compressing zip file:backupagk-62df0e2a6c29e_2022-07-25-18-42_backup_core.part001.zip index:1200
+[2022-07-25 18:44:10][notice]Compressing zip file:backupagk-62df0e2a6c29e_2022-07-25-18-42_backup_core.part001.zip success. index:1300 file size:3,53 MB
+[2022-07-25 18:44:10][notice]Compressing zip file:backupagk-62df0e2a6c29e_2022-07-25-18-42_backup_core.part001.zip index:1300
+[2022-07-25 18:44:11][notice]Compressing zip file:backupagk-62df0e2a6c29e_2022-07-25-18-42_backup_core.part001.zip success. index:1400 file size:3,82 MB
+[2022-07-25 18:44:11][notice]Compressing zip file:backupagk-62df0e2a6c29e_2022-07-25-18-42_backup_core.part001.zip index:1400
+[2022-07-25 18:44:12][notice]Compressing zip file:backupagk-62df0e2a6c29e_2022-07-25-18-42_backup_core.part001.zip success. index:1500 file size:4,85 MB
+[2022-07-25 18:44:12][notice]Compressing zip file:backupagk-62df0e2a6c29e_2022-07-25-18-42_backup_core.part001.zip index:1500
+[2022-07-25 18:44:13][notice]Compressing zip file:backupagk-62df0e2a6c29e_2022-07-25-18-42_backup_core.part001.zip success. index:1600 file size:5,58 MB
+[2022-07-25 18:44:13][notice]Compressing zip file:backupagk-62df0e2a6c29e_2022-07-25-18-42_backup_core.part001.zip index:1600
+[2022-07-25 18:44:13][notice]Compressing zip file:backupagk-62df0e2a6c29e_2022-07-25-18-42_backup_core.part001.zip success. index:1700 file size:6,00 MB
+[2022-07-25 18:44:13][notice]Compressing zip file:backupagk-62df0e2a6c29e_2022-07-25-18-42_backup_core.part001.zip index:1700
+[2022-07-25 18:44:15][notice]Compressing zip file:backupagk-62df0e2a6c29e_2022-07-25-18-42_backup_core.part001.zip success. index:1800 file size:7,61 MB
+[2022-07-25 18:44:15][notice]Compressing zip file:backupagk-62df0e2a6c29e_2022-07-25-18-42_backup_core.part001.zip index:1800
+[2022-07-25 18:44:17][notice]Compressing zip file:backupagk-62df0e2a6c29e_2022-07-25-18-42_backup_core.part001.zip success. index:1900 file size:9,94 MB
+[2022-07-25 18:44:17][notice]Compressing zip file:backupagk-62df0e2a6c29e_2022-07-25-18-42_backup_core.part001.zip index:1900
+[2022-07-25 18:44:17][notice]Compressing zip file:backupagk-62df0e2a6c29e_2022-07-25-18-42_backup_core.part001.zip success. index:2000 file size:10,20 MB
+[2022-07-25 18:44:17][notice]Compressing zip file:backupagk-62df0e2a6c29e_2022-07-25-18-42_backup_core.part001.zip index:2000
+[2022-07-25 18:44:18][notice]Compressing zip file:backupagk-62df0e2a6c29e_2022-07-25-18-42_backup_core.part001.zip success. index:2100 file size:10,63 MB
+[2022-07-25 18:44:18][notice]Compressing zip file:backupagk-62df0e2a6c29e_2022-07-25-18-42_backup_core.part001.zip index:2100
+[2022-07-25 18:44:19][notice]Compressing zip file:backupagk-62df0e2a6c29e_2022-07-25-18-42_backup_core.part001.zip success. index:2200 file size:10,95 MB
+[2022-07-25 18:44:19][notice]Compressing zip file:backupagk-62df0e2a6c29e_2022-07-25-18-42_backup_core.part001.zip index:2200
+[2022-07-25 18:44:19][notice]Compressing zip file:backupagk-62df0e2a6c29e_2022-07-25-18-42_backup_core.part001.zip success. index:2300 file size:11,43 MB
+[2022-07-25 18:44:19][notice]Compressing zip file:backupagk-62df0e2a6c29e_2022-07-25-18-42_backup_core.part001.zip index:2300
+[2022-07-25 18:44:20][notice]Compressing zip file:backupagk-62df0e2a6c29e_2022-07-25-18-42_backup_core.part001.zip success. index:2400 file size:11,96 MB
+[2022-07-25 18:44:20][notice]Compressing zip file:backupagk-62df0e2a6c29e_2022-07-25-18-42_backup_core.part001.zip index:2400
+[2022-07-25 18:44:21][notice]Compressing zip file:backupagk-62df0e2a6c29e_2022-07-25-18-42_backup_core.part001.zip success. index:2500 file size:12,32 MB
+[2022-07-25 18:44:21][notice]Backing up backup_core completed.
+[2022-07-25 18:44:22][notice]Prepare to backup backup_merge files.
+[2022-07-25 18:44:22][notice]Prepare to zip file. file: backupagk-62df0e2a6c29e_2022-07-25-18-42_backup_db.zip
+[2022-07-25 18:44:23][notice]Adding zip files completed.backupagk-62df0e2a6c29e_2022-07-25-18-42_backup_all.part001.zip, filesize: 2,27 MB
+[2022-07-25 18:44:23][notice]Prepare to zip file. file: backupagk-62df0e2a6c29e_2022-07-25-18-42_backup_themes.zip
+[2022-07-25 18:44:24][notice]Adding zip files completed.backupagk-62df0e2a6c29e_2022-07-25-18-42_backup_all.part001.zip, filesize: 20,85 MB
+[2022-07-25 18:44:25][notice]Prepare to zip file. file: backupagk-62df0e2a6c29e_2022-07-25-18-42_backup_plugin.zip
+[2022-07-25 18:44:27][notice]Adding zip files completed.backupagk-62df0e2a6c29e_2022-07-25-18-42_backup_all.part001.zip, filesize: 48,09 MB
+[2022-07-25 18:44:27][notice]Prepare to zip file. file: backupagk-62df0e2a6c29e_2022-07-25-18-42_backup_uploads.zip
+[2022-07-25 18:44:29][notice]Adding zip files completed.backupagk-62df0e2a6c29e_2022-07-25-18-42_backup_all.part001.zip, filesize: 61,79 MB
+[2022-07-25 18:44:29][notice]Prepare to zip file. file: backupagk-62df0e2a6c29e_2022-07-25-18-42_backup_content.zip
+[2022-07-25 18:44:30][notice]Adding zip files completed.backupagk-62df0e2a6c29e_2022-07-25-18-42_backup_all.part001.zip, filesize: 68,00 MB
+[2022-07-25 18:44:30][notice]Prepare to zip file. file: backupagk-62df0e2a6c29e_2022-07-25-18-42_backup_core.zip
+[2022-07-25 18:44:32][notice]Adding zip files completed.backupagk-62df0e2a6c29e_2022-07-25-18-42_backup_all.part001.zip, filesize: 79,93 MB
+[2022-07-25 18:44:33][notice]Backing up backup_merge completed.
+[2022-07-25 18:44:34][notice]Check upload folder www_allims_com_br
+[2022-07-25 18:44:35][notice]Start uploading backupagk-62df0e2a6c29e_2022-07-25-18-42_backup_all.zip
+[2022-07-25 18:44:35][notice]Check if the server already has the same name file.
+[2022-07-25 18:44:35][notice]Initiate a resumable upload session.
+[2022-07-25 18:44:39][notice]Uploading backupagk-62df0e2a6c29e_2022-07-25-18-42_backup_all.zip Total size: 79,93 MB Uploaded: 5,00 MB speed:1310.72kb/s
+[2022-07-25 18:44:43][notice]Uploading backupagk-62df0e2a6c29e_2022-07-25-18-42_backup_all.zip Total size: 79,93 MB Uploaded: 12,00 MB speed:1835.01kb/s
+[2022-07-25 18:44:47][notice]Uploading backupagk-62df0e2a6c29e_2022-07-25-18-42_backup_all.zip Total size: 79,93 MB Uploaded: 19,00 MB speed:1835.01kb/s
+[2022-07-25 18:44:51][notice]Uploading backupagk-62df0e2a6c29e_2022-07-25-18-42_backup_all.zip Total size: 79,93 MB Uploaded: 26,00 MB speed:1835.01kb/s
+[2022-07-25 18:44:55][notice]Uploading backupagk-62df0e2a6c29e_2022-07-25-18-42_backup_all.zip Total size: 79,93 MB Uploaded: 33,00 MB speed:1835.01kb/s
+[2022-07-25 18:44:59][notice]Uploading backupagk-62df0e2a6c29e_2022-07-25-18-42_backup_all.zip Total size: 79,93 MB Uploaded: 41,00 MB speed:2097.15kb/s
+[2022-07-25 18:45:03][notice]Uploading backupagk-62df0e2a6c29e_2022-07-25-18-42_backup_all.zip Total size: 79,93 MB Uploaded: 48,00 MB speed:1835.01kb/s
+[2022-07-25 18:45:07][notice]Uploading backupagk-62df0e2a6c29e_2022-07-25-18-42_backup_all.zip Total size: 79,93 MB Uploaded: 55,00 MB speed:1835.01kb/s
+[2022-07-25 18:45:11][notice]Uploading backupagk-62df0e2a6c29e_2022-07-25-18-42_backup_all.zip Total size: 79,93 MB Uploaded: 62,00 MB speed:1835.01kb/s
+[2022-07-25 18:45:15][notice]Uploading backupagk-62df0e2a6c29e_2022-07-25-18-42_backup_all.zip Total size: 79,93 MB Uploaded: 70,00 MB speed:2097.15kb/s
+[2022-07-25 18:45:19][notice]Uploading backupagk-62df0e2a6c29e_2022-07-25-18-42_backup_all.zip Total size: 79,93 MB Uploaded: 78,00 MB speed:2097.15kb/s
+[2022-07-25 18:45:21][notice]Finished uploading backupagk-62df0e2a6c29e_2022-07-25-18-42_backup_all.zip
+[2022-07-25 18:45:21][notice]Finish upload to googledrive
